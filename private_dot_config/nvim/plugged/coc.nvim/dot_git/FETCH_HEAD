@@ -1,0 +1,5 @@
+28e7f0376bcb661afa9e3b8b352152b981f5eda3		branch 'release' of https://github.com/neoclide/coc.nvim
+29c4afbc045a192ce6996b8f0d6250fd30f889d4	not-for-merge	branch 'feat/lineAt' of https://github.com/neoclide/coc.nvim
+788d4ee0605fef8eec02ea686f17ca47f625a891	not-for-merge	branch 'feat/use-ts-hi-group' of https://github.com/neoclide/coc.nvim
+77496dce6d217b442b06352920e7f31e7ef6c236	not-for-merge	branch 'fix/doc-extensionUpdateCheck' of https://github.com/neoclide/coc.nvim
+8f2a2dc441617f3d4943886cf45a62814dae7ca9	not-for-merge	branch 'master' of https://github.com/neoclide/coc.nvim

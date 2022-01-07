@@ -1,0 +1,5 @@
+91e82debdf566dfaf47df3aef0a5fd823cedf41c		branch 'master' of https://github.com/francoiscabrol/ranger.vim
+dc116a00c359f3782927f0214a241a42f8d0d9b2	not-for-merge	branch 'alt-implementation' of https://github.com/francoiscabrol/ranger.vim
+110a80a0d231562f4fc323dc3be11083e8c1e480	not-for-merge	branch 'bugfix/34-kills-non-ranger-buffer' of https://github.com/francoiscabrol/ranger.vim
+d27a9a5024fede25787c7be89d4dec6f39aa6dfd	not-for-merge	branch 'bugfix/45-fix-filetype-in-vim-when-vim-enter' of https://github.com/francoiscabrol/ranger.vim
+a2eb7347d94a9c53b6e44b134137339b45f0a347	not-for-merge	branch 'feature/open-selected-file-default' of https://github.com/francoiscabrol/ranger.vim

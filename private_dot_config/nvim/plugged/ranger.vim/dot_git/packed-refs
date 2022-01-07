@@ -1,0 +1,9 @@
+# pack-refs with: peeled fully-peeled sorted 
+dc116a00c359f3782927f0214a241a42f8d0d9b2 refs/remotes/origin/alt-implementation
+110a80a0d231562f4fc323dc3be11083e8c1e480 refs/remotes/origin/bugfix/34-kills-non-ranger-buffer
+d27a9a5024fede25787c7be89d4dec6f39aa6dfd refs/remotes/origin/bugfix/45-fix-filetype-in-vim-when-vim-enter
+a2eb7347d94a9c53b6e44b134137339b45f0a347 refs/remotes/origin/feature/open-selected-file-default
+91e82debdf566dfaf47df3aef0a5fd823cedf41c refs/remotes/origin/master
+5b2a4f013798a5256b796b28766d76d81aed08d2 refs/tags/1.0
+47420623d1a43dc6d65f9e4f5e862d784d578ff2 refs/tags/2.0
+5e510f03f6c2e52aaf41b5587a9c7a8435a58299 refs/tags/3.0

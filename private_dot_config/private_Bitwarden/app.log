@@ -1,0 +1,77 @@
+[2022-01-04 23:08:09.541] [error] TypeError: Object has been destroyed
+    at window_main_WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:2491:36)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:2304:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/usr/lib/bitwarden/app.asar/main.js:2300:12)
+    at window_main_WindowMain.updateWindowState (/usr/lib/bitwarden/app.asar/main.js:2486:16)
+    at window_main_WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:2440:28)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:2304:71
+    at new Promise (<anonymous>)
+[2022-01-05 00:21:05.427] [error] TypeError: Object has been destroyed
+    at window_main_WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:2491:36)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:2304:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/usr/lib/bitwarden/app.asar/main.js:2300:12)
+    at window_main_WindowMain.updateWindowState (/usr/lib/bitwarden/app.asar/main.js:2486:16)
+    at window_main_WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:2440:28)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:2304:71
+    at new Promise (<anonymous>)
+[2022-01-05 07:04:31.643] [error] TypeError: Object has been destroyed
+    at window_main_WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:2491:36)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:2304:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/usr/lib/bitwarden/app.asar/main.js:2300:12)
+    at window_main_WindowMain.updateWindowState (/usr/lib/bitwarden/app.asar/main.js:2486:16)
+    at window_main_WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:2440:28)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:2304:71
+    at new Promise (<anonymous>)
+[2022-01-05 07:43:06.954] [error] TypeError: Object has been destroyed
+    at window_main_WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:2491:36)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:2304:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/usr/lib/bitwarden/app.asar/main.js:2300:12)
+    at window_main_WindowMain.updateWindowState (/usr/lib/bitwarden/app.asar/main.js:2486:16)
+    at window_main_WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:2440:28)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:2304:71
+    at new Promise (<anonymous>)
+[2022-01-05 10:56:36.637] [error] TypeError: Object has been destroyed
+    at window_main_WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:2491:36)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:2304:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/usr/lib/bitwarden/app.asar/main.js:2300:12)
+    at window_main_WindowMain.updateWindowState (/usr/lib/bitwarden/app.asar/main.js:2486:16)
+    at window_main_WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:2440:28)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:2304:71
+    at new Promise (<anonymous>)
+[2022-01-06 00:25:13.027] [error] TypeError: Object has been destroyed
+    at window_main_WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:2491:36)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:2304:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/usr/lib/bitwarden/app.asar/main.js:2300:12)
+    at window_main_WindowMain.updateWindowState (/usr/lib/bitwarden/app.asar/main.js:2486:16)
+    at window_main_WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:2440:28)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:2304:71
+    at new Promise (<anonymous>)
+[2022-01-07 00:55:59.968] [error] TypeError: Object has been destroyed
+    at window_main_WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:2491:36)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:2304:71
+    at new Promise (<anonymous>)
+    at window_main_awaiter (/usr/lib/bitwarden/app.asar/main.js:2300:12)
+    at window_main_WindowMain.updateWindowState (/usr/lib/bitwarden/app.asar/main.js:2486:16)
+    at window_main_WindowMain.<anonymous> (/usr/lib/bitwarden/app.asar/main.js:2440:28)
+    at Generator.next (<anonymous>)
+    at /usr/lib/bitwarden/app.asar/main.js:2304:71
+    at new Promise (<anonymous>)
