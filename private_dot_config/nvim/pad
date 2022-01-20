@@ -1,7 +1,0 @@
-VimEnter
-    VimICUEConnect
-        s:load_theme
-            VimICUEPlay
-                 
-
-
