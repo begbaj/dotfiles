@@ -1,0 +1,146 @@
+[global_config]
+  title_at_bottom = True
+  title_hide_sizetext = True
+  title_transmit_fg_color = "#f66151"
+  title_transmit_bg_color = "#1d1f21"
+  title_receive_fg_color = "#dc8add"
+  title_receive_bg_color = "#1d1f21"
+  title_inactive_fg_color = "#9a9996"
+  title_inactive_bg_color = "#1d1f21"
+  inactive_color_offset = 0.31086142322097376
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
+  title_use_system_font = False
+  title_font = FiraCode Nerd Font 7
+[keybindings]
+[profiles]
+  [[default]]
+    background_color = "#1c1e26"
+    background_darkness = 0.99
+    cursor_shape = ibeam
+    cursor_color = "#e95379"
+    font = FiraCode Nerd Font Bold 10
+    foreground_color = "#bbbbbb"
+    scrollbar_position = hidden
+    palette = "#e9436f:#f9cbbe:#ffaf87:#27d796:#6c6f93:#fdf0ed:#fadad1:#b877db:#e95379:#fadad1:#fac29a:#09f7a0:#6c6f8a:#ffffff:#eddad1:#b88adb"
+    use_system_font = False
+    bold_is_bright = True
+    background_image = /home/dyrem/Pictures/fmab.jpg
+  [[AdventureTime]]
+    background_color = "#1f1d45"
+    background_darkness = 0.99
+    cursor_shape = ibeam
+    cursor_color = "#efbf38"
+    font = FiraCode Nerd Font Bold 10
+    foreground_color = "#f8dcc0"
+    scrollbar_position = hidden
+    palette = "#050404:#bd0013:#4ab118:#e7741e:#0f4ac6:#665993:#70a598:#f8dcc0:#4e7cbf:#fc5f5a:#9eff6e:#efc11a:#1997c6:#9b5953:#c8faf4:#f6f5fb"
+    use_system_font = False
+    bold_is_bright = True
+    background_image = /home/dyrem/Pictures/fmab.jpg
+  [[After Dark]]
+    background_color = "#10111b"
+    background_darkness = 0.99
+    cursor_shape = ibeam
+    cursor_color = "#aaaaaa"
+    font = FiraCode Nerd Font Bold 10
+    foreground_color = "#bfbfbf"
+    scrollbar_position = hidden
+    palette = "#2e3436:#ef4a9e:#00d2bc:#e7ca7a:#9399fa:#ca5bcc:#86d079:#d3d7cf:#555753:#ef4a9e:#00d2bc:#e7ca7a:#9399fa:#ca5bcc:#86d079:#eeeeec"
+    use_system_font = False
+    bold_is_bright = True
+    background_image = /home/dyrem/Pictures/fmab.jpg
+  [[Afterglow]]
+    background_color = "#212121"
+    background_darkness = 0.99
+    cursor_shape = ibeam
+    cursor_color = "#d0d0d0"
+    font = FiraCode Nerd Font Bold 10
+    foreground_color = "#d0d0d0"
+    scrollbar_position = hidden
+    palette = "#151515:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#d0d0d0:#505050:#ac4142:#7e8e50:#e5b567:#6c99bb:#9f4e85:#7dd6cf:#f5f5f5"
+    use_system_font = False
+    bold_is_bright = True
+    background_image = /home/dyrem/Pictures/fmab.jpg
+  [[Aurora]]
+    background_color = "#0f1c21"
+    background_darkness = 0.99
+    cursor_shape = ibeam
+    cursor_color = "#00485a"
+    font = FiraCode Nerd Font Bold 10
+    foreground_color = "#80b6ad"
+    scrollbar_position = hidden
+    palette = "#0f1c21:#046655:#04c975:#b5bd68:#308891:#94a5bc:#8abeb7:#80b6ad:#0f1c21:#046655:#04c975:#b5bd68:#308891:#94a5bc:#8abeb7:#80b6ad"
+    use_system_font = False
+    bold_is_bright = True
+    background_image = /home/dyrem/Pictures/fmab.jpg
+  [[Dracula]]
+    background_color = "#1e1f29"
+    background_darkness = 0.99
+    cursor_shape = ibeam
+    cursor_color = "#aaaaaa"
+    font = FiraCode Nerd Font Bold 10
+    foreground_color = "#f8f8f2"
+    scrollbar_position = hidden
+    palette = "#44475a:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#94a3a5:#000000:#ff5555:#50fa7b:#f1fa8c:#8be9fd:#bd93f9:#ff79c6:#ffffff"
+    use_system_font = False
+    bold_is_bright = True
+    background_image = /home/dyrem/Pictures/fmab.jpg
+  [[FirefoxDev]]
+    background_color = "#0e1011"
+    background_darkness = 0.99
+    cursor_shape = ibeam
+    cursor_color = "#708284"
+    font = FiraCode Nerd Font Bold 10
+    foreground_color = "#7c8fa4"
+    scrollbar_position = hidden
+    palette = "#002831:#e63853:#5eb83c:#a57706:#359ddf:#d75cff:#4b73a2:#dcdcdc:#001e27:#e1003f:#1d9000:#cd9409:#006fc0:#a200da:#005794:#e2e2e2"
+    use_system_font = False
+    bold_is_bright = True
+    background_image = /home/dyrem/Pictures/fmab.jpg
+  [[Firewatch]]
+    background_color = "#1e2027"
+    background_darkness = 0.99
+    cursor_shape = ibeam
+    cursor_color = "#f6f7ec"
+    font = FiraCode Nerd Font Bold 10
+    foreground_color = "#9ba2b2"
+    scrollbar_position = hidden
+    palette = "#585f6d:#d95360:#5ab977:#dfb563:#4d89c4:#d55119:#44a8b6:#e6e5ff:#585f6d:#d95360:#5ab977:#dfb563:#4c89c5:#d55119:#44a8b6:#e6e5ff"
+    use_system_font = False
+    bold_is_bright = True
+    background_image = /home/dyrem/Pictures/fmab.jpg
+  [[Glacier]]
+    background_color = "#0c1115"
+    background_darkness = 0.99
+    cursor_shape = ibeam
+    cursor_color = "#6c6c6c"
+    font = FiraCode Nerd Font Bold 10
+    foreground_color = "#ffffff"
+    scrollbar_position = hidden
+    palette = "#2e343c:#bd0f2f:#35a770:#fb9435:#1f5872:#bd2523:#778397:#ffffff:#404a55:#bd0f2f:#49e998:#fddf6e:#2a8bc1:#ea4727:#a0b6d3:#ffffff"
+    use_system_font = False
+    bold_is_bright = True
+    background_image = /home/dyrem/Pictures/fmab.jpg
+  [[Horizon]]
+    background_color = "#1c1e26"
+    background_darkness = 0.99
+    cursor_shape = ibeam
+    cursor_color = "#e95379"
+    font = FiraCode Nerd Font Bold 10
+    foreground_color = "#bbbbbb"
+    scrollbar_position = hidden
+    palette = "#e9436f:#f9cbbe:#ffaf87:#27d796:#6c6f93:#fdf0ed:#fadad1:#b877db:#e95379:#fadad1:#fac29a:#09f7a0:#6c6f8a:#ffffff:#eddad1:#b88adb"
+    use_system_font = False
+    bold_is_bright = True
+    background_image = /home/dyrem/Pictures/fmab.jpg
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = Horizon
+      command = ""
+[plugins]
