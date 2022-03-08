@@ -57,6 +57,9 @@ Plug 'matze/vim-tex-fold'
 Plug 'crispydrone/vim-tasks'
 Plug 'tomasr/molokai'
 Plug 'honza/vim-snippets'
+Plug 'romgrk/barbar.nvim'
+Plug 'ryanoasis/vim-devicons'
+Plug 'kyazdani42/nvim-web-devicons'
 " Plug 'lervag/vimtex'
 " Plug 'ludovicchabant/vim-gutentags'
 " Windows only
@@ -79,7 +82,7 @@ let g:hardtime_default_on = 0
 
 " SECTION: Environment options
 "================================================================================
-set mouse=          " disable mouse
+set mouse=a          " disable mouse
 set hidden          " allow hiding buffers
 set updatetime=300  " As i know, it's used my timer funtions, which will call functions every 300ms
 set ignorecase      " ignore case when searching
@@ -95,6 +98,8 @@ set laststatus=2    " tell Vim always put a status line, even if there is only o
 set cmdheight=2     " status bar is 2 rows high
 set ruler           " always show cursor location on status background
 set relativenumber
+set clipboard=unnamedplus
+set termguicolors
 syntax on enable    " enable highlighting
 
 " SECTION: Appearence
