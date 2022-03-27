@@ -2,15 +2,16 @@
   title_at_bottom = True
   title_hide_sizetext = True
   title_transmit_fg_color = "#f66151"
-  title_transmit_bg_color = "#1d1f21"
+  title_transmit_bg_color = "#1c1e26"
   title_receive_fg_color = "#dc8add"
-  title_receive_bg_color = "#1d1f21"
+  title_receive_bg_color = "#1c1e26"
   title_inactive_fg_color = "#9a9996"
-  title_inactive_bg_color = "#1d1f21"
+  title_inactive_bg_color = "#1c1e26"
   inactive_color_offset = 0.31086142322097376
   enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
+  always_split_with_profile = True
   title_use_system_font = False
-  title_font = FiraCode Nerd Font 7
+  title_font = Fira Mono for Powerline 9
 [keybindings]
 [profiles]
   [[default]]
@@ -18,7 +19,7 @@
     background_darkness = 0.99
     cursor_shape = ibeam
     cursor_color = "#e95379"
-    font = FiraCode Nerd Font Bold 10
+    font = Fira Mono for Powerline 10
     foreground_color = "#bbbbbb"
     scrollbar_position = hidden
     palette = "#e9436f:#f9cbbe:#ffaf87:#27d796:#6c6f93:#fdf0ed:#fadad1:#b877db:#e95379:#fadad1:#fac29a:#09f7a0:#6c6f8a:#ffffff:#eddad1:#b88adb"
@@ -141,6 +142,6 @@
     [[[child1]]]
       type = Terminal
       parent = window0
-      profile = Horizon
+      profile = After Dark
       command = ""
 [plugins]

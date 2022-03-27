@@ -57,9 +57,10 @@ Plug 'matze/vim-tex-fold'
 Plug 'crispydrone/vim-tasks'
 Plug 'tomasr/molokai'
 Plug 'honza/vim-snippets'
-Plug 'romgrk/barbar.nvim'
+Plug 'romgrk/barbar.nvim'                               " tab bars plugin
 Plug 'ryanoasis/vim-devicons'
 Plug 'kyazdani42/nvim-web-devicons'
+Plug 'puremourning/vimspector'
 " Plug 'lervag/vimtex'
 " Plug 'ludovicchabant/vim-gutentags'
 " Windows only
@@ -113,17 +114,23 @@ set termguicolors
 
 source $HOME/.config/nvim/plug-config/coc.vim
 " source $HOME/.config/nvim/plug-config/vimtex.vim
+source $HOME/.config/nvim/plug-config/barbar.vim
 
+
+" SECTION: setup
+"================================================================================
+augroup VimSetupNerdtree
+    " start nerdtree when nvim starts
+    autocmd VimEnter * NERDTree | wincmd p
+    " Exit Vim if NERDTree is the only window remaining in the only tab.
+    autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
+augroup END
 
 " SECTION: My Macros
 "================================================================================
-
 " Sistem dependent
 "================================================================================
-if exists('my_os_win')
-    " open my vim notes
-    noremap <F7> :vsp ~/Documenti/vim/notes.txt<CR>
-endif
+" Global
 "================================================================================
 
 " reload init.vim
