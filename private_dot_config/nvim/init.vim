@@ -115,7 +115,7 @@ set termguicolors
 source $HOME/.config/nvim/plug-config/coc.vim
 " source $HOME/.config/nvim/plug-config/vimtex.vim
 source $HOME/.config/nvim/plug-config/barbar.vim
-
+source $HOME
 
 " SECTION: setup
 "================================================================================
