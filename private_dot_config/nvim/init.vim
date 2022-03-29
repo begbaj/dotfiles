@@ -136,7 +136,7 @@ augroup END
 " reload init.vim
 nnoremap <F8> :so $MYVIMRC<CR>
 " edit init.vim
-nnoremap <F20> :edit $MYVIMRC<CR>
+nnoremap <F20> :!chezmoi edit $MYVIMRC<CR>
 
 " indent multiple lines in visual mode
 vnoremap <tab> >
