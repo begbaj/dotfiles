@@ -61,6 +61,7 @@ Plug 'romgrk/barbar.nvim'                               " tab bars plugin
 Plug 'ryanoasis/vim-devicons'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'puremourning/vimspector'
+Plug 'mhinz/vim-startify'
 " Plug 'lervag/vimtex'
 " Plug 'ludovicchabant/vim-gutentags'
 " Windows only
