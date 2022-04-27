@@ -62,6 +62,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'puremourning/vimspector'
 Plug 'mhinz/vim-startify'
+Plug 'tpope/vim-commentary'
 " Plug 'lervag/vimtex'
 " Plug 'ludovicchabant/vim-gutentags'
 " Windows only
