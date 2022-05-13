@@ -96,6 +96,7 @@ set updatetime=300  " As i know, it's used my timer funtions, which will call fu
 set ignorecase      " ignore case when searching
 set expandtab       " ?
 set autoindent
+set breakindent     " make wrapping text indented
 set tabstop=8
 set softtabstop=4
 set shiftwidth=4
