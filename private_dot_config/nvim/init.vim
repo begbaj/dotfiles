@@ -65,7 +65,6 @@ Plug 'mhinz/vim-startify'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-projectionist'
 Plug 'noahfrederick/vim-composer'
-Plug 'noahfrederick/vim-laravel'
 " Plug 'lervag/vimtex'
 " Plug 'ludovicchabant/vim-gutentags'
 " Windows only
