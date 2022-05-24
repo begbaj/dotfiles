@@ -143,6 +143,8 @@ nnoremap <F8> :so $MYVIMRC<CR>
 " edit init.vim
 nnoremap <F20> :!chezmoi edit $MYVIMRC<CR>
 
+nnoremap <silent> <C-f> :Files<CR>
+
 " indent multiple lines in visual mode
 vnoremap <tab> >
 " untab multiple lines in visual mode
