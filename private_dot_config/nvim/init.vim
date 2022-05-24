@@ -66,6 +66,7 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-projectionist'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'airblade/vim-rooter'
 " Plug 'noahfrederick/vim-composer'
 " Plug 'lervag/vimtex'
 " Plug 'ludovicchabant/vim-gutentags'
