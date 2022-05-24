@@ -64,7 +64,8 @@ Plug 'puremourning/vimspector'
 Plug 'mhinz/vim-startify'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-projectionist'
-Plug 'noahfrederick/vim-composer'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'lug 'noahfrederick/vim-composer'
 " Plug 'lervag/vimtex'
 " Plug 'ludovicchabant/vim-gutentags'
 " Windows only
