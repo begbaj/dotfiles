@@ -59,7 +59,7 @@ colors:
     cursor: '0xfff9f9'
 
   vi_mode_cursor:
-    text: '0x88f9f9' 
+    text: '0x000000' 
     cursor: '0x88f9f9'
 
 cursor:
