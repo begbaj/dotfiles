@@ -64,8 +64,8 @@ colors:
 
 cursor:
   style:
-    shape: beam
-    blinking: On
+    shape: block
+    blinking: always
 
 shell:
   program: /bin/zsh
