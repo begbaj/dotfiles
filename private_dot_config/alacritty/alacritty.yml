@@ -65,15 +65,9 @@ colors:
     cyan:    '0x85dacc'
     white:   '0xfff1f3'
 
-  # Cursor colors
-  #
-  # Colors which should be used to draw the terminal cursor.
-  #
-  # Allowed values are CellForeground/CellBackground, which reference the
-  # affected cell, or hexadecimal colors like #ff00ff.
-  #cursor:
-  #  text: CellBackground
-  #  cursor: CellForeground
+  cursor:
+    text: '0xfff9f9'
+    cursor: CellForeground
 
   # Vi mode cursor colors
   #
