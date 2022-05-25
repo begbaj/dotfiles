@@ -78,4 +78,3 @@ export ARCHFLAGS="-arch x86_64"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias open="xdg-open"
 prompt_context() {}
-bindkey -v
