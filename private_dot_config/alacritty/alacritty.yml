@@ -31,10 +31,8 @@ font:
      family: FiraCode-regular
      style: Regular
   bold:
-    family: FiraCode-regular
     style: Bold
   italic:
-    family: FiraCode-regular
     style: Italic
 
   size: 11.0
