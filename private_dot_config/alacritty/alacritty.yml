@@ -55,7 +55,7 @@ colors:
     white:   '0xfff1f3'
 
   cursor:
-    text: '0xfff9f9'
+    text: '0x000000'
     cursor: '0xfff9f9'
 
   vi_mode_cursor:
