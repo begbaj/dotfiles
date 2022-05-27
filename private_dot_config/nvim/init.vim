@@ -115,7 +115,7 @@ set breakindent
 " Ensures word-wrap does not split words
 set formatoptions=l
 set lbr
-set showbreak=\t
+set showbreak=....
 
 " SECTION: Appearence
 "================================================================================
