@@ -332,7 +332,7 @@ no_focus [class="plasmashell" window_type="notification"]
 for_window [title="Desktop — Plasma"] kill; floating enable; border none
 
 
-exec_always --no-startup-id i3autowall 2 all
+exec_always --no-startup-id i3autowall 2 summer
 # exec_always --no-startup-id feh --bg-scale /home/began/Pictures/Wallpapers/wallhaven-x8k5zv_1920x1080.png --bg-scale /home/began/Pictures/Wallpapers/wallhaven-x8k5zv_1920x1080.png
 
 
