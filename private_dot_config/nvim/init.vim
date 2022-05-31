@@ -111,6 +111,13 @@ set clipboard=unnamedplus
 set termguicolors
 syntax on enable    " enable highlighting
 
+" Indents word-wrapped lines as much as the 'parent' line
+set breakindent
+" Ensures word-wrap does not split words
+set formatoptions=l
+set lbr
+set showbreak=....
+
 " SECTION: Appearence
 "================================================================================
 colorscheme molokai
