@@ -341,3 +341,7 @@ mode "$mode_gaps_left" {
         bindsym Return mode "$mode_gaps"
         bindsym Escape mode "default"
 }
+
+
+# SMART BORDERS
+smart_borders on
