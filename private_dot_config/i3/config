@@ -177,22 +177,12 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-# bar {
-#        status_command i3status
-#}
-
 # i3 gaps
 for_window [class=".*"] border pixel 0
-
 
 # Plasma compatibility improvements
 for_window [window_role="pop-up"] floating enable
 for_window [window_role="task_dialog"] floating enable
-
-gaps outer 5
-
 
 set $mode_gaps Gaps: (o)uter, (i)nner, (h)orizontal, (v)ertical, (t)op, (r)ight, (b)ottom, (l)eft
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
@@ -347,4 +337,7 @@ bar {
 }
 
 exec_always --no-startup-id picom --experimental-backends -b
+
+gaps outer 5
+gaps inner 5
 
