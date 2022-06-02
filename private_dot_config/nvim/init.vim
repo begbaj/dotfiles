@@ -67,6 +67,7 @@ Plug 'tpope/vim-projectionist'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
+Plug 'joshdick/onedark.vim'
 " Plug 'noahfrederick/vim-composer'
 " Plug 'lervag/vimtex'
 " Plug 'ludovicchabant/vim-gutentags'
@@ -129,7 +130,7 @@ set termguicolors
 
 source $HOME/.config/nvim/plug-config/coc.vim
 " source $HOME/.config/nvim/plug-config/vimtex.vim
-source $HOME/.config/nvim/plug-config/barbar.vim
+
 
 " SECTION: setup
 "================================================================================
@@ -144,6 +145,7 @@ augroup END
 "================================================================================
 " Sistem dependent
 "================================================================================
+"
 " Global
 "================================================================================
 let mapleader='\\'
