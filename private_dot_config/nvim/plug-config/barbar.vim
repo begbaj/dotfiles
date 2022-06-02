@@ -1,7 +1,10 @@
 
 " Move to previous/next
-nnoremap <silent>    <A-,> :BufferPrevious<CR>:NERDTreeCWD<CR>:wincmd p<CR>
-nnoremap <silent>    <A-.> :BufferNext<CR>:NERDTreeCWD<CR>:wincmd p<CR>
+" nnoremap <silent>    <A-,> :BufferPrevious<CR>:NERDTreeCWD<CR>:wincmd p<CR>
+" nnoremap <silent>    <A-.> :BufferNext<CR>:NERDTreeCWD<CR>:wincmd p<CR>
+
+nnoremap <silent>    <A-,> :BufferPrevious<CR>:wincmd p<CR>
+nnoremap <silent>    <A-.> :BufferNext<CR>:wincmd p<CR>
 
 " Re-order to previous/next
 nnoremap <silent>    <A-<> :BufferMovePrevious<CR>
