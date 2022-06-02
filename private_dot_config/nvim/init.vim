@@ -121,7 +121,9 @@ set showbreak=....
 
 " SECTION: Appearence
 "================================================================================
-colorscheme molokai
+" colorscheme molokai
+colorscheme onedark
+
 set background=dark
 set termguicolors
 
