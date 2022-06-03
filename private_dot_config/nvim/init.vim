@@ -160,6 +160,7 @@ nnoremap <F8> :so $MYVIMRC<CR>
 nnoremap <F20> :!chezmoi edit $MYVIMRC<CR>
 
 nnoremap <silent> <C-f> :Files<CR>
+nnoremap <silent> <C-g> :Rg<CR>
 
 " indent multiple lines in visual mode
 vnoremap <tab> >
