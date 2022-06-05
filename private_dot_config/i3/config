@@ -178,7 +178,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # i3 gaps
-for_window [class=".*"] border pixel 0
+# for_window [class=".*"] border pixel 0
 
 # Plasma compatibility improvements
 for_window [window_role="pop-up"] floating enable
@@ -341,4 +341,4 @@ exec_always --no-startup-id picom --experimental-backends -b
 gaps outer 5
 gaps inner 5
 
-smart_borders on
+# smart_borders on
