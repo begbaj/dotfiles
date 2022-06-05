@@ -78,10 +78,10 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+o split h
+bindsym $mod+v split h
 
 # split in vertical orientation
-bindsym $mod+v split v
+bindsym $mod+o split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
@@ -178,7 +178,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # i3 gaps
-for_window [class=".*"] border pixel 10
+for_window [class=".*"] border pixel 0
 
 # Plasma compatibility improvements
 for_window [window_role="pop-up"] floating enable
