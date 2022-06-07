@@ -80,3 +80,6 @@ alias open="xdg-open"
 prompt_context() {}
 bindkey -v
 export PATH=$PATH:/home/began/.spicetify
+
+
+starx
