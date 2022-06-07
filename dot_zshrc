@@ -82,4 +82,3 @@ bindkey -v
 export PATH=$PATH:/home/began/.spicetify
 
 
-starx
