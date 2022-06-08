@@ -8,6 +8,17 @@ floating_modifier $mod
 #======================================================
 font pango:DejaVu Sans Mono 8
 
+gaps outer 5
+gaps inner 5
+
+bar {
+    status_command i3status
+    mode hide
+    height 30
+    colors {
+      background #242424
+    }
+}
 
 # SECTION: AUTOSTARTS
 #======================================================
@@ -17,8 +28,10 @@ exec --no-startup-id xrandr --output HDMI-0 --auto --left-of DP-4
 exec --no-startup-id xrandr --output DP-4 --rate 1144 --auto --primary
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
+exec --no-startup-id $HOME/.config/polybar/launch.sh
 
 exec_always --no-startup-id i3autowall 2 $word
+exec_always --no-startup-id picom --experimental-backends -b
 
 # SECTION: PULSEAUDIO
 #======================================================
@@ -258,24 +271,3 @@ for_window [class="plasmashell" window_type="notification"] border none, move ri
 no_focus [class="plasmashell" window_type="notification"]
 for_window [title="Desktop — Plasma"] kill; floating enable; border none
 
-# exec_always --no-startup-id feh --bg-scale /home/began/Pictures/Wallpapers/wallhaven-x8k5zv_1920x1080.png --bg-scale /home/began/Pictures/Wallpapers/wallhaven-x8k5zv_1920x1080.png
-
-
-# exec --no-startup-id nitrogen --restore
-
-bar {
-    status_command i3status
-    mode hide
-    height 30
-    colors {
-      background #242424
-    }
-}
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-
-exec_always --no-startup-id picom --experimental-backends -b
-
-gaps outer 5
-gaps inner 5
-
-# smart_borders on
