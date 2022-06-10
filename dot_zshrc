@@ -49,5 +49,3 @@ alias open="xdg-open"
 
 # SECTION: VI-MODE
 #===============================
-prompt context {}
-bindkey -v
