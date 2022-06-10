@@ -14,7 +14,7 @@ export EDITOR="nvim"
 export VISUAL="nvim-qt"
 export SUDO_ASKPASS="/usr/bin/ksshaskpass"
 
-export LC_ALL="en_US.UTF-8"
+export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 export MANPATH="/usr/local/man:$MANPATH"
