@@ -27,7 +27,6 @@ fi
 #===============================
 export ZSH="$HOME/.oh-my-zsh"       # Path to your oh-my-zsh installation.
 
-#ZSH_THEME="eastwood"
 ZSH_THEME="agnoster"
 HYPHEN_INSENSITIVE="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"    # improve loading times when opening a large git
@@ -50,3 +49,5 @@ alias open="xdg-open"
 
 # SECTION: VI-MODE
 #===============================
+prompt context {}
+bindkey -v
