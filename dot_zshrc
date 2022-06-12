@@ -37,6 +37,7 @@ plugins=(
     git
     dotenv
     python
+    vi-mode
     zsh-autosuggestions
 )
 
