@@ -69,7 +69,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 Plug 'joshdick/onedark.vim'
 " Plug 'noahfrederick/vim-composer'
-" Plug 'lervag/vimtex'
+Plug 'lervag/vimtex'
 " Plug 'ludovicchabant/vim-gutentags'
 " Windows only
 if exists("my_os_win")
