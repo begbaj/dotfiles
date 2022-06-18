@@ -53,3 +53,4 @@ source $ZSH/oh-my-zsh.sh
 
 alias open="xdg-open"
 alias chedit="chezmoi edit"
+alias chez="chezmoi"
