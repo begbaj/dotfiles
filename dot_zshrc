@@ -57,6 +57,7 @@ alias open="xdg-open"
 alias chedit="chezmoi edit"
 alias chez="chezmoi"
 alias mv="mv -v"
+alias webcampv="mpv av://v4l2:/dev/video0 --profile=low-latency --untimed --no-terminal & disown"
 
 # SECTION: TMUX
 #===============================
