@@ -56,3 +56,9 @@ source $ZSH/oh-my-zsh.sh
 alias open="xdg-open"
 alias chedit="chezmoi edit"
 alias chez="chezmoi"
+
+# SECTION: TMUX
+#===============================
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+  exec tmux
+fi
