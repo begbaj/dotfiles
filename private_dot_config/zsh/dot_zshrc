@@ -31,6 +31,7 @@ fi
 #===============================
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export ZSH="$XDG_DATA_HOME/oh-my-zsh" # Path to your oh-my-zsh installation.
+export HISTFILE="$XDG_DATA_HOME/.zsh_history" # Path to your oh-my-zsh installation.
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
 
 
