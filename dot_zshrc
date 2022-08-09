@@ -1,0 +1,66 @@
+# SECTION: Environment variables
+#===============================
+npath=/usr/local/bin:$npath
+npath=/usr/local/go/bin:$npath
+
+npath=$HOME/bin:$npath
+npath=$HOME/.local/bin:$npath
+npath=$HOME/.local/share/gem/ruby/3.0.0/bin:$npath
+npath=$HOME/.config/composer/vendor/bin:$npath
+export PATH=$npath:$PATH
+
+export ARCHFLAGS="-arch x86_64"
+export EDITOR="nvim"
+export VISUAL="nvim-qt"
+#export SUDO_ASKPASS="/usr/bin/ksshaskpass" # <- needs revision
+#export SSH_ASKPASS="/usr/bin/ksshaskpass" # <- needs revision
+#export SSH_ASKPASS_REQUIRE="/usr/bin/ksshaskpass" # <- needs revision
+
+export MANPATH="/usr/local/man:$MANPATH"
+
+export GTK_THEME="Breeze"
+
+# Preferred editor for local and remote sessions
+if [[ -n $SSH_CONNECTION ]]; then
+   export EDITOR='vim'
+else
+  export EDITOR='nvim'
+fi
+
+# SECTION: XDG BASE DIRECTORIES
+#===============================
+export CARGO_HOME="$XDG_DATA_HOME"/cargo
+export ZSH="$XDG_DATA_HOME/oh-my-zsh" # Path to your oh-my-zsh installation.
+export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
+
+
+# SECTION: OH-MY-ZSH CONFIGURATION
+#===============================
+ZSH_THEME="eastwood"
+HYPHEN_INSENSITIVE="true"
+DISABLE_UNTRACKED_FILES_DIRTY="true"    # improve loading times when opening a large git
+zstyle ':omz:update' mode auto          # update automatically without asking
+zstyle ':omz:update' frequency 1        # frequency in day
+
+plugins=(
+    git
+    vi-mode
+    zsh-autosuggestions
+)
+
+source $ZSH/oh-my-zsh.sh
+
+# SECTION: ALIASES
+#===============================
+
+alias open="xdg-open"
+alias chedit="chezmoi edit"
+alias chez="chezmoi"
+alias mv="mv -v"
+alias webcampv="mpv av://v4l2:/dev/video0 --profile=low-latency --untimed --no-terminal & disown"
+
+# SECTION: TMUX
+#===============================
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+  exec tmux
+fi
