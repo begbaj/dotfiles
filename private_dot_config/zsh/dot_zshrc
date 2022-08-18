@@ -12,9 +12,9 @@ export PATH=$npath:$PATH
 export ARCHFLAGS="-arch x86_64"
 export EDITOR="nvim"
 export VISUAL="nvim-qt"
-export SUDO_ASKPASS="/usr/bin/ksshaskpass" # <- needs revision
-export SSH_ASKPASS="/usr/bin/ksshaskpass" # <- needs revision
-export SSH_ASKPASS_REQUIRE="/usr/bin/ksshaskpass" # <- needs revision
+unset SUDO_ASKPASS
+unset SSH_ASKPASS
+unset SSH_ASKPASS_REQUIRE
 
 export MANPATH="/usr/local/man:$MANPATH"
 
