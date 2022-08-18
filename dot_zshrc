@@ -11,16 +11,14 @@ export PATH=$npath:$PATH
 
 export ARCHFLAGS="-arch x86_64"
 export EDITOR="nvim"
-export VISUAL="nvim"
-unset SUDO_ASKPASS
-unset SSH_ASKPASS
-unset SSH_ASKPASS_REQUIRE
+export VISUAL="nvim-qt"
+#export SUDO_ASKPASS="/usr/bin/ksshaskpass" # <- needs revision
+#export SSH_ASKPASS="/usr/bin/ksshaskpass" # <- needs revision
+#export SSH_ASKPASS_REQUIRE="/usr/bin/ksshaskpass" # <- needs revision
 
 export MANPATH="/usr/local/man:$MANPATH"
 
 export GTK_THEME="Breeze"
-
-export HISTSIZE=500000
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
@@ -33,7 +31,6 @@ fi
 #===============================
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export ZSH="$XDG_DATA_HOME/oh-my-zsh" # Path to your oh-my-zsh installation.
-export HISTFILE="$XDG_DATA_HOME/.zsh_history" # Path to your oh-my-zsh installation.
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
 
 
@@ -64,6 +61,6 @@ alias webcampv="mpv av://v4l2:/dev/video0 --profile=low-latency --untimed --no-t
 
 # SECTION: TMUX
 #===============================
-#if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
-#  exec tmux
-#fi
+if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+  exec tmux
+fi

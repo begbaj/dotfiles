@@ -134,6 +134,7 @@ source $HOME/.config/nvim/plug-config/coc.vim
 " source $HOME/.config/nvim/plug-config/vimtex.vim
 source $HOME/.config/nvim/plug-config/barbar.vim
 source $HOME/.config/nvim/bindings.vim
+source $HOME/.config/nvim/cocrc.vim
 
 let g:NERDTreeWinPos = "right"
 
