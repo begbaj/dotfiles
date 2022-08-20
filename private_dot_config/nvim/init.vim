@@ -71,6 +71,7 @@ Plug 'joshdick/onedark.vim'
 " Plug 'noahfrederick/vim-composer'
 Plug 'lervag/vimtex'
 " Plug 'ludovicchabant/vim-gutentags'
+" Plug 'dylanaraps/wal.vim'
 " Windows only
 if exists("my_os_win")
     Plug 'begbaj/vim-icue', {'branch': 'development'}
@@ -123,6 +124,7 @@ set showbreak=....
 "================================================================================
 " colorscheme molokai
 colorscheme onedark
+" colorscheme wal
 
 set background=dark
 set termguicolors

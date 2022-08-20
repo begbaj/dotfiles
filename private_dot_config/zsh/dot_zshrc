@@ -12,9 +12,6 @@ export PATH=$npath:$PATH
 export ARCHFLAGS="-arch x86_64"
 export EDITOR="nvim"
 export VISUAL="nvim-qt"
-export SUDO_ASKPASS="/usr/bin/ksshaskpass" # <- needs revision
-export SSH_ASKPASS="/usr/bin/ksshaskpass" # <- needs revision
-export SSH_ASKPASS_REQUIRE="/usr/bin/ksshaskpass" # <- needs revision
 
 export MANPATH="/usr/local/man:$MANPATH"
 
@@ -39,7 +36,7 @@ export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
 
 # SECTION: OH-MY-ZSH CONFIGURATION
 #===============================
-ZSH_THEME="eastwood"
+ZSH_THEME="eastwood-begbaj"
 HYPHEN_INSENSITIVE="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"    # improve loading times when opening a large git
 zstyle ':omz:update' mode auto          # update automatically without asking
