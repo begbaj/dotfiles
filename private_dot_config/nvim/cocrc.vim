@@ -10,3 +10,9 @@
 " 
 " hi CocSearch ctermfg=12 guifg=#18A3FF
 " hi CocMenuSel ctermbg=109 guibg=#13354A
+"
+inoremap <silent><expr> <TAB>
+      \ coc#pum#visible() ? coc#pum#next(1):
+      \ <SID>check_back_space() ? "<TAB>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "<C-h>"
