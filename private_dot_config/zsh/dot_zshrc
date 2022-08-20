@@ -11,7 +11,10 @@ export PATH=$npath:$PATH
 
 export ARCHFLAGS="-arch x86_64"
 export EDITOR="nvim"
-export VISUAL="nvim-qt"
+export VISUAL="nvim"
+unset SUDO_ASKPASS
+unset SSH_ASKPASS
+unset SSH_ASKPASS_REQUIRE
 
 export MANPATH="/usr/local/man:$MANPATH"
 
