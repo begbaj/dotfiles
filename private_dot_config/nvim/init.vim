@@ -68,7 +68,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 Plug 'joshdick/onedark.vim'
-Plug 'mxw/vim-jsx'                                      " to highlight jsx
+Plug 'MaxMEllon/vim-jsx-pretty'                                      " to highlight jsx
 " Plug 'noahfrederick/vim-composer'
 Plug 'lervag/vimtex'
 " Plug 'ludovicchabant/vim-gutentags'
