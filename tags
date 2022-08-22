@@ -1,0 +1,568 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/began/.local/share/chezmoi/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+$LANG	private_dot_config/nvim/init.vim	/^    let $LANG = 'en_US'$/;"	v
+<A-,>	private_dot_config/nvim/plug-config/barbar.vim	/^nnoremap <silent>    <A-,> :BufferPrevious<CR>$/;"	m
+<A-,>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-,> :BufferPrevious<CR>:wincmd p<CR>$/;"	m
+<A-.>	private_dot_config/nvim/plug-config/barbar.vim	/^nnoremap <silent>    <A-.> :BufferNext<CR>$/;"	m
+<A-.>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-.> :BufferNext<CR>:wincmd p<CR>$/;"	m
+<A-1>	private_dot_config/nvim/plug-config/barbar.vim	/^nnoremap <silent>    <A-1> :BufferGoto 1<CR>$/;"	m
+<A-1>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-1> :BufferGoto 1<CR>$/;"	m
+<A-2>	private_dot_config/nvim/plug-config/barbar.vim	/^nnoremap <silent>    <A-2> :BufferGoto 2<CR>$/;"	m
+<A-2>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-2> :BufferGoto 2<CR>$/;"	m
+<A-3>	private_dot_config/nvim/plug-config/barbar.vim	/^nnoremap <silent>    <A-3> :BufferGoto 3<CR>$/;"	m
+<A-3>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-3> :BufferGoto 3<CR>$/;"	m
+<A-4>	private_dot_config/nvim/plug-config/barbar.vim	/^nnoremap <silent>    <A-4> :BufferGoto 4<CR>$/;"	m
+<A-4>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-4> :BufferGoto 4<CR>$/;"	m
+<A-5>	private_dot_config/nvim/plug-config/barbar.vim	/^nnoremap <silent>    <A-5> :BufferGoto 5<CR>$/;"	m
+<A-5>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-5> :BufferGoto 5<CR>$/;"	m
+<A-6>	private_dot_config/nvim/plug-config/barbar.vim	/^nnoremap <silent>    <A-6> :BufferGoto 6<CR>$/;"	m
+<A-6>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-6> :BufferGoto 6<CR>$/;"	m
+<A-7>	private_dot_config/nvim/plug-config/barbar.vim	/^nnoremap <silent>    <A-7> :BufferGoto 7<CR>$/;"	m
+<A-7>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-7> :BufferGoto 7<CR>$/;"	m
+<A-8>	private_dot_config/nvim/plug-config/barbar.vim	/^nnoremap <silent>    <A-8> :BufferGoto 8<CR>$/;"	m
+<A-8>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-8> :BufferGoto 8<CR>$/;"	m
+<A-9>	private_dot_config/nvim/plug-config/barbar.vim	/^nnoremap <silent>    <A-9> :BufferLast<CR>$/;"	m
+<A-9>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-9> :BufferLast<CR>$/;"	m
+<A-<>	private_dot_config/nvim/plug-config/barbar.vim	/^nnoremap <silent>    <A-<> :BufferMovePrevious<CR>$/;"	m
+<A-<>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-<> :BufferMovePrevious<CR>$/;"	m
+<A->>	private_dot_config/nvim/plug-config/barbar.vim	/^nnoremap <silent>    <A->> :BufferMoveNext<CR>$/;"	m
+<A->>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A->> :BufferMoveNext<CR>$/;"	m
+<A-c>	private_dot_config/nvim/plug-config/barbar.vim	/^nnoremap <silent>    <A-c> :BufferClose<CR>$/;"	m
+<A-c>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-c> :BufferClose<CR>$/;"	m
+<A-p>	private_dot_config/nvim/plug-config/barbar.vim	/^nnoremap <silent>    <A-p> :BufferPin<CR>$/;"	m
+<A-p>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-p> :BufferPin<CR>$/;"	m
+<C-H>	private_dot_config/nvim/init.vim	/^nnoremap <C-H> <C-W><C-H>$/;"	m
+<C-J>	private_dot_config/nvim/init.vim	/^nnoremap <C-J> <C-W><C-J>$/;"	m
+<C-K>	private_dot_config/nvim/init.vim	/^nnoremap <C-K> <C-W><C-K>$/;"	m
+<C-L>	private_dot_config/nvim/init.vim	/^nnoremap <C-L> <C-W><C-L>$/;"	m
+<C-b>	private_dot_config/nvim/plug-config/coc.vim	/^  inoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? "\\<c-r>=coc#float#scroll(0)\\</;"	m
+<C-b>	private_dot_config/nvim/plug-config/coc.vim	/^  nnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\\<C-b>"$/;"	m
+<C-b>	private_dot_config/nvim/plug-config/coc.vim	/^  vnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\\<C-b>"$/;"	m
+<C-b>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^  inoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? "\\<c-r>=coc#float#scroll(0)\\</;"	m
+<C-b>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^  nnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\\<C-b>"$/;"	m
+<C-b>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^  vnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\\<C-b>"$/;"	m
+<C-f>	private_dot_config/nvim/init.vim	/^nnoremap <silent> <C-f> :Files<CR>$/;"	m
+<C-f>	private_dot_config/nvim/plug-config/coc.vim	/^  inoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? "\\<c-r>=coc#float#scroll(1)\\</;"	m
+<C-f>	private_dot_config/nvim/plug-config/coc.vim	/^  nnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\\<C-f>"$/;"	m
+<C-f>	private_dot_config/nvim/plug-config/coc.vim	/^  vnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\\<C-f>"$/;"	m
+<C-f>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^  inoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? "\\<c-r>=coc#float#scroll(1)\\</;"	m
+<C-f>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^  nnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\\<C-f>"$/;"	m
+<C-f>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^  vnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\\<C-f>"$/;"	m
+<C-g>	private_dot_config/nvim/init.vim	/^nnoremap <silent> <C-g> :Rg<CR>$/;"	m
+<C-s>	private_dot_config/nvim/plug-config/barbar.vim	/^nnoremap <silent> <C-s>    :BufferPick<CR>$/;"	m
+<C-s>	private_dot_config/nvim/plug-config/coc.vim	/^nmap <silent> <C-s> <Plug>(coc-range-select)$/;"	m
+<C-s>	private_dot_config/nvim/plug-config/coc.vim	/^xmap <silent> <C-s> <Plug>(coc-range-select)$/;"	m
+<C-s>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent> <C-s>    :BufferPick<CR>$/;"	m
+<C-s>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <silent> <C-s> <Plug>(coc-range-select)$/;"	m
+<C-s>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^xmap <silent> <C-s> <Plug>(coc-range-select)$/;"	m
+<C-w><C-c>	private_dot_config/nvim/bindings.vim	/^noremap <C-w><C-c> :bd$/;"	m
+<Down>	private_dot_config/nvim/init.vim	/^nnoremap <Down> <C-d>$/;"	m
+<F20>	private_dot_config/nvim/init.vim	/^nnoremap <F20> :!chezmoi edit $MYVIMRC<CR>$/;"	m
+<F8>	private_dot_config/nvim/init.vim	/^nnoremap <F8> :so $MYVIMRC<CR>$/;"	m
+<Left>	private_dot_config/nvim/init.vim	/^nnoremap <Left> zH$/;"	m
+<Right>	private_dot_config/nvim/init.vim	/^nnoremap <Right> zL$/;"	m
+<S-TAB>	private_dot_config/nvim/plug-config/coc.vim	/^inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\\<C-h>"$/;"	m
+<S-TAB>	private_dot_config/nvim/plug-config/coc.vim	/^inoremap <expr><S-TAB> pumvisible() ? "\\<C-p>" : "\\<C-h>"$/;"	m
+<S-TAB>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^inoremap <expr><S-TAB> pumvisible() ? "\\<C-p>" : "\\<C-h>"$/;"	m
+<S-tab>	private_dot_config/nvim/init.vim	/^vnoremap <S-tab> <$/;"	m
+<Space>bb	private_dot_config/nvim/plug-config/barbar.vim	/^nnoremap <silent> <Space>bb :BufferOrderByBufferNumber<CR>$/;"	m
+<Space>bb	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent> <Space>bb :BufferOrderByBufferNumber<CR>$/;"	m
+<Space>bd	private_dot_config/nvim/plug-config/barbar.vim	/^nnoremap <silent> <Space>bd :BufferOrderByDirectory<CR>$/;"	m
+<Space>bd	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent> <Space>bd :BufferOrderByDirectory<CR>$/;"	m
+<Space>bl	private_dot_config/nvim/plug-config/barbar.vim	/^nnoremap <silent> <Space>bl :BufferOrderByLanguage<CR>$/;"	m
+<Space>bl	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent> <Space>bl :BufferOrderByLanguage<CR>$/;"	m
+<Space>bw	private_dot_config/nvim/plug-config/barbar.vim	/^nnoremap <silent> <Space>bw :BufferOrderByWindowNumber<CR>$/;"	m
+<Space>bw	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent> <Space>bw :BufferOrderByWindowNumber<CR>$/;"	m
+<TAB>	private_dot_config/nvim/plug-config/coc.vim	/^inoremap <silent><expr> <TAB>$/;"	m
+<TAB>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^inoremap <silent><expr> <TAB>$/;"	m
+<Up>	private_dot_config/nvim/init.vim	/^nnoremap <Up> <C-u>$/;"	m
+<c-@>	private_dot_config/nvim/plug-config/coc.vim	/^    inoremap <silent><expr> <c-@> coc#refresh()$/;"	m
+<c-@>	private_dot_config/nvim/plug-config/coc.vim	/^  inoremap <silent><expr> <c-@> coc#refresh()$/;"	m
+<c-@>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^  inoremap <silent><expr> <c-@> coc#refresh()$/;"	m
+<c-space>	private_dot_config/nvim/plug-config/coc.vim	/^    inoremap <silent><expr> <c-space> coc#refresh()$/;"	m
+<c-space>	private_dot_config/nvim/plug-config/coc.vim	/^  inoremap <silent><expr> <c-space> coc#refresh()$/;"	m
+<c-space>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^  inoremap <silent><expr> <c-space> coc#refresh()$/;"	m
+<cr>	private_dot_config/nvim/plug-config/coc.vim	/^inoremap <expr> <cr> coc#pum#visible() ? coc#_select_confirm() : "\\<CR>"$/;"	m
+<cr>	private_dot_config/nvim/plug-config/coc.vim	/^inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()$/;"	m
+<cr>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()$/;"	m
+<leader>a	private_dot_config/nvim/plug-config/coc.vim	/^nmap <leader>a  <Plug>(coc-codeaction-selected)$/;"	m
+<leader>a	private_dot_config/nvim/plug-config/coc.vim	/^xmap <leader>a  <Plug>(coc-codeaction-selected)$/;"	m
+<leader>a	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <leader>a  <Plug>(coc-codeaction-selected)$/;"	m
+<leader>a	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^xmap <leader>a  <Plug>(coc-codeaction-selected)$/;"	m
+<leader>ac	private_dot_config/nvim/plug-config/coc.vim	/^nmap <leader>ac  <Plug>(coc-codeaction)$/;"	m
+<leader>ac	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <leader>ac  <Plug>(coc-codeaction)$/;"	m
+<leader>cl	private_dot_config/nvim/plug-config/coc.vim	/^nmap <leader>cl  <Plug>(coc-codelens-action)$/;"	m
+<leader>cl	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <leader>cl  <Plug>(coc-codelens-action)$/;"	m
+<leader>f	private_dot_config/nvim/plug-config/coc.vim	/^nmap <leader>f  <Plug>(coc-format-selected)$/;"	m
+<leader>f	private_dot_config/nvim/plug-config/coc.vim	/^xmap <leader>f  <Plug>(coc-format-selected)$/;"	m
+<leader>f	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <leader>f  <Plug>(coc-format-selected)$/;"	m
+<leader>f	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^xmap <leader>f  <Plug>(coc-format-selected)$/;"	m
+<leader>qf	private_dot_config/nvim/plug-config/coc.vim	/^nmap <leader>qf  <Plug>(coc-fix-current)$/;"	m
+<leader>qf	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <leader>qf  <Plug>(coc-fix-current)$/;"	m
+<leader>rn	private_dot_config/nvim/plug-config/coc.vim	/^nmap <leader>rn <Plug>(coc-rename)$/;"	m
+<leader>rn	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <leader>rn <Plug>(coc-rename)$/;"	m
+<space>a	private_dot_config/nvim/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>a  :<C-u>CocList diagnostics<cr>$/;"	m
+<space>a	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>a  :<C-u>CocList diagnostics<cr>$/;"	m
+<space>c	private_dot_config/nvim/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>c  :<C-u>CocList commands<cr>$/;"	m
+<space>c	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>c  :<C-u>CocList commands<cr>$/;"	m
+<space>e	private_dot_config/nvim/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>e  :<C-u>CocList extensions<cr>$/;"	m
+<space>e	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>e  :<C-u>CocList extensions<cr>$/;"	m
+<space>j	private_dot_config/nvim/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>$/;"	m
+<space>j	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>$/;"	m
+<space>k	private_dot_config/nvim/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>$/;"	m
+<space>k	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>$/;"	m
+<space>o	private_dot_config/nvim/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>o  :<C-u>CocList outline<cr>$/;"	m
+<space>o	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>o  :<C-u>CocList outline<cr>$/;"	m
+<space>p	private_dot_config/nvim/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>$/;"	m
+<space>p	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>$/;"	m
+<space>s	private_dot_config/nvim/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>s  :<C-u>CocList -I symbols<cr>$/;"	m
+<space>s	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>s  :<C-u>CocList -I symbols<cr>$/;"	m
+<tab>	private_dot_config/nvim/init.vim	/^vnoremap <tab> >$/;"	m
+AS_YOU_TYPE	private_dot_config/ranger/commands_full.py	/^    AS_YOU_TYPE   = 't'$/;"	v	class:scout
+AUTO_OPEN	private_dot_config/ranger/commands_full.py	/^    AUTO_OPEN     = 'a'$/;"	v	class:scout
+CheckBackSpace	private_dot_config/nvim/plug-config/coc.vim	/^function! CheckBackSpace() abort$/;"	f
+FILTER	private_dot_config/ranger/commands_full.py	/^    FILTER        = 'f'$/;"	v	class:scout
+Fold	private_dot_config/nvim/plug-config/coc.vim	/^command! -nargs=? Fold :call     CocAction('fold', <f-args>)$/;"	c
+Fold	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^command! -nargs=? Fold :call     CocAction('fold', <f-args>)$/;"	c
+Format	private_dot_config/nvim/plug-config/coc.vim	/^command! -nargs=0 Format :call CocAction('format')$/;"	c
+Format	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^command! -nargs=0 Format :call CocAction('format')$/;"	c
+IGNORE_CASE	private_dot_config/ranger/commands_full.py	/^    IGNORE_CASE   = 'i'$/;"	v	class:scout
+INVERT	private_dot_config/ranger/commands_full.py	/^    INVERT        = 'v'$/;"	v	class:scout
+K	private_dot_config/nvim/plug-config/coc.vim	/^nnoremap <silent> K :call <SID>show_documentation()<CR>$/;"	m
+K	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nnoremap <silent> K :call <SID>show_documentation()<CR>$/;"	m
+KEEP_OPEN	private_dot_config/ranger/commands_full.py	/^    KEEP_OPEN     = 'k'$/;"	v	class:scout
+LATEX	private_dot_config/nvim/bindings.vim	/^augroup LATEX$/;"	a
+MARK	private_dot_config/ranger/commands_full.py	/^    MARK          = 'm'$/;"	v	class:scout
+OPEN_ON_ENTER	private_dot_config/ranger/commands_full.py	/^    OPEN_ON_ENTER = 'e'$/;"	v	class:scout
+OR	private_dot_config/nvim/plug-config/coc.vim	/^command! -nargs=0 OR   :call     CocActionAsync('runCommand', 'editor.action.organizeImport')$/;"	c
+OR	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^command! -nargs=0 OR   :call     CocActionAsync('runCommand', 'editor.action.organizeImport')$/;"	c
+PATH_RE_DQUOTED	private_dot_config/ranger/commands_full.py	/^    PATH_RE_DQUOTED = re.compile(r'^setlocal\\s+path="(.*?)"')$/;"	v	class:setlocal
+PATH_RE_SQUOTED	private_dot_config/ranger/commands_full.py	/^    PATH_RE_SQUOTED = re.compile(r"^setlocal\\s+path='(.*?)'")$/;"	v	class:setlocal
+PATH_RE_UNQUOTED	private_dot_config/ranger/commands_full.py	/^    PATH_RE_UNQUOTED = re.compile(r'^path=(.*?)$')$/;"	v	class:setlocal
+PERM_FILTER	private_dot_config/ranger/commands_full.py	/^    PERM_FILTER   = 'p'$/;"	v	class:scout
+SMART_CASE	private_dot_config/ranger/commands_full.py	/^    SMART_CASE    = 's'$/;"	v	class:scout
+SM_GLOB	private_dot_config/ranger/commands_full.py	/^    SM_GLOB       = 'g'$/;"	v	class:scout
+SM_LETTERSKIP	private_dot_config/ranger/commands_full.py	/^    SM_LETTERSKIP = 'l'$/;"	v	class:scout
+SM_REGEX	private_dot_config/ranger/commands_full.py	/^    SM_REGEX      = 'r'$/;"	v	class:scout
+UNMARK	private_dot_config/ranger/commands_full.py	/^    UNMARK        = 'M'$/;"	v	class:scout
+VimSetupNerdtree	private_dot_config/nvim/init.vim	/^augroup VimSetupNerdtree$/;"	a
+[g	private_dot_config/nvim/plug-config/coc.vim	/^nmap <silent> [g <Plug>(coc-diagnostic-prev)$/;"	m
+[g	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <silent> [g <Plug>(coc-diagnostic-prev)$/;"	m
+\x20       pager_move  up	private_dot_config/ranger/rc.conf	/^pmap  <up>        pager_move  up=1$/;"	k
+\x20       taskview_move up	private_dot_config/ranger/rc.conf	/^tmap <up>        taskview_move up=1$/;"	k
+\x20      move right	private_dot_config/ranger/rc.conf	/^map <CR>       move right=1$/;"	k
+\x20      move up	private_dot_config/ranger/rc.conf	/^map <UP>       move up=1$/;"	k
+\x20      pager_move  down	private_dot_config/ranger/rc.conf	/^pmap  <C-d>       pager_move  down=0.5  pages=True$/;"	k
+\x20      pager_move  to	private_dot_config/ranger/rc.conf	/^pmap  <end>       pager_move  to=-1$/;"	k
+\x20      pager_move  up	private_dot_config/ranger/rc.conf	/^pmap  <C-u>       pager_move  up=0.5    pages=True$/;"	k
+\x20      taskview_move down	private_dot_config/ranger/rc.conf	/^tmap <C-d>       taskview_move down=0.5  pages=True$/;"	k
+\x20      taskview_move to	private_dot_config/ranger/rc.conf	/^tmap <end>       taskview_move to=-1$/;"	k
+\x20      taskview_move up	private_dot_config/ranger/rc.conf	/^tmap <C-u>       taskview_move up=0.5    pages=True$/;"	k
+\x20     move to	private_dot_config/ranger/rc.conf	/^map <END>      move to=-1$/;"	k
+\x20     pager_move  down	private_dot_config/ranger/rc.conf	/^pmap  <down>      pager_move  down=1$/;"	k
+\x20     pager_move  left	private_dot_config/ranger/rc.conf	/^pmap  <left>      pager_move  left=4$/;"	k
+\x20     pager_move  to	private_dot_config/ranger/rc.conf	/^pmap  <home>      pager_move  to=0$/;"	k
+\x20     taskview_move down	private_dot_config/ranger/rc.conf	/^tmap <down>      taskview_move down=1$/;"	k
+\x20     taskview_move to	private_dot_config/ranger/rc.conf	/^tmap <home>      taskview_move to=0$/;"	k
+\x20    move down	private_dot_config/ranger/rc.conf	/^map <DOWN>     move down=1$/;"	k
+\x20    move left	private_dot_config/ranger/rc.conf	/^map <LEFT>     move left=1$/;"	k
+\x20    move to	private_dot_config/ranger/rc.conf	/^map <HOME>     move to=0$/;"	k
+\x20    pager_move  right	private_dot_config/ranger/rc.conf	/^pmap  <right>     pager_move  right=4$/;"	k
+\x20   move right	private_dot_config/ranger/rc.conf	/^map <RIGHT>    move right=1$/;"	k
+\x20   pager_move  up	private_dot_config/ranger/rc.conf	/^pmap  <pageup>    pager_move  up=1.0    pages=True$/;"	k
+\x20   taskview_move up	private_dot_config/ranger/rc.conf	/^tmap <pageup>    taskview_move up=1.0    pages=True$/;"	k
+\x20  move up	private_dot_config/ranger/rc.conf	/^map <PAGEUP>   move up=1     pages=True$/;"	k
+\x20 pager_move  down	private_dot_config/ranger/rc.conf	/^pmap  <pagedown>  pager_move  down=1.0  pages=True$/;"	k
+\x20 taskview_move down	private_dot_config/ranger/rc.conf	/^tmap <pagedown>  taskview_move down=1.0  pages=True$/;"	k
+\x20mark_files toggle	private_dot_config/ranger/rc.conf	/^map <Space> mark_files toggle=True$/;"	k
+\x20move down	private_dot_config/ranger/rc.conf	/^map <PAGEDOWN> move down=1   pages=True$/;"	k
+\x20tag_toggle tag	private_dot_config/ranger/rc.conf	/^map "<any>  tag_toggle tag=%any$/;"	k
+]g	private_dot_config/nvim/plug-config/coc.vim	/^nmap <silent> ]g <Plug>(coc-diagnostic-next)$/;"	m
+]g	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <silent> ]g <Plug>(coc-diagnostic-next)$/;"	m
+__init__	private_dot_config/ranger/commands_full.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:jump_non
+__init__	private_dot_config/ranger/commands_full.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:rename_append
+__init__	private_dot_config/ranger/commands_full.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:scout
+_build_regex	private_dot_config/ranger/commands_full.py	/^    def _build_regex(self):$/;"	m	class:scout
+_command_name	private_dot_config/ranger/commands_full.py	/^    _command_name = "meta"$/;"	v	class:prompt_metadata
+_console_chain	private_dot_config/ranger/commands_full.py	/^    _console_chain = None$/;"	v	class:prompt_metadata
+_count	private_dot_config/ranger/commands_full.py	/^    def _count(self, move=False, offset=0):$/;"	m	class:scout
+_exit_no_work	private_dot_config/ranger/commands_full.py	/^    def _exit_no_work(self):$/;"	m	class:quit
+_exit_no_work	private_dot_config/ranger/commands_full.py	/^    def _exit_no_work(self):$/;"	m	class:quitall
+_fill_console	private_dot_config/ranger/commands_full.py	/^    def _fill_console(self, key):$/;"	m	class:prompt_metadata
+_get_app_flags_mode	private_dot_config/ranger/commands_full.py	/^    def _get_app_flags_mode(self, string):  # pylint: disable=too-many-branches,too-many-stateme/;"	m	class:open_with
+_is_app	private_dot_config/ranger/commands_full.py	/^    def _is_app(self, arg):$/;"	m	class:open_with
+_is_flags	private_dot_config/ranger/commands_full.py	/^    def _is_flags(arg):$/;"	m	class:open_with
+_is_mode	private_dot_config/ranger/commands_full.py	/^    def _is_mode(arg):$/;"	m	class:open_with
+_non	private_dot_config/ranger/commands_full.py	/^    def _non(fobj, is_directory):$/;"	m	class:jump_non
+_process_command_stack	private_dot_config/ranger/commands_full.py	/^    def _process_command_stack(self):$/;"	m	class:prompt_metadata
+_question_callback	private_dot_config/ranger/commands_full.py	/^    def _question_callback(self, files, answer):$/;"	m	class:delete
+_question_callback	private_dot_config/ranger/commands_full.py	/^    def _question_callback(self, files, answer):$/;"	m	class:trash
+_re_shift	private_dot_config/ranger/commands_full.py	/^    def _re_shift(self, match):$/;"	m	class:setlocal
+_tab_args	private_dot_config/ranger/commands_full.py	/^    def _tab_args(self):$/;"	m	class:cd
+_tab_fuzzy	private_dot_config/ranger/commands_full.py	/^    def _tab_fuzzy(self, dest, dest_abs):$/;"	m	class:cd
+_tab_fuzzy_match	private_dot_config/ranger/commands_full.py	/^    def _tab_fuzzy_match(self, basepath, tokens):$/;"	m	class:cd
+_tab_match	private_dot_config/ranger/commands_full.py	/^    def _tab_match(self, path_user, path_file):$/;"	m	class:cd
+_tab_normal	private_dot_config/ranger/commands_full.py	/^    def _tab_normal(self, dest, dest_abs):$/;"	m	class:cd
+_tab_paths	private_dot_config/ranger/commands_full.py	/^    def _tab_paths(dest, dest_abs, ends_with_sep):$/;"	m	class:cd
+ac	private_dot_config/nvim/plug-config/coc.vim	/^omap ac <Plug>(coc-classobj-a)$/;"	m
+ac	private_dot_config/nvim/plug-config/coc.vim	/^xmap ac <Plug>(coc-classobj-a)$/;"	m
+ac	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^omap ac <Plug>(coc-classobj-a)$/;"	m
+ac	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^xmap ac <Plug>(coc-classobj-a)$/;"	m
+af	private_dot_config/nvim/plug-config/coc.vim	/^omap af <Plug>(coc-funcobj-a)$/;"	m
+af	private_dot_config/nvim/plug-config/coc.vim	/^xmap af <Plug>(coc-funcobj-a)$/;"	m
+af	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^omap af <Plug>(coc-funcobj-a)$/;"	m
+af	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^xmap af <Plug>(coc-funcobj-a)$/;"	m
+alias	private_dot_config/ranger/commands_full.py	/^class alias(Command):$/;"	c
+allow_abbrev	private_dot_config/ranger/commands_full.py	/^    allow_abbrev = False$/;"	v	class:delete
+allow_abbrev	private_dot_config/ranger/commands_full.py	/^    allow_abbrev = False$/;"	v	class:quit_bang
+allow_abbrev	private_dot_config/ranger/commands_full.py	/^    allow_abbrev = False$/;"	v	class:quitall_bang
+allow_abbrev	private_dot_config/ranger/commands_full.py	/^    allow_abbrev = False$/;"	v	class:trash
+ascii_bold	private_dot_config/neofetch/config.conf	/^ascii_bold="on"$/;"	k
+ascii_colors	private_dot_config/neofetch/config.conf	/^ascii_colors=(distro)$/;"	k
+ascii_distro	private_dot_config/neofetch/config.conf	/^ascii_distro="auto"$/;"	k
+background_color	private_dot_config/neofetch/config.conf	/^background_color=$/;"	k
+backward	private_dot_config/ranger/rc.conf	/^cmap <A-d>        eval fm.ui.console.delete_word(backward=False)$/;"	k
+bar_border	private_dot_config/neofetch/config.conf	/^bar_border="on"$/;"	k
+bar_char_elapsed	private_dot_config/neofetch/config.conf	/^bar_char_elapsed="-"$/;"	k
+bar_char_total	private_dot_config/neofetch/config.conf	/^bar_char_total="="$/;"	k
+bar_color_elapsed	private_dot_config/neofetch/config.conf	/^bar_color_elapsed="distro"$/;"	k
+bar_color_total	private_dot_config/neofetch/config.conf	/^bar_color_total="distro"$/;"	k
+bar_length	private_dot_config/neofetch/config.conf	/^bar_length=15$/;"	k
+battery_display	private_dot_config/neofetch/config.conf	/^battery_display="off"$/;"	k
+block_height	private_dot_config/neofetch/config.conf	/^block_height=1$/;"	k
+block_range	private_dot_config/neofetch/config.conf	/^block_range=(0 15)$/;"	k
+block_width	private_dot_config/neofetch/config.conf	/^block_width=3$/;"	k
+bold	private_dot_config/neofetch/config.conf	/^bold="on"$/;"	k
+bulkrename	private_dot_config/ranger/commands_full.py	/^class bulkrename(Command):$/;"	c
+callback	private_dot_config/ranger/commands_full.py	/^        def callback(answer):$/;"	f	member:help_.execute	file:
+cancel	private_dot_config/ranger/commands_full.py	/^    def cancel(self):$/;"	m	class:scout
+cd	private_dot_config/ranger/commands_full.py	/^class cd(Command):$/;"	c
+chain	private_dot_config/ranger/commands_full.py	/^class chain(Command):$/;"	c
+chezmoi	private_dot_config/nvim/init.vim	/^augroup chezmoi$/;"	a
+chmod	private_dot_config/ranger/commands_full.py	/^class chmod(Command):$/;"	c
+clipboards	private_dot_config/ranger/commands_full.py	/^        def clipboards():$/;"	f	member:yank.execute	file:
+cmap	private_dot_config/ranger/commands_full.py	/^class cmap(map_):$/;"	c
+col_offset	private_dot_config/neofetch/config.conf	/^col_offset="auto"$/;"	k
+color_blocks	private_dot_config/neofetch/config.conf	/^color_blocks="on"$/;"	k
+colors	private_dot_config/neofetch/config.conf	/^colors=(distro)$/;"	k
+console	private_dot_config/ranger/commands_full.py	/^class console(Command):$/;"	c
+context	private_dot_config/ranger/commands_full.py	/^    context = 'browser'$/;"	v	class:alias
+context	private_dot_config/ranger/commands_full.py	/^    context = 'browser'$/;"	v	class:copymap
+context	private_dot_config/ranger/commands_full.py	/^    context = 'browser'$/;"	v	class:map_
+context	private_dot_config/ranger/commands_full.py	/^    context = 'browser'$/;"	v	class:unmap
+context	private_dot_config/ranger/commands_full.py	/^    context = 'console'$/;"	v	class:cmap
+context	private_dot_config/ranger/commands_full.py	/^    context = 'console'$/;"	v	class:copycmap
+context	private_dot_config/ranger/commands_full.py	/^    context = 'console'$/;"	v	class:uncmap
+context	private_dot_config/ranger/commands_full.py	/^    context = 'pager'$/;"	v	class:copypmap
+context	private_dot_config/ranger/commands_full.py	/^    context = 'pager'$/;"	v	class:pmap
+context	private_dot_config/ranger/commands_full.py	/^    context = 'pager'$/;"	v	class:unpmap
+context	private_dot_config/ranger/commands_full.py	/^    context = 'taskview'$/;"	v	class:copytmap
+context	private_dot_config/ranger/commands_full.py	/^    context = 'taskview'$/;"	v	class:tmap
+context	private_dot_config/ranger/commands_full.py	/^    context = 'taskview'$/;"	v	class:untmap
+copy_buffer_filename	private_dot_config/ranger/commands_full.py	/^    copy_buffer_filename = 'copy_buffer'$/;"	v	class:load_copy_buffer
+copy_buffer_filename	private_dot_config/ranger/commands_full.py	/^    copy_buffer_filename = 'copy_buffer'$/;"	v	class:save_copy_buffer
+copycmap	private_dot_config/ranger/commands_full.py	/^class copycmap(copymap):$/;"	c
+copymap	private_dot_config/ranger/commands_full.py	/^class copymap(Command):$/;"	c
+copypmap	private_dot_config/ranger/commands_full.py	/^class copypmap(copymap):$/;"	c
+copytmap	private_dot_config/ranger/commands_full.py	/^class copytmap(copymap):$/;"	c
+cpu_brand	private_dot_config/neofetch/config.conf	/^cpu_brand="on"$/;"	k
+cpu_cores	private_dot_config/neofetch/config.conf	/^cpu_cores="logical"$/;"	k
+cpu_display	private_dot_config/neofetch/config.conf	/^cpu_display="off"$/;"	k
+cpu_speed	private_dot_config/neofetch/config.conf	/^cpu_speed="on"$/;"	k
+cpu_temp	private_dot_config/neofetch/config.conf	/^cpu_temp="off"$/;"	k
+crop_mode	private_dot_config/neofetch/config.conf	/^crop_mode="normal"$/;"	k
+crop_offset	private_dot_config/neofetch/config.conf	/^crop_offset="center"$/;"	k
+cunmap	private_dot_config/ranger/commands_full.py	/^class cunmap(uncmap):$/;"	c
+de_version	private_dot_config/neofetch/config.conf	/^de_version="on"$/;"	k
+default_linemode	private_dot_config/ranger/commands_full.py	/^class default_linemode(Command):$/;"	c
+default_value_completer	private_dot_config/ranger/commands_full.py	/^            def default_value_completer():$/;"	f	member:set_.tab	file:
+delete	private_dot_config/ranger/commands_full.py	/^class delete(Command):$/;"	c
+dirarg	private_dot_config/ranger/rc.conf	/^map dG  eval fm.cut(dirarg=dict(to=-1), narg=quantifier)$/;"	k
+dirarg	private_dot_config/ranger/rc.conf	/^map dgg eval fm.cut(dirarg=dict(to=0), narg=quantifier)$/;"	k
+dirarg	private_dot_config/ranger/rc.conf	/^map dj  eval fm.cut(dirarg=dict(down=1), narg=quantifier)$/;"	k
+dirarg	private_dot_config/ranger/rc.conf	/^map dk  eval fm.cut(dirarg=dict(up=1), narg=quantifier)$/;"	k
+dirarg	private_dot_config/ranger/rc.conf	/^map yG  eval fm.copy(dirarg=dict(to=-1), narg=quantifier)$/;"	k
+dirarg	private_dot_config/ranger/rc.conf	/^map ygg eval fm.copy(dirarg=dict(to=0), narg=quantifier)$/;"	k
+dirarg	private_dot_config/ranger/rc.conf	/^map yj  eval fm.copy(dirarg=dict(down=1), narg=quantifier)$/;"	k
+dirarg	private_dot_config/ranger/rc.conf	/^map yk  eval fm.copy(dirarg=dict(up=1), narg=quantifier)$/;"	k
+disk_display	private_dot_config/neofetch/config.conf	/^disk_display="off"$/;"	k
+disk_percent	private_dot_config/neofetch/config.conf	/^disk_percent="on"$/;"	k
+disk_show	private_dot_config/neofetch/config.conf	/^disk_show=('\/')$/;"	k
+disk_subtitle	private_dot_config/neofetch/config.conf	/^disk_subtitle="mount"$/;"	k
+distro_shorthand	private_dot_config/neofetch/config.conf	/^distro_shorthand="off"$/;"	k
+do_mark	private_dot_config/ranger/commands_full.py	/^    do_mark = False$/;"	v	class:unmark_tag
+do_mark	private_dot_config/ranger/commands_full.py	/^    do_mark = True$/;"	v	class:mark_tag
+echo	private_dot_config/ranger/commands_full.py	/^class echo(Command):$/;"	c
+edit	private_dot_config/ranger/commands_full.py	/^class edit(Command):$/;"	c
+esc	private_dot_config/ranger/commands_full.py	/^        from ranger.ext.shell_escape import shell_escape as esc$/;"	x	member:bulkrename.execute	file:	nameref:unknown:shell_escape
+escape_macros_for_shell	private_dot_config/ranger/commands_full.py	/^    escape_macros_for_shell = True$/;"	v	class:delete
+escape_macros_for_shell	private_dot_config/ranger/commands_full.py	/^    escape_macros_for_shell = True$/;"	v	class:shell
+escape_macros_for_shell	private_dot_config/ranger/commands_full.py	/^    escape_macros_for_shell = True$/;"	v	class:trash
+eval_	private_dot_config/ranger/commands_full.py	/^class eval_(Command):$/;"	c
+execute	private_dot_config/ranger/commands.py	/^    def execute(self):$/;"	m	class:my_edit
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):  # pylint: disable=too-many-branches$/;"	m	class:scout
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:alias
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:bulkrename
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:cd
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:chain
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:chmod
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:console
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:copymap
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:cunmap
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:default_linemode
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:delete
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:echo
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:edit
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:eval_
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:filter_inode_type
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:filter_stack
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:flat
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:grep
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:help_
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:jump_non
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:linemode
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:load_copy_buffer
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:map_
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:mark_tag
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:meta
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:mkdir
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:narrow
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:open_with
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:paste_ext
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:prompt_metadata
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:punmap
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:quit
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:quit_bang
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:quitall
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:quitall_bang
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:relink
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:rename
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:rename_append
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:reset_previews
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:save_copy_buffer
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:set_
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:setintag
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:setlocal
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:shell
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:stage
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:terminal
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:touch
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:trash
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:tunmap
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:unmap
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:unstage
+execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:yank
+filter_inode_type	private_dot_config/ranger/commands_full.py	/^class filter_inode_type(Command):$/;"	c
+filter_stack	private_dot_config/ranger/commands_full.py	/^class filter_stack(Command):$/;"	c
+flat	private_dot_config/ranger/commands_full.py	/^class flat(Command):$/;"	c
+g:NERDTreeWinPos	private_dot_config/nvim/init.vim	/^let g:NERDTreeWinPos = "right"$/;"	v
+g:airline_powerline_fonts	private_dot_config/nvim/init.vim	/^let g:airline_powerline_fonts = 1$/;"	v
+g:hardtime_default_on	private_dot_config/nvim/init.vim	/^let g:hardtime_default_on = 0$/;"	v
+g:my_os_win	private_dot_config/nvim/init.vim	/^    let g:my_os_win = 1     " needed for other os dependent configurations$/;"	v
+g:os_win	private_dot_config/nvim/init.vim	/^    let g:os_win = 0$/;"	v
+g:plugged_home	private_dot_config/nvim/init.vim	/^    let g:plugged_home = '~\/.config\/nvim\/plugged'$/;"	v
+g:plugged_home	private_dot_config/nvim/init.vim	/^    let g:plugged_home = expand('~\/.config\/nvim\/plugged')$/;"	v
+g:plugged_home	private_dot_config/nvim/init.vim	/^    let g:plugged_home = expand('~\/AppData\/Local\/nvim\/plugged')$/;"	v
+g:vimtex_compiler_method	private_dot_config/nvim/plug-config/plug-config/vimtex.vim	/^let g:vimtex_compiler_method = 'latexmk'$/;"	v
+g:vimtex_compiler_method	private_dot_config/nvim/plug-config/vimtex.vim	/^let g:vimtex_compiler_method = 'latexmk'$/;"	v
+gap	private_dot_config/neofetch/config.conf	/^gap=3$/;"	k
+gd	private_dot_config/nvim/plug-config/coc.vim	/^nmap <silent> gd <Plug>(coc-definition)$/;"	m
+gd	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <silent> gd <Plug>(coc-definition)$/;"	m
+get_selection_attr	private_dot_config/ranger/commands_full.py	/^    def get_selection_attr(self, attr):$/;"	m	class:yank
+gi	private_dot_config/nvim/plug-config/coc.vim	/^nmap <silent> gi <Plug>(coc-implementation)$/;"	m
+gi	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <silent> gi <Plug>(coc-implementation)$/;"	m
+gpu_brand	private_dot_config/neofetch/config.conf	/^gpu_brand="on"$/;"	k
+gpu_type	private_dot_config/neofetch/config.conf	/^gpu_type="all"$/;"	k
+gr	private_dot_config/nvim/plug-config/coc.vim	/^nmap <silent> gr <Plug>(coc-references)$/;"	m
+gr	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <silent> gr <Plug>(coc-references)$/;"	m
+grep	private_dot_config/ranger/commands_full.py	/^class grep(Command):$/;"	c
+gtk2	private_dot_config/neofetch/config.conf	/^gtk2="on"$/;"	k
+gtk3	private_dot_config/neofetch/config.conf	/^gtk3="on"$/;"	k
+gtk_shorthand	private_dot_config/neofetch/config.conf	/^gtk_shorthand="off"$/;"	k
+gy	private_dot_config/nvim/plug-config/coc.vim	/^nmap <silent> gy <Plug>(coc-type-definition)$/;"	m
+gy	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <silent> gy <Plug>(coc-type-definition)$/;"	m
+handle_extension	private_dot_config/ranger/executable_scope.sh	/^handle_extension() {$/;"	f
+handle_fallback	private_dot_config/ranger/executable_scope.sh	/^handle_fallback() {$/;"	f
+handle_image	private_dot_config/ranger/executable_scope.sh	/^handle_image() {$/;"	f
+handle_mime	private_dot_config/ranger/executable_scope.sh	/^handle_mime() {$/;"	f
+help_	private_dot_config/ranger/commands_full.py	/^class help_(Command):$/;"	c
+ic	private_dot_config/nvim/plug-config/coc.vim	/^omap ic <Plug>(coc-classobj-i)$/;"	m
+ic	private_dot_config/nvim/plug-config/coc.vim	/^xmap ic <Plug>(coc-classobj-i)$/;"	m
+ic	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^omap ic <Plug>(coc-classobj-i)$/;"	m
+ic	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^xmap ic <Plug>(coc-classobj-i)$/;"	m
+if	private_dot_config/nvim/plug-config/coc.vim	/^omap if <Plug>(coc-funcobj-i)$/;"	m
+if	private_dot_config/nvim/plug-config/coc.vim	/^xmap if <Plug>(coc-funcobj-i)$/;"	m
+if	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^omap if <Plug>(coc-funcobj-i)$/;"	m
+if	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^xmap if <Plug>(coc-funcobj-i)$/;"	m
+image_backend	private_dot_config/neofetch/config.conf	/^image_backend="ascii"$/;"	k
+image_loop	private_dot_config/neofetch/config.conf	/^image_loop="off"$/;"	k
+image_size	private_dot_config/neofetch/config.conf	/^image_size="auto"$/;"	k
+image_source	private_dot_config/neofetch/config.conf	/^image_source="auto"$/;"	k
+is_directory_with_files	private_dot_config/ranger/commands_full.py	/^        def is_directory_with_files(path):$/;"	f	member:delete.execute	file:
+is_directory_with_files	private_dot_config/ranger/commands_full.py	/^        def is_directory_with_files(path):$/;"	f	member:trash.execute	file:
+is_vim	private_dot_config/tmux/tmux.conf	/^is_vim="ps -o state= -o comm= -t '#{pane_tty}' \\$/;"	k
+jump_non	private_dot_config/ranger/commands_full.py	/^class jump_non(Command):$/;"	c
+kernel_shorthand	private_dot_config/neofetch/config.conf	/^kernel_shorthand="on"$/;"	k
+left	private_dot_config/ranger/rc.conf	/^cmap <a-b> eval fm.ui.console.move_word(left=1)$/;"	k
+left	private_dot_config/ranger/rc.conf	/^cmap <left>  eval fm.ui.console.move(left=1)$/;"	k
+linemode	private_dot_config/ranger/commands_full.py	/^class linemode(default_linemode):$/;"	c
+load_copy_buffer	private_dot_config/ranger/commands_full.py	/^class load_copy_buffer(Command):$/;"	c
+make_safe_path	private_dot_config/ranger/commands_full.py	/^    def make_safe_path(dst):$/;"	m	class:paste_ext
+map	private_dot_config/ranger/rc.conf	/^map :  console$/;"	k
+map	private_dot_config/ranger/rc.conf	/^map =  chmod$/;"	k
+map J  move down	private_dot_config/ranger/rc.conf	/^map J  move down=0.5  pages=True$/;"	k
+map K  move up	private_dot_config/ranger/rc.conf	/^map K  move up=0.5    pages=True$/;"	k
+map N  search_next forward	private_dot_config/ranger/rc.conf	/^map N  search_next forward=False$/;"	k
+map ca search_next order	private_dot_config/ranger/rc.conf	/^map ca search_next order=atime$/;"	k
+map cc search_next order	private_dot_config/ranger/rc.conf	/^map cc search_next order=ctime$/;"	k
+map ci search_next order	private_dot_config/ranger/rc.conf	/^map ci search_next order=mimetype$/;"	k
+map cm search_next order	private_dot_config/ranger/rc.conf	/^map cm search_next order=mtime$/;"	k
+map cs search_next order	private_dot_config/ranger/rc.conf	/^map cs search_next order=size$/;"	k
+map ct search_next order	private_dot_config/ranger/rc.conf	/^map ct search_next order=tag$/;"	k
+map da cut mode	private_dot_config/ranger/rc.conf	/^map da cut mode=add$/;"	k
+map dr cut mode	private_dot_config/ranger/rc.conf	/^map dr cut mode=remove$/;"	k
+map dt cut mode	private_dot_config/ranger/rc.conf	/^map dt cut mode=toggle$/;"	k
+map oA chain set sort	private_dot_config/ranger/rc.conf	/^map oA chain set sort=atime;     set sort_reverse=True$/;"	k
+map oB chain set sort	private_dot_config/ranger/rc.conf	/^map oB chain set sort=basename;  set sort_reverse=True$/;"	k
+map oC chain set sort	private_dot_config/ranger/rc.conf	/^map oC chain set sort=ctime;     set sort_reverse=True$/;"	k
+map oE chain set sort	private_dot_config/ranger/rc.conf	/^map oE chain set sort=extension; set sort_reverse=True$/;"	k
+map oM chain set sort	private_dot_config/ranger/rc.conf	/^map oM chain set sort=mtime;     set sort_reverse=True$/;"	k
+map oN chain set sort	private_dot_config/ranger/rc.conf	/^map oN chain set sort=natural;   set sort_reverse=True$/;"	k
+map oS chain set sort	private_dot_config/ranger/rc.conf	/^map oS chain set sort=size;      set sort_reverse=True$/;"	k
+map oT chain set sort	private_dot_config/ranger/rc.conf	/^map oT chain set sort=type;      set sort_reverse=True$/;"	k
+map oa chain set sort	private_dot_config/ranger/rc.conf	/^map oa chain set sort=atime;     set sort_reverse=False$/;"	k
+map ob chain set sort	private_dot_config/ranger/rc.conf	/^map ob chain set sort=basename;  set sort_reverse=False$/;"	k
+map oc chain set sort	private_dot_config/ranger/rc.conf	/^map oc chain set sort=ctime;     set sort_reverse=False$/;"	k
+map oe chain set sort	private_dot_config/ranger/rc.conf	/^map oe chain set sort=extension; set sort_reverse=False$/;"	k
+map om chain set sort	private_dot_config/ranger/rc.conf	/^map om chain set sort=mtime;     set sort_reverse=False$/;"	k
+map on chain set sort	private_dot_config/ranger/rc.conf	/^map on chain set sort=natural;   set sort_reverse=False$/;"	k
+map os chain set sort	private_dot_config/ranger/rc.conf	/^map os chain set sort=size;      set sort_reverse=False$/;"	k
+map ot chain set sort	private_dot_config/ranger/rc.conf	/^map ot chain set sort=type;      set sort_reverse=False$/;"	k
+map oz set sort	private_dot_config/ranger/rc.conf	/^map oz set sort=random$/;"	k
+map pL paste_symlink relative	private_dot_config/ranger/rc.conf	/^map pL paste_symlink relative=True$/;"	k
+map pO paste overwrite	private_dot_config/ranger/rc.conf	/^map pO paste overwrite=True append=True$/;"	k
+map pP paste append	private_dot_config/ranger/rc.conf	/^map pP paste append=True$/;"	k
+map pd console paste dest	private_dot_config/ranger/rc.conf	/^map pd console paste dest=$/;"	k
+map pl paste_symlink relative	private_dot_config/ranger/rc.conf	/^map pl paste_symlink relative=False$/;"	k
+map po paste overwrite	private_dot_config/ranger/rc.conf	/^map po paste overwrite=True$/;"	k
+map uV      toggle_visual_mode reverse	private_dot_config/ranger/rc.conf	/^map uV      toggle_visual_mode reverse=True$/;"	k
+map uv      mark_files all	private_dot_config/ranger/rc.conf	/^map uv      mark_files all=True val=False$/;"	k
+map v       mark_files all	private_dot_config/ranger/rc.conf	/^map v       mark_files all=True toggle=True$/;"	k
+map ya copy mode	private_dot_config/ranger/rc.conf	/^map ya copy mode=add$/;"	k
+map yr copy mode	private_dot_config/ranger/rc.conf	/^map yr copy mode=remove$/;"	k
+map yt copy mode	private_dot_config/ranger/rc.conf	/^map yt copy mode=toggle$/;"	k
+map_	private_dot_config/ranger/commands_full.py	/^class map_(Command):$/;"	c
+mapleader	private_dot_config/nvim/init.vim	/^let mapleader='\\\\'$/;"	v
+mark_tag	private_dot_config/ranger/commands_full.py	/^class mark_tag(Command):$/;"	c
+memory_display	private_dot_config/neofetch/config.conf	/^memory_display="off"$/;"	k
+memory_percent	private_dot_config/neofetch/config.conf	/^memory_percent="off"$/;"	k
+memory_unit	private_dot_config/neofetch/config.conf	/^memory_unit="mib"$/;"	k
+meta	private_dot_config/ranger/commands_full.py	/^class meta(prompt_metadata):$/;"	c
+mkdir	private_dot_config/ranger/commands_full.py	/^class mkdir(Command):$/;"	c
+modes	private_dot_config/ranger/commands_full.py	/^    modes = {$/;"	v	class:yank
+mpc_args	private_dot_config/neofetch/config.conf	/^mpc_args=()$/;"	k
+music_player	private_dot_config/neofetch/config.conf	/^music_player="auto"$/;"	k
+my_edit	private_dot_config/ranger/commands.py	/^class my_edit(Command):$/;"	c
+mygroup	private_dot_config/nvim/plug-config/coc.vim	/^augroup mygroup$/;"	a
+mygroup	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^augroup mygroup$/;"	a
+name	private_dot_config/ranger/commands_full.py	/^    name = 'eval'$/;"	v	class:eval_
+name	private_dot_config/ranger/commands_full.py	/^    name = 'help'$/;"	v	class:help_
+name	private_dot_config/ranger/commands_full.py	/^    name = 'map'$/;"	v	class:map_
+name	private_dot_config/ranger/commands_full.py	/^    name = 'quit!'$/;"	v	class:quit_bang
+name	private_dot_config/ranger/commands_full.py	/^    name = 'quitall!'$/;"	v	class:quitall_bang
+name	private_dot_config/ranger/commands_full.py	/^    name = 'set'  # don't override the builtin set class$/;"	v	class:set_
+narrow	private_dot_config/ranger/commands_full.py	/^class narrow(Command):$/;"	c
+open_with	private_dot_config/ranger/commands_full.py	/^class open_with(Command):$/;"	c
+os_arch	private_dot_config/neofetch/config.conf	/^os_arch="on"$/;"	k
+package_managers	private_dot_config/neofetch/config.conf	/^package_managers="on"$/;"	k
+paste dest	private_dot_config/ranger/rc.conf	/^map p'<any> paste dest=%any_path$/;"	k
+paste dest	private_dot_config/ranger/rc.conf	/^map p`<any> paste dest=%any_path$/;"	k
+paste_ext	private_dot_config/ranger/commands_full.py	/^class paste_ext(Command):$/;"	c
+pmap	private_dot_config/ranger/commands_full.py	/^class pmap(map_):$/;"	c
+position	private_dot_config/ranger/rc.conf	/^map I  eval fm.open_console('rename ' + fm.thisfile.relative_path.replace("%", "%%"), position=7/;"	k
+prompt_metadata	private_dot_config/ranger/commands_full.py	/^class prompt_metadata(Command):$/;"	c
+public_ip_host	private_dot_config/neofetch/config.conf	/^public_ip_host="http:\/\/ident.me"$/;"	k
+public_ip_timeout	private_dot_config/neofetch/config.conf	/^public_ip_timeout=2$/;"	k
+punmap	private_dot_config/ranger/commands_full.py	/^class punmap(unpmap):$/;"	c
+q	private_dot_config/tmux/tmux.conf	/^set -g -a terminal-overrides ',*:Ss=\\E[%p1%d q:Se=\\E[2 q'$/;"	k
+quick	private_dot_config/ranger/commands_full.py	/^    def quick(self):$/;"	m	class:scout
+quit	private_dot_config/ranger/commands_full.py	/^class quit(Command):  # pylint: disable=redefined-builtin$/;"	c
+quit_bang	private_dot_config/ranger/commands_full.py	/^class quit_bang(Command):$/;"	c
+quitall	private_dot_config/ranger/commands_full.py	/^class quitall(Command):$/;"	c
+quitall_bang	private_dot_config/ranger/commands_full.py	/^class quitall_bang(Command):$/;"	c
+refresh_rate	private_dot_config/neofetch/config.conf	/^refresh_rate="off"$/;"	k
+relink	private_dot_config/ranger/commands_full.py	/^class relink(Command):$/;"	c
+rename	private_dot_config/ranger/commands_full.py	/^class rename(Command):$/;"	c
+rename_append	private_dot_config/ranger/commands_full.py	/^class rename_append(Command):$/;"	c
+reset_previews	private_dot_config/ranger/commands_full.py	/^class reset_previews(Command):$/;"	c
+resolve_macros	private_dot_config/ranger/commands_full.py	/^    resolve_macros = False$/;"	v	class:alias
+resolve_macros	private_dot_config/ranger/commands_full.py	/^    resolve_macros = False$/;"	v	class:chain
+resolve_macros	private_dot_config/ranger/commands_full.py	/^    resolve_macros = False$/;"	v	class:eval_
+resolve_macros	private_dot_config/ranger/commands_full.py	/^    resolve_macros = False$/;"	v	class:map_
+right	private_dot_config/ranger/rc.conf	/^cmap <a-f> eval fm.ui.console.move_word(right=1)$/;"	k
+right	private_dot_config/ranger/rc.conf	/^cmap <end>   eval fm.ui.console.move(right=-1, absolute=True)$/;"	k
+right	private_dot_config/ranger/rc.conf	/^cmap <home>  eval fm.ui.console.move(right=0, absolute=True)$/;"	k
+right	private_dot_config/ranger/rc.conf	/^cmap <right> eval fm.ui.console.move(right=1)$/;"	k
+s:check_back_space	private_dot_config/nvim/plug-config/coc.vim	/^function! s:check_back_space() abort$/;"	f
+s:check_back_space	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^function! s:check_back_space() abort$/;"	f
+s:show_documentation	private_dot_config/nvim/plug-config/coc.vim	/^function! s:show_documentation()$/;"	f
+s:show_documentation	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^function! s:show_documentation()$/;"	f
+save_copy_buffer	private_dot_config/ranger/commands_full.py	/^class save_copy_buffer(Command):$/;"	c
+scout	private_dot_config/ranger/commands_full.py	/^class scout(Command):$/;"	c
+separator	private_dot_config/neofetch/config.conf	/^separator=":"$/;"	k
+set_	private_dot_config/ranger/commands_full.py	/^class set_(Command):$/;"	c
+setintag	private_dot_config/ranger/commands_full.py	/^class setintag(set_):$/;"	c
+setlocal	private_dot_config/ranger/commands_full.py	/^class setlocal(set_):$/;"	c
+shell	private_dot_config/ranger/commands_full.py	/^class shell(Command):$/;"	c
+shell_path	private_dot_config/neofetch/config.conf	/^shell_path="off"$/;"	k
+shell_version	private_dot_config/neofetch/config.conf	/^shell_version="on"$/;"	k
+song_format	private_dot_config/neofetch/config.conf	/^song_format="%artist% - %album% - %title%"$/;"	k
+song_shorthand	private_dot_config/neofetch/config.conf	/^song_shorthand="off"$/;"	k
+speed_shorthand	private_dot_config/neofetch/config.conf	/^speed_shorthand="off"$/;"	k
+speed_type	private_dot_config/neofetch/config.conf	/^speed_type="bios_limit"$/;"	k
+stage	private_dot_config/ranger/commands_full.py	/^class stage(Command):$/;"	c
+stdout	private_dot_config/neofetch/config.conf	/^stdout="off"$/;"	k
+tab	private_dot_config/ranger/commands.py	/^    def tab(self, tabnum):$/;"	m	class:my_edit
+tab	private_dot_config/ranger/commands_full.py	/^    def tab(self, tabnum):  # pylint: disable=too-many-return-statements$/;"	m	class:set_
+tab	private_dot_config/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:cd
+tab	private_dot_config/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:default_linemode
+tab	private_dot_config/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:delete
+tab	private_dot_config/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:edit
+tab	private_dot_config/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:meta
+tab	private_dot_config/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:mkdir
+tab	private_dot_config/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:open_with
+tab	private_dot_config/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:relink
+tab	private_dot_config/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:rename
+tab	private_dot_config/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:scout
+tab	private_dot_config/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:shell
+tab	private_dot_config/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:touch
+tab	private_dot_config/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:trash
+tab	private_dot_config/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:yank
+terminal	private_dot_config/ranger/commands_full.py	/^class terminal(Command):$/;"	c
+thumbnail_dir	private_dot_config/neofetch/config.conf	/^thumbnail_dir="${XDG_CACHE_HOME:-${HOME}\/.cache}\/thumbnails\/neofetch"$/;"	k
+title_fqdn	private_dot_config/neofetch/config.conf	/^title_fqdn="off"$/;"	k
+tmap	private_dot_config/ranger/commands_full.py	/^class tmap(map_):$/;"	c
+touch	private_dot_config/ranger/commands_full.py	/^class touch(Command):$/;"	c
+trash	private_dot_config/ranger/commands_full.py	/^class trash(Command):$/;"	c
+tunmap	private_dot_config/ranger/commands_full.py	/^class tunmap(untmap):$/;"	c
+uncmap	private_dot_config/ranger/commands_full.py	/^class uncmap(unmap):$/;"	c
+underline_char	private_dot_config/neofetch/config.conf	/^underline_char="-"$/;"	k
+underline_enabled	private_dot_config/neofetch/config.conf	/^underline_enabled="on"$/;"	k
+unmap	private_dot_config/ranger/commands_full.py	/^class unmap(Command):$/;"	c
+unmark_tag	private_dot_config/ranger/commands_full.py	/^class unmark_tag(mark_tag):$/;"	c
+unpmap	private_dot_config/ranger/commands_full.py	/^class unpmap(unmap):$/;"	c
+unstage	private_dot_config/ranger/commands_full.py	/^class unstage(Command):$/;"	c
+untmap	private_dot_config/ranger/commands_full.py	/^class untmap(unmap):$/;"	c
+uptime_shorthand	private_dot_config/neofetch/config.conf	/^uptime_shorthand="on"$/;"	k
+xoffset	private_dot_config/neofetch/config.conf	/^xoffset=0$/;"	k
+yank	private_dot_config/ranger/commands_full.py	/^class yank(Command):$/;"	c
+yoffset	private_dot_config/neofetch/config.conf	/^yoffset=0$/;"	k
