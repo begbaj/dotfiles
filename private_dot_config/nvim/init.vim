@@ -49,6 +49,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'crispydrone/vim-tasks'
 
 " APPEARENCE
+" Plug 'dylanaraps/wal.vim'                               " pywal: colorscheme wal
 Plug 'powerline/powerline'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
@@ -60,7 +61,6 @@ Plug 'honza/vim-snippets'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'ryanoasis/vim-devicons'
 Plug 'mhinz/vim-startify'
-Plug 'dylanaraps/wal.vim'                               " pywal: colorscheme wal
 
 " CODE COMPLETION and UTILITIES
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -138,8 +138,8 @@ set showbreak=....
 " SECTION: Appearence
 "================================================================================
 " colorscheme molokai
-" colorscheme onedark
- colorscheme wal
+colorscheme onedark
+" colorscheme wal
 
 set background=dark
 set termguicolors
