@@ -36,32 +36,27 @@ set autochdir
 "================================================================================
 call plug#begin(g:plugged_home)
 " ALL OSs
-" Plug 'francoiscabrol/ranger.vim'      " Ranger integration in vim and neovim
-" Plug 'rbgrouleff/bclose.vim'          " The BClose Vim plugin for deleting a buffer without closing the window 
-" Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }  " Markdown preview
-Plug 'takac/vim-hardtime'               " Make Vim harder to use
+Plug 'takac/vim-hardtime'			" Make Vim harder to use
 Plug 'preservim/nerdtree'
 
 " FUZZY FINDER
-" Plug 'ctrlpvim/ctrlp.vim'             " Fuzzy finder (fzf.vim instead)
+" Plug 'ctrlpvim/ctrlp.vim'			" Fuzzy finder (fzf.vim instead)
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'crispydrone/vim-tasks'
-
 " APPEARENCE
-" Plug 'dylanaraps/wal.vim'                               " pywal: colorscheme wal
+" Plug 'dylanaraps/wal.vim'			" pywal: colorscheme wal
 Plug 'powerline/powerline'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tomasiser/vim-code-dark'
 Plug 'joshdick/onedark.vim'
 Plug 'tomasr/molokai'
-Plug 'romgrk/barbar.nvim'                               " tab bars plugin
+Plug 'romgrk/barbar.nvim'			" tab bars plugin
 Plug 'honza/vim-snippets'
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'ryanoasis/vim-devicons'
 Plug 'mhinz/vim-startify'
-
 " CODE COMPLETION and UTILITIES
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'davidhalter/jedi-vim'
@@ -72,21 +67,21 @@ Plug 'vim-autoformat/vim-autoformat'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-projectionist'
 Plug 'lervag/vimtex'
-
 " HIGHLIGHT
-Plug 'MaxMEllon/vim-jsx-pretty'                                      " to highlight jsx
-
+Plug 'MaxMEllon/vim-jsx-pretty'			" to highlight jsx
 " DEBUG
 Plug 'vim-syntastic/syntastic'
 Plug 'matze/vim-tex-fold'
 Plug 'puremourning/vimspector'
-
 " BEHAVIOUR
-Plug 'airblade/vim-rooter'
-
+Plug 'airblade/vim-rooter'                      " document root to current project root
+Plug 'ludovicchabant/vim-gutentags'             " Automatically generate ctags
+" Plug 'francoiscabrol/ranger.vim'			" Ranger integration in vim and neovim
+" Plug 'rbgrouleff/bclose.vim'			" The BClose Vim plugin for deleting a buffer without closing the window 
+" Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }  " Markdown preview
 " Plug 'noahfrederick/vim-composer'
-" Plug 'ludovicchabant/vim-gutentags'
-"
+
+
 " Windows only
 if exists("my_os_win")
     Plug 'begbaj/vim-icue', {'branch': 'development'}
