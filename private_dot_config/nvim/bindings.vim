@@ -1,6 +1,7 @@
 " SECTION: Globally
 "==========================================
 noremap <C-w><C-c> :bd
+noremap <C-w><C-b> :NERDTreeToggle
 
 
 " SECTION: By FileType
