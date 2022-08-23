@@ -1,7 +1,7 @@
 " SECTION: Globally
 "==========================================
 noremap <C-w><C-c> :bd
-noremap <C-w><C-b> :NERDTreeClose
+map <C-w><C-b> :NERDTreeClose
 
 
 " SECTION: By FileType
