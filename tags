@@ -64,7 +64,7 @@ $LANG	private_dot_config/nvim/init.vim	/^    let $LANG = 'en_US'$/;"	v
 <C-s>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent> <C-s>    :BufferPick<CR>$/;"	m
 <C-s>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <silent> <C-s> <Plug>(coc-range-select)$/;"	m
 <C-s>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^xmap <silent> <C-s> <Plug>(coc-range-select)$/;"	m
-<C-w><C-b>	private_dot_config/nvim/bindings.vim	/^map <C-w><C-b> :NERDTreeClose$/;"	m
+<C-w><C-b>	private_dot_config/nvim/bindings.vim	/^noremap <C-w><C-b> :NERDTreeClose$/;"	m
 <C-w><C-c>	private_dot_config/nvim/bindings.vim	/^noremap <C-w><C-c> :bd$/;"	m
 <Down>	private_dot_config/nvim/init.vim	/^nnoremap <Down> <C-d>$/;"	m
 <F20>	private_dot_config/nvim/init.vim	/^nnoremap <F20> :!chezmoi edit $MYVIMRC<CR>$/;"	m
