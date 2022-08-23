@@ -58,8 +58,8 @@ $LANG	private_dot_config/nvim/init.vim	/^    let $LANG = 'en_US'$/;"	v
 <C-f>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^  nnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\\<C-f>"$/;"	m
 <C-f>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^  vnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\\<C-f>"$/;"	m
 <C-g>	private_dot_config/nvim/init.vim	/^nnoremap <silent> <C-g> :Rg<CR>$/;"	m
-<C-n><C-b>	private_dot_config/nvim/bindings.vim	/^noremap <C-n><C-b> :NERDTreeClose$/;"	m
-<C-n><C-c>	private_dot_config/nvim/bindings.vim	/^noremap <C-n><C-c> :bd$/;"	m
+<C-n><C-b>	private_dot_config/nvim/bindings.vim	/^nmap <C-n><C-b> :NERDTreeClose$/;"	m
+<C-n><C-c>	private_dot_config/nvim/bindings.vim	/^nmap <C-n><C-c> :bd$/;"	m
 <C-s>	private_dot_config/nvim/plug-config/barbar.vim	/^nnoremap <silent> <C-s>    :BufferPick<CR>$/;"	m
 <C-s>	private_dot_config/nvim/plug-config/coc.vim	/^nmap <silent> <C-s> <Plug>(coc-range-select)$/;"	m
 <C-s>	private_dot_config/nvim/plug-config/coc.vim	/^xmap <silent> <C-s> <Plug>(coc-range-select)$/;"	m
