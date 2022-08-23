@@ -6,7 +6,7 @@ let mapleader='\\'
 " reload init.vim
 nnoremap <F8> :so $MYVIMRC<CR>
 " edit init.vim
-" nnoremap <F20> :!chezmoi edit ~/.config/nvim/init.vim<CR>
+nnoremap <F20> :!chezmoi edit ~/.config/nvim/init.vim<CR>
 
 
 " indent multiple lines in visual mode

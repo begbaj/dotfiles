@@ -142,9 +142,8 @@ set termguicolors
 "================================================================================
 
 source $HOME/.config/nvim/plug-config/coc.vim
-" source $HOME/.config/nvim/plug-config/vimtex.vim
 source $HOME/.config/nvim/plug-config/barbar.vim
-source $HOME/.config/nvim/bindings.vim
+" source $HOME/.config/nvim/plug-config/vimtex.vim
 
 let g:NERDTreeWinPos = "right"
 
@@ -168,28 +167,5 @@ augroup END
 "
 " Global
 "================================================================================
-let mapleader='\\'
-" reload init.vim
-nnoremap <F8> :so $MYVIMRC<CR>
-" edit init.vim
-nnoremap <F20> :!chezmoi edit $MYVIMRC<CR>
-
-nnoremap <silent> <C-f> :Files<CR>
-nnoremap <silent> <C-g> :Rg<CR>
-
-" indent multiple lines in visual mode
-vnoremap <tab> >
-" untab multiple lines in visual mode
-vnoremap <S-tab> <
-
-" split navigations
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
-
-nnoremap <Right> zL
-nnoremap <Left> zH
-nnoremap <Up> <C-u>
-nnoremap <Down> <C-d>
+source $HOME/.config/nvim/bindings.vim
 " END OF FILE
