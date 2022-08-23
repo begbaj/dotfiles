@@ -175,6 +175,7 @@ KEEP_OPEN	private_dot_config/ranger/commands_full.py	/^    KEEP_OPEN     = 'k'$/
 LATEX	bindings.vim	/^augroup LATEX$/;"	a
 LATEX	private_dot_config/nvim/bindings.vim	/^augroup LATEX$/;"	a
 MARK	private_dot_config/ranger/commands_full.py	/^    MARK          = 'm'$/;"	v	class:scout
+NOTAGAS	private_dot_config/nvim/init.vim	/^augroup NOTAGAS$/;"	a
 OPEN_ON_ENTER	private_dot_config/ranger/commands_full.py	/^    OPEN_ON_ENTER = 'e'$/;"	v	class:scout
 OR	private_dot_config/nvim/plug-config/coc.vim	/^command! -nargs=0 OR   :call     CocActionAsync('runCommand', 'editor.action.organizeImport')$/;"	c
 OR	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^command! -nargs=0 OR   :call     CocActionAsync('runCommand', 'editor.action.organizeImport')$/;"	c
@@ -262,6 +263,7 @@ allow_abbrev	private_dot_config/ranger/commands_full.py	/^    allow_abbrev = Fal
 ascii_bold	private_dot_config/neofetch/config.conf	/^ascii_bold="on"$/;"	k
 ascii_colors	private_dot_config/neofetch/config.conf	/^ascii_colors=(distro)$/;"	k
 ascii_distro	private_dot_config/neofetch/config.conf	/^ascii_distro="auto"$/;"	k
+backend	private_dot_config/picom.conf	/^backend = "glx"$/;"	k
 background_color	private_dot_config/neofetch/config.conf	/^background_color=$/;"	k
 backward	private_dot_config/ranger/rc.conf	/^cmap <A-d>        eval fm.ui.console.delete_word(backward=False)$/;"	k
 bar_border	private_dot_config/neofetch/config.conf	/^bar_border="on"$/;"	k
@@ -275,6 +277,7 @@ block_height	private_dot_config/neofetch/config.conf	/^block_height=1$/;"	k
 block_range	private_dot_config/neofetch/config.conf	/^block_range=(0 15)$/;"	k
 block_width	private_dot_config/neofetch/config.conf	/^block_width=3$/;"	k
 bold	private_dot_config/neofetch/config.conf	/^bold="on"$/;"	k
+borders	private_dot_config/picom.conf	/^round-borders = 1$/;"	k
 bulkrename	private_dot_config/ranger/commands_full.py	/^class bulkrename(Command):$/;"	c
 callback	private_dot_config/ranger/commands_full.py	/^        def callback(answer):$/;"	f	member:help_.execute	file:
 cancel	private_dot_config/ranger/commands_full.py	/^    def cancel(self):$/;"	m	class:scout
@@ -307,6 +310,7 @@ copycmap	private_dot_config/ranger/commands_full.py	/^class copycmap(copymap):$/
 copymap	private_dot_config/ranger/commands_full.py	/^class copymap(Command):$/;"	c
 copypmap	private_dot_config/ranger/commands_full.py	/^class copypmap(copymap):$/;"	c
 copytmap	private_dot_config/ranger/commands_full.py	/^class copytmap(copymap):$/;"	c
+corners	private_dot_config/picom.conf	/^detect-rounded-corners = true;$/;"	k
 cpu_brand	private_dot_config/neofetch/config.conf	/^cpu_brand="on"$/;"	k
 cpu_cores	private_dot_config/neofetch/config.conf	/^cpu_cores="logical"$/;"	k
 cpu_display	private_dot_config/neofetch/config.conf	/^cpu_display="off"$/;"	k
@@ -315,10 +319,12 @@ cpu_temp	private_dot_config/neofetch/config.conf	/^cpu_temp="off"$/;"	k
 crop_mode	private_dot_config/neofetch/config.conf	/^crop_mode="normal"$/;"	k
 crop_offset	private_dot_config/neofetch/config.conf	/^crop_offset="center"$/;"	k
 cunmap	private_dot_config/ranger/commands_full.py	/^class cunmap(uncmap):$/;"	c
+damage	private_dot_config/picom.conf	/^use-damage = true;$/;"	k
 de_version	private_dot_config/neofetch/config.conf	/^de_version="on"$/;"	k
 default_linemode	private_dot_config/ranger/commands_full.py	/^class default_linemode(Command):$/;"	c
 default_value_completer	private_dot_config/ranger/commands_full.py	/^            def default_value_completer():$/;"	f	member:set_.tab	file:
 delete	private_dot_config/ranger/commands_full.py	/^class delete(Command):$/;"	c
+deviation	private_dot_config/picom.conf	/^blur-deviation = false;$/;"	k
 dirarg	private_dot_config/ranger/rc.conf	/^map dG  eval fm.cut(dirarg=dict(to=-1), narg=quantifier)$/;"	k
 dirarg	private_dot_config/ranger/rc.conf	/^map dgg eval fm.cut(dirarg=dict(to=0), narg=quantifier)$/;"	k
 dirarg	private_dot_config/ranger/rc.conf	/^map dj  eval fm.cut(dirarg=dict(down=1), narg=quantifier)$/;"	k
@@ -341,6 +347,10 @@ escape_macros_for_shell	private_dot_config/ranger/commands_full.py	/^    escape_
 escape_macros_for_shell	private_dot_config/ranger/commands_full.py	/^    escape_macros_for_shell = True$/;"	v	class:shell
 escape_macros_for_shell	private_dot_config/ranger/commands_full.py	/^    escape_macros_for_shell = True$/;"	v	class:trash
 eval_	private_dot_config/ranger/commands_full.py	/^class eval_(Command):$/;"	c
+exclude	private_dot_config/picom.conf	/^blur-background-exclude = [$/;"	k
+exclude	private_dot_config/picom.conf	/^focus-exclude = [ "class_g = 'Cairo-clock'" ];$/;"	k
+exclude	private_dot_config/picom.conf	/^rounded-corners-exclude = [$/;"	k
+exclude	private_dot_config/picom.conf	/^shadow-exclude = [$/;"	k
 execute	private_dot_config/ranger/commands.py	/^    def execute(self):$/;"	m	class:my_edit
 execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):  # pylint: disable=too-many-branches$/;"	m	class:scout
 execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:alias
@@ -394,9 +404,13 @@ execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	
 execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:unmap
 execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:unstage
 execute	private_dot_config/ranger/commands_full.py	/^    def execute(self):$/;"	m	class:yank
+fading	private_dot_config/picom.conf	/^fading = true;$/;"	k
+file	private_dot_config/picom.conf	/^log-file = "\/home\/began\/.logs\/picom\/picom.log"$/;"	k
 filter_inode_type	private_dot_config/ranger/commands_full.py	/^class filter_inode_type(Command):$/;"	c
 filter_stack	private_dot_config/ranger/commands_full.py	/^class filter_stack(Command):$/;"	c
 flat	private_dot_config/ranger/commands_full.py	/^class flat(Command):$/;"	c
+focused	private_dot_config/picom.conf	/^mark-ovredir-focused = true;$/;"	k
+focused	private_dot_config/picom.conf	/^mark-wmwin-focused = true;$/;"	k
 g:NERDTreeWinPos	private_dot_config/nvim/init.vim	/^let g:NERDTreeWinPos = "right"$/;"	v
 g:airline_powerline_fonts	private_dot_config/nvim/init.vim	/^let g:airline_powerline_fonts = 1$/;"	v
 g:hardtime_default_on	private_dot_config/nvim/init.vim	/^let g:hardtime_default_on = 0$/;"	v
@@ -444,9 +458,11 @@ is_directory_with_files	private_dot_config/ranger/commands_full.py	/^        def
 is_directory_with_files	private_dot_config/ranger/commands_full.py	/^        def is_directory_with_files(path):$/;"	f	member:trash.execute	file:
 is_vim	private_dot_config/tmux/tmux.conf	/^is_vim="ps -o state= -o comm= -t '#{pane_tty}' \\$/;"	k
 jump_non	private_dot_config/ranger/commands_full.py	/^class jump_non(Command):$/;"	c
+kern	private_dot_config/picom.conf	/^blur-kern = "3x3box";$/;"	k
 kernel_shorthand	private_dot_config/neofetch/config.conf	/^kernel_shorthand="on"$/;"	k
 left	private_dot_config/ranger/rc.conf	/^cmap <a-b> eval fm.ui.console.move_word(left=1)$/;"	k
 left	private_dot_config/ranger/rc.conf	/^cmap <left>  eval fm.ui.console.move(left=1)$/;"	k
+level	private_dot_config/picom.conf	/^log-level = "warn";$/;"	k
 linemode	private_dot_config/ranger/commands_full.py	/^class linemode(default_linemode):$/;"	c
 load_copy_buffer	private_dot_config/ranger/commands_full.py	/^class load_copy_buffer(Command):$/;"	c
 make_safe_path	private_dot_config/ranger/commands_full.py	/^    def make_safe_path(dst):$/;"	m	class:paste_ext
@@ -501,6 +517,7 @@ memory_display	private_dot_config/neofetch/config.conf	/^memory_display="off"$/;
 memory_percent	private_dot_config/neofetch/config.conf	/^memory_percent="off"$/;"	k
 memory_unit	private_dot_config/neofetch/config.conf	/^memory_unit="mib"$/;"	k
 meta	private_dot_config/ranger/commands_full.py	/^class meta(prompt_metadata):$/;"	c
+method	private_dot_config/picom.conf	/^blur-method = "dual_kawase";$/;"	k
 mkdir	private_dot_config/ranger/commands_full.py	/^class mkdir(Command):$/;"	c
 modes	private_dot_config/ranger/commands_full.py	/^    modes = {$/;"	v	class:yank
 mpc_args	private_dot_config/neofetch/config.conf	/^mpc_args=()$/;"	k
@@ -515,8 +532,12 @@ name	private_dot_config/ranger/commands_full.py	/^    name = 'quit!'$/;"	v	class
 name	private_dot_config/ranger/commands_full.py	/^    name = 'quitall!'$/;"	v	class:quitall_bang
 name	private_dot_config/ranger/commands_full.py	/^    name = 'set'  # don't override the builtin set class$/;"	v	class:set_
 narrow	private_dot_config/ranger/commands_full.py	/^class narrow(Command):$/;"	c
+opacity	private_dot_config/picom.conf	/^detect-client-opacity = true;$/;"	k
+opacity	private_dot_config/picom.conf	/^frame-opacity = 0.9;$/;"	k
+opacity	private_dot_config/picom.conf	/^inactive-opacity = 0.95;$/;"	k
 open_with	private_dot_config/ranger/commands_full.py	/^class open_with(Command):$/;"	c
 os_arch	private_dot_config/neofetch/config.conf	/^os_arch="on"$/;"	k
+override	private_dot_config/picom.conf	/^inactive-opacity-override = false;$/;"	k
 package_managers	private_dot_config/neofetch/config.conf	/^package_managers="on"$/;"	k
 paste dest	private_dot_config/ranger/rc.conf	/^map p'<any> paste dest=%any_path$/;"	k
 paste dest	private_dot_config/ranger/rc.conf	/^map p`<any> paste dest=%any_path$/;"	k
@@ -533,6 +554,8 @@ quit	private_dot_config/ranger/commands_full.py	/^class quit(Command):  # pylint
 quit_bang	private_dot_config/ranger/commands_full.py	/^class quit_bang(Command):$/;"	c
 quitall	private_dot_config/ranger/commands_full.py	/^class quitall(Command):$/;"	c
 quitall_bang	private_dot_config/ranger/commands_full.py	/^class quitall_bang(Command):$/;"	c
+radius	private_dot_config/picom.conf	/^corner-radius = 10$/;"	k
+radius	private_dot_config/picom.conf	/^shadow-radius = 12;$/;"	k
 refresh_rate	private_dot_config/neofetch/config.conf	/^refresh_rate="off"$/;"	k
 relink	private_dot_config/ranger/commands_full.py	/^class relink(Command):$/;"	c
 rename	private_dot_config/ranger/commands_full.py	/^class rename(Command):$/;"	c
@@ -556,6 +579,7 @@ separator	private_dot_config/neofetch/config.conf	/^separator=":"$/;"	k
 set_	private_dot_config/ranger/commands_full.py	/^class set_(Command):$/;"	c
 setintag	private_dot_config/ranger/commands_full.py	/^class setintag(set_):$/;"	c
 setlocal	private_dot_config/ranger/commands_full.py	/^class setlocal(set_):$/;"	c
+shadow	private_dot_config/picom.conf	/^shadow = true;$/;"	k
 shell	private_dot_config/ranger/commands_full.py	/^class shell(Command):$/;"	c
 shell_path	private_dot_config/neofetch/config.conf	/^shell_path="off"$/;"	k
 shell_version	private_dot_config/neofetch/config.conf	/^shell_version="on"$/;"	k
@@ -565,6 +589,9 @@ speed_shorthand	private_dot_config/neofetch/config.conf	/^speed_shorthand="off"$
 speed_type	private_dot_config/neofetch/config.conf	/^speed_type="bios_limit"$/;"	k
 stage	private_dot_config/ranger/commands_full.py	/^class stage(Command):$/;"	c
 stdout	private_dot_config/neofetch/config.conf	/^stdout="off"$/;"	k
+stencil	private_dot_config/picom.conf	/^glx-no-stencil = true;$/;"	k
+step	private_dot_config/picom.conf	/^fade-in-step = 0.03;$/;"	k
+step	private_dot_config/picom.conf	/^fade-out-step = 0.03;$/;"	k
 tab	private_dot_config/ranger/commands.py	/^    def tab(self, tabnum):$/;"	m	class:my_edit
 tab	private_dot_config/ranger/commands_full.py	/^    def tab(self, tabnum):  # pylint: disable=too-many-return-statements$/;"	m	class:set_
 tab	private_dot_config/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:cd
@@ -586,6 +613,7 @@ thumbnail_dir	private_dot_config/neofetch/config.conf	/^thumbnail_dir="${XDG_CAC
 title_fqdn	private_dot_config/neofetch/config.conf	/^title_fqdn="off"$/;"	k
 tmap	private_dot_config/ranger/commands_full.py	/^class tmap(map_):$/;"	c
 touch	private_dot_config/ranger/commands_full.py	/^class touch(Command):$/;"	c
+transient	private_dot_config/picom.conf	/^detect-transient = true;$/;"	k
 trash	private_dot_config/ranger/commands_full.py	/^class trash(Command):$/;"	c
 tunmap	private_dot_config/ranger/commands_full.py	/^class tunmap(untmap):$/;"	c
 uncmap	private_dot_config/ranger/commands_full.py	/^class uncmap(unmap):$/;"	c
@@ -597,6 +625,10 @@ unpmap	private_dot_config/ranger/commands_full.py	/^class unpmap(unmap):$/;"	c
 unstage	private_dot_config/ranger/commands_full.py	/^class unstage(Command):$/;"	c
 untmap	private_dot_config/ranger/commands_full.py	/^class untmap(unmap):$/;"	c
 uptime_shorthand	private_dot_config/neofetch/config.conf	/^uptime_shorthand="on"$/;"	k
+vsync	private_dot_config/picom.conf	/^vsync = true;$/;"	k
+wintypes	private_dot_config/picom.conf	/^wintypes:$/;"	k
+x	private_dot_config/picom.conf	/^shadow-offset-x = -10;$/;"	k
 xoffset	private_dot_config/neofetch/config.conf	/^xoffset=0$/;"	k
+y	private_dot_config/picom.conf	/^shadow-offset-y = -10;$/;"	k
 yank	private_dot_config/ranger/commands_full.py	/^class yank(Command):$/;"	c
 yoffset	private_dot_config/neofetch/config.conf	/^yoffset=0$/;"	k
