@@ -1,6 +1,6 @@
 " SECTION: Globally
 "==========================================
-noremap <C-a><C-c> :bd<CR>
+noremap <C-a><C-w> :bd<CR>
 noremap <C-a><C-b> :NERDTreeClose<CR>
 
 
