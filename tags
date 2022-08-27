@@ -10,6 +10,11 @@
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
 $LANG	private_dot_config/nvim/init.vim	/^    let $LANG = 'en_US'$/;"	v
+0	private_dot_config/nvim/coc.json	/^    ".nox",$/;"	s	array:jedi.workspace.symbols.ignoreFolders
+1	private_dot_config/nvim/coc.json	/^    ".tox",$/;"	s	array:jedi.workspace.symbols.ignoreFolders
+2	private_dot_config/nvim/coc.json	/^    ".venv",$/;"	s	array:jedi.workspace.symbols.ignoreFolders
+3	private_dot_config/nvim/coc.json	/^    "__pycache__",$/;"	s	array:jedi.workspace.symbols.ignoreFolders
+4	private_dot_config/nvim/coc.json	/^    "venv"$/;"	s	array:jedi.workspace.symbols.ignoreFolders
 <A-,>	bindings.vim	/^nnoremap <silent>    <A-,> :BufferPrevious<CR>$/;"	m
 <A-,>	private_dot_config/nvim/bindings.vim	/^nnoremap <silent>    <A-,> :BufferPrevious<CR>$/;"	m
 <A-.>	bindings.vim	/^nnoremap <silent>    <A-.> :BufferNext<CR>$/;"	m
@@ -228,6 +233,7 @@ chezmoi	private_dot_config/nvim/init.vim	/^augroup chezmoi$/;"	a
 chmod	private_dot_config/ranger/commands_full.py	/^class chmod(Command):$/;"	c
 clipboards	private_dot_config/ranger/commands_full.py	/^        def clipboards():$/;"	f	member:yank.execute	file:
 cmap	private_dot_config/ranger/commands_full.py	/^class cmap(map_):$/;"	c
+codeLens.enable	private_dot_config/nvim/coc-settings.json	/^    "codeLens.enable": true,$/;"	b
 col_offset	private_dot_config/neofetch/config.conf	/^col_offset="auto"$/;"	k
 color_blocks	private_dot_config/neofetch/config.conf	/^color_blocks="on"$/;"	k
 colors	private_dot_config/neofetch/config.conf	/^colors=(distro)$/;"	k
@@ -389,6 +395,33 @@ image_source	private_dot_config/neofetch/config.conf	/^image_source="auto"$/;"	k
 is_directory_with_files	private_dot_config/ranger/commands_full.py	/^        def is_directory_with_files(path):$/;"	f	member:delete.execute	file:
 is_directory_with_files	private_dot_config/ranger/commands_full.py	/^        def is_directory_with_files(path):$/;"	f	member:trash.execute	file:
 is_vim	private_dot_config/tmux/tmux.conf	/^is_vim="ps -o state= -o comm= -t '#{pane_tty}' \\$/;"	k
+java.jdt.ls.vmargs	private_dot_config/nvim/coc-settings.json	/^    "java.jdt.ls.vmargs": "-javaagent:\/usr\/local\/share\/lombok\/lombok.jar"$/;"	s
+java.referencesCodeLens.enabled	private_dot_config/nvim/coc-settings.json	/^    "java.referencesCodeLens.enabled": true,$/;"	b
+jedi.codeAction.nameExtractFunction	private_dot_config/nvim/coc.json	/^    "jedi.codeAction.nameExtractFunction": "jls_extract_def",$/;"	s
+jedi.codeAction.nameExtractVariable	private_dot_config/nvim/coc.json	/^    "jedi.codeAction.nameExtractVariable": "jls_extract_var",$/;"	s
+jedi.completion.disableSnippets	private_dot_config/nvim/coc.json	/^    "jedi.completion.disableSnippets": false,$/;"	b
+jedi.completion.ignorePatterns	private_dot_config/nvim/coc.json	/^    "jedi.completion.ignorePatterns": [],$/;"	a
+jedi.completion.resolveEagerly	private_dot_config/nvim/coc.json	/^    "jedi.completion.resolveEagerly": false,$/;"	b
+jedi.diagnostics.didChange	private_dot_config/nvim/coc.json	/^    "jedi.diagnostics.didChange": true,$/;"	b
+jedi.diagnostics.didOpen	private_dot_config/nvim/coc.json	/^    "jedi.diagnostics.didOpen": true,$/;"	b
+jedi.diagnostics.didSave	private_dot_config/nvim/coc.json	/^    "jedi.diagnostics.didSave": true,$/;"	b
+jedi.diagnostics.enable	private_dot_config/nvim/coc.json	/^    "jedi.diagnostics.enable": true,$/;"	b
+jedi.enable	private_dot_config/nvim/coc.json	/^    "jedi.enable": true,$/;"	b
+jedi.executable.args	private_dot_config/nvim/coc.json	/^    "jedi.executable.args": [],$/;"	a
+jedi.executable.command	private_dot_config/nvim/coc.json	/^    "jedi.executable.command": "jedi-language-server",$/;"	s
+jedi.hover.disable.keyword.all	private_dot_config/nvim/coc.json	/^    "jedi.hover.disable.keyword.all": false,$/;"	b
+jedi.hover.disable.keyword.fullNames	private_dot_config/nvim/coc.json	/^    "jedi.hover.disable.keyword.fullNames": [],$/;"	a
+jedi.hover.disable.keyword.names	private_dot_config/nvim/coc.json	/^    "jedi.hover.disable.keyword.names": [],$/;"	a
+jedi.hover.enable	private_dot_config/nvim/coc.json	/^    "jedi.hover.enable": true,$/;"	b
+jedi.jediSettings.autoImportModules	private_dot_config/nvim/coc.json	/^    "jedi.jediSettings.autoImportModules": [],$/;"	a
+jedi.jediSettings.caseInsensitiveCompletion	private_dot_config/nvim/coc.json	/^    "jedi.jediSettings.caseInsensitiveCompletion": true,$/;"	b
+jedi.jediSettings.debug	private_dot_config/nvim/coc.json	/^    "jedi.jediSettings.debug": false,$/;"	b
+jedi.markupKindPreferred	private_dot_config/nvim/coc.json	/^    "jedi.markupKindPreferred": "plaintext",$/;"	s
+jedi.startupMessage	private_dot_config/nvim/coc.json	/^    "jedi.startupMessage": false,$/;"	b
+jedi.trace.server	private_dot_config/nvim/coc.json	/^    "jedi.trace.server": "off",$/;"	s
+jedi.workspace.extraPaths	private_dot_config/nvim/coc.json	/^    "jedi.workspace.extraPaths": [],$/;"	a
+jedi.workspace.symbols.ignoreFolders	private_dot_config/nvim/coc.json	/^    "jedi.workspace.symbols.ignoreFolders": [$/;"	a
+jedi.workspace.symbols.maxSymbols	private_dot_config/nvim/coc.json	/^    "jedi.workspace.symbols.maxSymbols": 20,$/;"	n
 jump_non	private_dot_config/ranger/commands_full.py	/^class jump_non(Command):$/;"	c
 kern	private_dot_config/picom.conf	/^blur-kern = "3x3box";$/;"	k
 kernel_shorthand	private_dot_config/neofetch/config.conf	/^kernel_shorthand="on"$/;"	k
@@ -521,6 +554,7 @@ stdout	private_dot_config/neofetch/config.conf	/^stdout="off"$/;"	k
 stencil	private_dot_config/picom.conf	/^glx-no-stencil = true;$/;"	k
 step	private_dot_config/picom.conf	/^fade-in-step = 0.03;$/;"	k
 step	private_dot_config/picom.conf	/^fade-out-step = 0.03;$/;"	k
+suggest.noselect	private_dot_config/nvim/coc.json	/^    "suggest.noselect": false,$/;"	b
 tab	private_dot_config/ranger/commands.py	/^    def tab(self, tabnum):$/;"	m	class:my_edit
 tab	private_dot_config/ranger/commands_full.py	/^    def tab(self, tabnum):  # pylint: disable=too-many-return-statements$/;"	m	class:set_
 tab	private_dot_config/ranger/commands_full.py	/^    def tab(self, tabnum):$/;"	m	class:cd
