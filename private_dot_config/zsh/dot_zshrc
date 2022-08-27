@@ -62,6 +62,10 @@ alias chez="chezmoi"
 alias mv="mv -v"
 alias webcampv="mpv av://v4l2:/dev/video0 --profile=low-latency --untimed --no-terminal & disown"
 
+# SECTION:  PROGRAM ENVIRONMENT VARIABLES
+#===============================
+
+
 # SECTION: TMUX
 #===============================
 #if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
