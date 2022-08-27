@@ -106,6 +106,15 @@ augroup NOTAGAS
     autocmd FileType .gitignore let g:gutentags_enabled = 0
 augroup END
 
+" Treesitter
+"
+:lua require'nvim-treesitter.configs'.setup {
+  ensure_installed = "maintained", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
+  highlight = {
+    enable = true,              -- false will disable the whole extension
+  },
+}
+
 " SECTION: Environment options
 "================================================================================
 set mouse=a          " disable mouse
