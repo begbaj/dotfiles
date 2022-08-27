@@ -65,6 +65,8 @@ alias webcampv="mpv av://v4l2:/dev/video0 --profile=low-latency --untimed --no-t
 # SECTION:  PROGRAM ENVIRONMENT VARIABLES
 #===============================
 bindkey -s "^F" 'fzf^M'
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
 
 # SECTION: TMUX
 #===============================
