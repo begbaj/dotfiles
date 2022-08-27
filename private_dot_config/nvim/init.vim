@@ -77,6 +77,8 @@ Plug 'puremourning/vimspector'
 " BEHAVIOUR
 Plug 'airblade/vim-rooter'                      " document root to current project root
 Plug 'ludovicchabant/vim-gutentags'             " Automatically generate ctags
+Plug 'folke/which-key.nvim'
+
 " Plug 'francoiscabrol/ranger.vim'			" Ranger integration in vim and neovim
 " Plug 'rbgrouleff/bclose.vim'			" The BClose Vim plugin for deleting a buffer without closing the window 
 " Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }  " Markdown preview
@@ -113,6 +115,14 @@ require'nvim-treesitter.configs'.setup {
     enable = true,              -- false will disable the whole extension
   },
 }
+EOF
+" WhichKey
+lua << EOF
+  require("which-key").setup {
+    -- your configuration comes here
+    -- or leave it empty to use the default settings
+    -- refer to the configuration section below
+  }
 EOF
 
 set foldmethod=expr
