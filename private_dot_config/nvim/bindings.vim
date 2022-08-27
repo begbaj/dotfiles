@@ -1,6 +1,6 @@
 " SECTION: Globally
 "==========================================
-let mapleader='\\'
+let mapleader='\'
 " noremap <C-a><C-w> :bd<CR>
 
 " reload init.vim
@@ -82,6 +82,10 @@ nnoremap <silent> <Space>bb :BufferOrderByBufferNumber<CR>
 nnoremap <silent> <Space>bd :BufferOrderByDirectory<CR>
 nnoremap <silent> <Space>bl :BufferOrderByLanguage<CR>
 nnoremap <silent> <Space>bw :BufferOrderByWindowNumber<CR>
+
+" SECTION: CoC
+"==========================================
+nnoremap <silent> <leader>cf :CocList outline<CR>
 
 " SECTION: By FileType
 "==========================================

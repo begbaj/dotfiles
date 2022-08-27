@@ -100,6 +100,7 @@ $LANG	private_dot_config/nvim/init.vim	/^    let $LANG = 'en_US'$/;"	v
 <leader>a	private_dot_config/nvim/plug-config/coc.vim	/^nmap <leader>a  <Plug>(coc-codeaction-selected)$/;"	m
 <leader>a	private_dot_config/nvim/plug-config/coc.vim	/^xmap <leader>a  <Plug>(coc-codeaction-selected)$/;"	m
 <leader>ac	private_dot_config/nvim/plug-config/coc.vim	/^nmap <leader>ac  <Plug>(coc-codeaction)$/;"	m
+<leader>cf	private_dot_config/nvim/bindings.vim	/^nnoremap <silent> <leader>cf :CocList outline<CR>$/;"	m
 <leader>cl	private_dot_config/nvim/plug-config/coc.vim	/^nmap <leader>cl  <Plug>(coc-codelens-action)$/;"	m
 <leader>f	private_dot_config/nvim/plug-config/coc.vim	/^nmap <leader>f  <Plug>(coc-format-selected)$/;"	m
 <leader>f	private_dot_config/nvim/plug-config/coc.vim	/^xmap <leader>f  <Plug>(coc-format-selected)$/;"	m
@@ -478,7 +479,7 @@ map yr copy mode	private_dot_config/ranger/rc.conf	/^map yr copy mode=remove$/;"
 map yt copy mode	private_dot_config/ranger/rc.conf	/^map yt copy mode=toggle$/;"	k
 map_	private_dot_config/ranger/commands_full.py	/^class map_(Command):$/;"	c
 mapleader	bindings.vim	/^let mapleader='\\\\'$/;"	v
-mapleader	private_dot_config/nvim/bindings.vim	/^let mapleader='\\\\'$/;"	v
+mapleader	private_dot_config/nvim/bindings.vim	/^let mapleader='\\'$/;"	v
 mark_tag	private_dot_config/ranger/commands_full.py	/^class mark_tag(Command):$/;"	c
 memory_display	private_dot_config/neofetch/config.conf	/^memory_display="off"$/;"	k
 memory_percent	private_dot_config/neofetch/config.conf	/^memory_percent="off"$/;"	k
