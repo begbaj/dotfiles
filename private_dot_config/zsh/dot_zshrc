@@ -64,7 +64,6 @@ alias webcampv="mpv av://v4l2:/dev/video0 --profile=low-latency --untimed --no-t
 
 # SECTION:  PROGRAM ENVIRONMENT VARIABLES
 #===============================
-
 source /usr/share/fzf/key-bindings.zsh
 source /usr/share/fzf/completion.zsh
 
@@ -73,3 +72,8 @@ source /usr/share/fzf/completion.zsh
 #if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
 #  exec tmux
 #fi
+
+# SECTION: TMUX
+#===============================
+bindkey -s "^F" "tmuxfzf^M"
+
