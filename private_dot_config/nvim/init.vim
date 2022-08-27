@@ -106,6 +106,8 @@ augroup NOTAGAS
     autocmd FileType .gitignore let g:gutentags_enabled = 0
 augroup END
 
+:lua require('init')
+
 " SECTION: Environment options
 "================================================================================
 set mouse=a          " disable mouse
