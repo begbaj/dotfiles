@@ -17,6 +17,7 @@ if has("win32") || has("win64")
     let $LANG = 'en_US'
     source $VIMRUNTIME/delmenu.vim 
     source $VIMRUNTIME/menu.vim
+    source $VIMRUNTIME/menu.vim
 
     let g:my_os_win = 1     " needed for other os dependent configurations
 "================================================================================
@@ -108,23 +109,7 @@ augroup NOTAGAS
     autocmd FileType .gitignore let g:gutentags_enabled = 0
 augroup END
 
-lua << EOF
-require'nvim-treesitter.configs'.setup {
-  ensure_installed = "java", -- one of "all", "maintained" (parsers with maintainers), or a list of languages
-  highlight = {
-    enable = true,              -- false will disable the whole extension
-  },
-}
-EOF
-" WhichKey
-lua << EOF
-  require("which-key").setup {
-    -- your configuration comes here
-    -- or leave it empty to use the default settings
-    -- refer to the configuration section below
-  }
-EOF
-
+" Treesitter folding
 set foldmethod=expr
 set foldexpr=nvim_treesitter#foldexpr()
 
@@ -172,6 +157,8 @@ set termguicolors
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/barbar.vim
 " source $HOME/.config/nvim/plug-config/vimtex.vim
+luafile $HOME/.config/nvim/lua/treesitter.lua
+luafile $HOME/.config/nvim/lua/whichkey.lua
 
 let g:NERDTreeWinPos = "right"
 
