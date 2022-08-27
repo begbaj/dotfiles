@@ -395,6 +395,8 @@ image_source	private_dot_config/neofetch/config.conf	/^image_source="auto"$/;"	k
 is_directory_with_files	private_dot_config/ranger/commands_full.py	/^        def is_directory_with_files(path):$/;"	f	member:delete.execute	file:
 is_directory_with_files	private_dot_config/ranger/commands_full.py	/^        def is_directory_with_files(path):$/;"	f	member:trash.execute	file:
 is_vim	private_dot_config/tmux/tmux.conf	/^is_vim="ps -o state= -o comm= -t '#{pane_tty}' \\$/;"	k
+java.completion.enabled	private_dot_config/nvim/coc-settings.json	/^    "java.completion.enabled": true,$/;"	b
+java.implementationsCodeLens.enabled	private_dot_config/nvim/coc-settings.json	/^    "java.implementationsCodeLens.enabled": true,$/;"	b
 java.jdt.ls.vmargs	private_dot_config/nvim/coc-settings.json	/^    "java.jdt.ls.vmargs": "-javaagent:\/usr\/local\/share\/lombok\/lombok.jar"$/;"	s
 java.referencesCodeLens.enabled	private_dot_config/nvim/coc-settings.json	/^    "java.referencesCodeLens.enabled": true,$/;"	b
 jedi.codeAction.nameExtractFunction	private_dot_config/nvim/coc.json	/^    "jedi.codeAction.nameExtractFunction": "jls_extract_def",$/;"	s
