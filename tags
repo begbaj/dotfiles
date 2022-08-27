@@ -12,53 +12,38 @@
 $LANG	private_dot_config/nvim/init.vim	/^    let $LANG = 'en_US'$/;"	v
 <A-,>	bindings.vim	/^nnoremap <silent>    <A-,> :BufferPrevious<CR>$/;"	m
 <A-,>	private_dot_config/nvim/bindings.vim	/^nnoremap <silent>    <A-,> :BufferPrevious<CR>$/;"	m
-<A-,>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-,> :BufferPrevious<CR>:wincmd p<CR>$/;"	m
 <A-.>	bindings.vim	/^nnoremap <silent>    <A-.> :BufferNext<CR>$/;"	m
 <A-.>	private_dot_config/nvim/bindings.vim	/^nnoremap <silent>    <A-.> :BufferNext<CR>$/;"	m
-<A-.>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-.> :BufferNext<CR>:wincmd p<CR>$/;"	m
 <A-1>	bindings.vim	/^nnoremap <silent>    <A-1> :BufferGoto 1<CR>$/;"	m
 <A-1>	private_dot_config/nvim/bindings.vim	/^nnoremap <silent>    <A-1> :BufferGoto 1<CR>$/;"	m
-<A-1>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-1> :BufferGoto 1<CR>$/;"	m
 <A-2>	bindings.vim	/^nnoremap <silent>    <A-2> :BufferGoto 2<CR>$/;"	m
 <A-2>	private_dot_config/nvim/bindings.vim	/^nnoremap <silent>    <A-2> :BufferGoto 2<CR>$/;"	m
-<A-2>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-2> :BufferGoto 2<CR>$/;"	m
 <A-3>	bindings.vim	/^nnoremap <silent>    <A-3> :BufferGoto 3<CR>$/;"	m
 <A-3>	private_dot_config/nvim/bindings.vim	/^nnoremap <silent>    <A-3> :BufferGoto 3<CR>$/;"	m
-<A-3>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-3> :BufferGoto 3<CR>$/;"	m
 <A-4>	bindings.vim	/^nnoremap <silent>    <A-4> :BufferGoto 4<CR>$/;"	m
 <A-4>	private_dot_config/nvim/bindings.vim	/^nnoremap <silent>    <A-4> :BufferGoto 4<CR>$/;"	m
-<A-4>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-4> :BufferGoto 4<CR>$/;"	m
 <A-5>	bindings.vim	/^nnoremap <silent>    <A-5> :BufferGoto 5<CR>$/;"	m
 <A-5>	private_dot_config/nvim/bindings.vim	/^nnoremap <silent>    <A-5> :BufferGoto 5<CR>$/;"	m
-<A-5>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-5> :BufferGoto 5<CR>$/;"	m
 <A-6>	bindings.vim	/^nnoremap <silent>    <A-6> :BufferGoto 6<CR>$/;"	m
 <A-6>	private_dot_config/nvim/bindings.vim	/^nnoremap <silent>    <A-6> :BufferGoto 6<CR>$/;"	m
-<A-6>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-6> :BufferGoto 6<CR>$/;"	m
 <A-7>	bindings.vim	/^nnoremap <silent>    <A-7> :BufferGoto 7<CR>$/;"	m
 <A-7>	private_dot_config/nvim/bindings.vim	/^nnoremap <silent>    <A-7> :BufferGoto 7<CR>$/;"	m
-<A-7>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-7> :BufferGoto 7<CR>$/;"	m
 <A-8>	bindings.vim	/^nnoremap <silent>    <A-8> :BufferGoto 8<CR>$/;"	m
 <A-8>	private_dot_config/nvim/bindings.vim	/^nnoremap <silent>    <A-8> :BufferGoto 8<CR>$/;"	m
-<A-8>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-8> :BufferGoto 8<CR>$/;"	m
 <A-9>	bindings.vim	/^nnoremap <silent>    <A-9> :BufferLast<CR>$/;"	m
 <A-9>	private_dot_config/nvim/bindings.vim	/^nnoremap <silent>    <A-9> :BufferLast<CR>$/;"	m
-<A-9>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-9> :BufferLast<CR>$/;"	m
 <A-<>	bindings.vim	/^nnoremap <silent>    <A-<> :BufferMovePrevious<CR>$/;"	m
 <A-<>	private_dot_config/nvim/bindings.vim	/^nnoremap <silent>    <A-<> :BufferMovePrevious<CR>$/;"	m
-<A-<>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-<> :BufferMovePrevious<CR>$/;"	m
 <A->>	bindings.vim	/^nnoremap <silent>    <A->> :BufferMoveNext<CR>$/;"	m
 <A->>	private_dot_config/nvim/bindings.vim	/^nnoremap <silent>    <A->> :BufferMoveNext<CR>$/;"	m
-<A->>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A->> :BufferMoveNext<CR>$/;"	m
 <A-b>	bindings.vim	/^noremap <silent>    <A-b> :NERDTreeToggle<CR>$/;"	m
 <A-b>	private_dot_config/nvim/bindings.vim	/^noremap <silent>    <A-b> :NERDTreeToggle<CR>$/;"	m
-<A-c>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-c> :BufferClose<CR>$/;"	m
 <A-f>	bindings.vim	/^nnoremap <silent> <A-f> :Files<CR>$/;"	m
 <A-f>	private_dot_config/nvim/bindings.vim	/^nnoremap <silent> <A-f> :Files<CR>$/;"	m
 <A-g>	bindings.vim	/^nnoremap <silent> <A-g> :Rg<CR>$/;"	m
 <A-g>	private_dot_config/nvim/bindings.vim	/^nnoremap <silent> <A-g> :Rg<CR>$/;"	m
 <A-p>	bindings.vim	/^nnoremap <silent>    <A-p> :BufferPin<CR>$/;"	m
 <A-p>	private_dot_config/nvim/bindings.vim	/^nnoremap <silent>    <A-p> :BufferPin<CR>$/;"	m
-<A-p>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent>    <A-p> :BufferPin<CR>$/;"	m
 <A-w>	bindings.vim	/^nnoremap <silent>    <A-w> :BufferClose<CR>$/;"	m
 <A-w>	private_dot_config/nvim/bindings.vim	/^nnoremap <silent>    <A-w> :BufferClose<CR>$/;"	m
 <C-H>	bindings.vim	/^nnoremap <C-H> <C-W><C-H>$/;"	m
@@ -72,20 +57,11 @@ $LANG	private_dot_config/nvim/init.vim	/^    let $LANG = 'en_US'$/;"	v
 <C-b>	private_dot_config/nvim/plug-config/coc.vim	/^  inoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? "\\<c-r>=coc#float#scroll(0)\\</;"	m
 <C-b>	private_dot_config/nvim/plug-config/coc.vim	/^  nnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\\<C-b>"$/;"	m
 <C-b>	private_dot_config/nvim/plug-config/coc.vim	/^  vnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\\<C-b>"$/;"	m
-<C-b>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^  inoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? "\\<c-r>=coc#float#scroll(0)\\</;"	m
-<C-b>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^  nnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\\<C-b>"$/;"	m
-<C-b>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^  vnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\\<C-b>"$/;"	m
 <C-f>	private_dot_config/nvim/plug-config/coc.vim	/^  inoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? "\\<c-r>=coc#float#scroll(1)\\</;"	m
 <C-f>	private_dot_config/nvim/plug-config/coc.vim	/^  nnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\\<C-f>"$/;"	m
 <C-f>	private_dot_config/nvim/plug-config/coc.vim	/^  vnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\\<C-f>"$/;"	m
-<C-f>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^  inoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? "\\<c-r>=coc#float#scroll(1)\\</;"	m
-<C-f>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^  nnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\\<C-f>"$/;"	m
-<C-f>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^  vnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\\<C-f>"$/;"	m
 <C-s>	private_dot_config/nvim/plug-config/coc.vim	/^nmap <silent> <C-s> <Plug>(coc-range-select)$/;"	m
 <C-s>	private_dot_config/nvim/plug-config/coc.vim	/^xmap <silent> <C-s> <Plug>(coc-range-select)$/;"	m
-<C-s>	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent> <C-s>    :BufferPick<CR>$/;"	m
-<C-s>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <silent> <C-s> <Plug>(coc-range-select)$/;"	m
-<C-s>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^xmap <silent> <C-s> <Plug>(coc-range-select)$/;"	m
 <Down>	bindings.vim	/^nnoremap <Down> <C-d>$/;"	m
 <Down>	private_dot_config/nvim/bindings.vim	/^nnoremap <Down> <C-d>$/;"	m
 <F20>	bindings.vim	/^nnoremap <F20> :!chezmoi edit ~\/.config\/nvim\/init.vim<CR>$/;"	m
@@ -97,66 +73,41 @@ $LANG	private_dot_config/nvim/init.vim	/^    let $LANG = 'en_US'$/;"	v
 <Right>	private_dot_config/nvim/bindings.vim	/^nnoremap <Right> zL$/;"	m
 <S-TAB>	private_dot_config/nvim/plug-config/coc.vim	/^inoremap <expr><S-TAB> coc#pum#visible() ? coc#pum#prev(1) : "\\<C-h>"$/;"	m
 <S-TAB>	private_dot_config/nvim/plug-config/coc.vim	/^inoremap <expr><S-TAB> pumvisible() ? "\\<C-p>" : "\\<C-h>"$/;"	m
-<S-TAB>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^inoremap <expr><S-TAB> pumvisible() ? "\\<C-p>" : "\\<C-h>"$/;"	m
 <S-tab>	bindings.vim	/^vnoremap <S-tab> <$/;"	m
 <S-tab>	private_dot_config/nvim/bindings.vim	/^vnoremap <S-tab> <$/;"	m
 <Space>bb	bindings.vim	/^nnoremap <silent> <Space>bb :BufferOrderByBufferNumber<CR>$/;"	m
 <Space>bb	private_dot_config/nvim/bindings.vim	/^nnoremap <silent> <Space>bb :BufferOrderByBufferNumber<CR>$/;"	m
-<Space>bb	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent> <Space>bb :BufferOrderByBufferNumber<CR>$/;"	m
 <Space>bd	bindings.vim	/^nnoremap <silent> <Space>bd :BufferOrderByDirectory<CR>$/;"	m
 <Space>bd	private_dot_config/nvim/bindings.vim	/^nnoremap <silent> <Space>bd :BufferOrderByDirectory<CR>$/;"	m
-<Space>bd	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent> <Space>bd :BufferOrderByDirectory<CR>$/;"	m
 <Space>bl	bindings.vim	/^nnoremap <silent> <Space>bl :BufferOrderByLanguage<CR>$/;"	m
 <Space>bl	private_dot_config/nvim/bindings.vim	/^nnoremap <silent> <Space>bl :BufferOrderByLanguage<CR>$/;"	m
-<Space>bl	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent> <Space>bl :BufferOrderByLanguage<CR>$/;"	m
 <Space>bw	bindings.vim	/^nnoremap <silent> <Space>bw :BufferOrderByWindowNumber<CR>$/;"	m
 <Space>bw	private_dot_config/nvim/bindings.vim	/^nnoremap <silent> <Space>bw :BufferOrderByWindowNumber<CR>$/;"	m
-<Space>bw	private_dot_config/nvim/plug-config/plug-config/barbar.vim	/^nnoremap <silent> <Space>bw :BufferOrderByWindowNumber<CR>$/;"	m
 <TAB>	private_dot_config/nvim/plug-config/coc.vim	/^inoremap <silent><expr> <TAB>$/;"	m
-<TAB>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^inoremap <silent><expr> <TAB>$/;"	m
 <Up>	bindings.vim	/^nnoremap <Up> <C-u>$/;"	m
 <Up>	private_dot_config/nvim/bindings.vim	/^nnoremap <Up> <C-u>$/;"	m
 <c-@>	private_dot_config/nvim/plug-config/coc.vim	/^    inoremap <silent><expr> <c-@> coc#refresh()$/;"	m
 <c-@>	private_dot_config/nvim/plug-config/coc.vim	/^  inoremap <silent><expr> <c-@> coc#refresh()$/;"	m
-<c-@>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^  inoremap <silent><expr> <c-@> coc#refresh()$/;"	m
 <c-space>	private_dot_config/nvim/plug-config/coc.vim	/^    inoremap <silent><expr> <c-space> coc#refresh()$/;"	m
 <c-space>	private_dot_config/nvim/plug-config/coc.vim	/^  inoremap <silent><expr> <c-space> coc#refresh()$/;"	m
-<c-space>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^  inoremap <silent><expr> <c-space> coc#refresh()$/;"	m
 <cr>	private_dot_config/nvim/plug-config/coc.vim	/^inoremap <expr> <cr> coc#pum#visible() ? coc#_select_confirm() : "\\<CR>"$/;"	m
 <cr>	private_dot_config/nvim/plug-config/coc.vim	/^inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()$/;"	m
-<cr>	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()$/;"	m
 <leader>a	private_dot_config/nvim/plug-config/coc.vim	/^nmap <leader>a  <Plug>(coc-codeaction-selected)$/;"	m
 <leader>a	private_dot_config/nvim/plug-config/coc.vim	/^xmap <leader>a  <Plug>(coc-codeaction-selected)$/;"	m
-<leader>a	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <leader>a  <Plug>(coc-codeaction-selected)$/;"	m
-<leader>a	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^xmap <leader>a  <Plug>(coc-codeaction-selected)$/;"	m
 <leader>ac	private_dot_config/nvim/plug-config/coc.vim	/^nmap <leader>ac  <Plug>(coc-codeaction)$/;"	m
-<leader>ac	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <leader>ac  <Plug>(coc-codeaction)$/;"	m
 <leader>cl	private_dot_config/nvim/plug-config/coc.vim	/^nmap <leader>cl  <Plug>(coc-codelens-action)$/;"	m
-<leader>cl	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <leader>cl  <Plug>(coc-codelens-action)$/;"	m
 <leader>f	private_dot_config/nvim/plug-config/coc.vim	/^nmap <leader>f  <Plug>(coc-format-selected)$/;"	m
 <leader>f	private_dot_config/nvim/plug-config/coc.vim	/^xmap <leader>f  <Plug>(coc-format-selected)$/;"	m
-<leader>f	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <leader>f  <Plug>(coc-format-selected)$/;"	m
-<leader>f	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^xmap <leader>f  <Plug>(coc-format-selected)$/;"	m
 <leader>qf	private_dot_config/nvim/plug-config/coc.vim	/^nmap <leader>qf  <Plug>(coc-fix-current)$/;"	m
-<leader>qf	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <leader>qf  <Plug>(coc-fix-current)$/;"	m
 <leader>rn	private_dot_config/nvim/plug-config/coc.vim	/^nmap <leader>rn <Plug>(coc-rename)$/;"	m
-<leader>rn	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <leader>rn <Plug>(coc-rename)$/;"	m
 <space>a	private_dot_config/nvim/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>a  :<C-u>CocList diagnostics<cr>$/;"	m
-<space>a	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>a  :<C-u>CocList diagnostics<cr>$/;"	m
 <space>c	private_dot_config/nvim/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>c  :<C-u>CocList commands<cr>$/;"	m
-<space>c	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>c  :<C-u>CocList commands<cr>$/;"	m
 <space>e	private_dot_config/nvim/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>e  :<C-u>CocList extensions<cr>$/;"	m
-<space>e	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>e  :<C-u>CocList extensions<cr>$/;"	m
 <space>j	private_dot_config/nvim/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>$/;"	m
-<space>j	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>$/;"	m
 <space>k	private_dot_config/nvim/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>$/;"	m
-<space>k	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>$/;"	m
 <space>o	private_dot_config/nvim/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>o  :<C-u>CocList outline<cr>$/;"	m
-<space>o	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>o  :<C-u>CocList outline<cr>$/;"	m
 <space>p	private_dot_config/nvim/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>$/;"	m
-<space>p	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>$/;"	m
 <space>s	private_dot_config/nvim/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>s  :<C-u>CocList -I symbols<cr>$/;"	m
-<space>s	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nnoremap <silent><nowait> <space>s  :<C-u>CocList -I symbols<cr>$/;"	m
 <tab>	bindings.vim	/^vnoremap <tab> >$/;"	m
 <tab>	private_dot_config/nvim/bindings.vim	/^vnoremap <tab> >$/;"	m
 AS_YOU_TYPE	private_dot_config/ranger/commands_full.py	/^    AS_YOU_TYPE   = 't'$/;"	v	class:scout
@@ -164,13 +115,10 @@ AUTO_OPEN	private_dot_config/ranger/commands_full.py	/^    AUTO_OPEN     = 'a'$/
 CheckBackSpace	private_dot_config/nvim/plug-config/coc.vim	/^function! CheckBackSpace() abort$/;"	f
 FILTER	private_dot_config/ranger/commands_full.py	/^    FILTER        = 'f'$/;"	v	class:scout
 Fold	private_dot_config/nvim/plug-config/coc.vim	/^command! -nargs=? Fold :call     CocAction('fold', <f-args>)$/;"	c
-Fold	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^command! -nargs=? Fold :call     CocAction('fold', <f-args>)$/;"	c
 Format	private_dot_config/nvim/plug-config/coc.vim	/^command! -nargs=0 Format :call CocAction('format')$/;"	c
-Format	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^command! -nargs=0 Format :call CocAction('format')$/;"	c
 IGNORE_CASE	private_dot_config/ranger/commands_full.py	/^    IGNORE_CASE   = 'i'$/;"	v	class:scout
 INVERT	private_dot_config/ranger/commands_full.py	/^    INVERT        = 'v'$/;"	v	class:scout
 K	private_dot_config/nvim/plug-config/coc.vim	/^nnoremap <silent> K :call <SID>show_documentation()<CR>$/;"	m
-K	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nnoremap <silent> K :call <SID>show_documentation()<CR>$/;"	m
 KEEP_OPEN	private_dot_config/ranger/commands_full.py	/^    KEEP_OPEN     = 'k'$/;"	v	class:scout
 LATEX	bindings.vim	/^augroup LATEX$/;"	a
 LATEX	private_dot_config/nvim/bindings.vim	/^augroup LATEX$/;"	a
@@ -178,7 +126,6 @@ MARK	private_dot_config/ranger/commands_full.py	/^    MARK          = 'm'$/;"	v	
 NOTAGAS	private_dot_config/nvim/init.vim	/^augroup NOTAGAS$/;"	a
 OPEN_ON_ENTER	private_dot_config/ranger/commands_full.py	/^    OPEN_ON_ENTER = 'e'$/;"	v	class:scout
 OR	private_dot_config/nvim/plug-config/coc.vim	/^command! -nargs=0 OR   :call     CocActionAsync('runCommand', 'editor.action.organizeImport')$/;"	c
-OR	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^command! -nargs=0 OR   :call     CocActionAsync('runCommand', 'editor.action.organizeImport')$/;"	c
 PATH_RE_DQUOTED	private_dot_config/ranger/commands_full.py	/^    PATH_RE_DQUOTED = re.compile(r'^setlocal\\s+path="(.*?)"')$/;"	v	class:setlocal
 PATH_RE_SQUOTED	private_dot_config/ranger/commands_full.py	/^    PATH_RE_SQUOTED = re.compile(r"^setlocal\\s+path='(.*?)'")$/;"	v	class:setlocal
 PATH_RE_UNQUOTED	private_dot_config/ranger/commands_full.py	/^    PATH_RE_UNQUOTED = re.compile(r'^path=(.*?)$')$/;"	v	class:setlocal
@@ -190,7 +137,6 @@ SM_REGEX	private_dot_config/ranger/commands_full.py	/^    SM_REGEX      = 'r'$/;
 UNMARK	private_dot_config/ranger/commands_full.py	/^    UNMARK        = 'M'$/;"	v	class:scout
 VimSetupNerdtree	private_dot_config/nvim/init.vim	/^augroup VimSetupNerdtree$/;"	a
 [g	private_dot_config/nvim/plug-config/coc.vim	/^nmap <silent> [g <Plug>(coc-diagnostic-prev)$/;"	m
-[g	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <silent> [g <Plug>(coc-diagnostic-prev)$/;"	m
 \x20       pager_move  up	private_dot_config/ranger/rc.conf	/^pmap  <up>        pager_move  up=1$/;"	k
 \x20       taskview_move up	private_dot_config/ranger/rc.conf	/^tmap <up>        taskview_move up=1$/;"	k
 \x20      move right	private_dot_config/ranger/rc.conf	/^map <CR>       move right=1$/;"	k
@@ -221,7 +167,6 @@ VimSetupNerdtree	private_dot_config/nvim/init.vim	/^augroup VimSetupNerdtree$/;"
 \x20move down	private_dot_config/ranger/rc.conf	/^map <PAGEDOWN> move down=1   pages=True$/;"	k
 \x20tag_toggle tag	private_dot_config/ranger/rc.conf	/^map "<any>  tag_toggle tag=%any$/;"	k
 ]g	private_dot_config/nvim/plug-config/coc.vim	/^nmap <silent> ]g <Plug>(coc-diagnostic-next)$/;"	m
-]g	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <silent> ]g <Plug>(coc-diagnostic-next)$/;"	m
 __init__	private_dot_config/ranger/commands_full.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:jump_non
 __init__	private_dot_config/ranger/commands_full.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:rename_append
 __init__	private_dot_config/ranger/commands_full.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:scout
@@ -249,12 +194,8 @@ _tab_normal	private_dot_config/ranger/commands_full.py	/^    def _tab_normal(sel
 _tab_paths	private_dot_config/ranger/commands_full.py	/^    def _tab_paths(dest, dest_abs, ends_with_sep):$/;"	m	class:cd
 ac	private_dot_config/nvim/plug-config/coc.vim	/^omap ac <Plug>(coc-classobj-a)$/;"	m
 ac	private_dot_config/nvim/plug-config/coc.vim	/^xmap ac <Plug>(coc-classobj-a)$/;"	m
-ac	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^omap ac <Plug>(coc-classobj-a)$/;"	m
-ac	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^xmap ac <Plug>(coc-classobj-a)$/;"	m
 af	private_dot_config/nvim/plug-config/coc.vim	/^omap af <Plug>(coc-funcobj-a)$/;"	m
 af	private_dot_config/nvim/plug-config/coc.vim	/^xmap af <Plug>(coc-funcobj-a)$/;"	m
-af	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^omap af <Plug>(coc-funcobj-a)$/;"	m
-af	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^xmap af <Plug>(coc-funcobj-a)$/;"	m
 alias	private_dot_config/ranger/commands_full.py	/^class alias(Command):$/;"	c
 allow_abbrev	private_dot_config/ranger/commands_full.py	/^    allow_abbrev = False$/;"	v	class:delete
 allow_abbrev	private_dot_config/ranger/commands_full.py	/^    allow_abbrev = False$/;"	v	class:quit_bang
@@ -419,24 +360,19 @@ g:os_win	private_dot_config/nvim/init.vim	/^    let g:os_win = 0$/;"	v
 g:plugged_home	private_dot_config/nvim/init.vim	/^    let g:plugged_home = '~\/.config\/nvim\/plugged'$/;"	v
 g:plugged_home	private_dot_config/nvim/init.vim	/^    let g:plugged_home = expand('~\/.config\/nvim\/plugged')$/;"	v
 g:plugged_home	private_dot_config/nvim/init.vim	/^    let g:plugged_home = expand('~\/AppData\/Local\/nvim\/plugged')$/;"	v
-g:vimtex_compiler_method	private_dot_config/nvim/plug-config/plug-config/vimtex.vim	/^let g:vimtex_compiler_method = 'latexmk'$/;"	v
 g:vimtex_compiler_method	private_dot_config/nvim/plug-config/vimtex.vim	/^let g:vimtex_compiler_method = 'latexmk'$/;"	v
 gap	private_dot_config/neofetch/config.conf	/^gap=3$/;"	k
 gd	private_dot_config/nvim/plug-config/coc.vim	/^nmap <silent> gd <Plug>(coc-definition)$/;"	m
-gd	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <silent> gd <Plug>(coc-definition)$/;"	m
 get_selection_attr	private_dot_config/ranger/commands_full.py	/^    def get_selection_attr(self, attr):$/;"	m	class:yank
 gi	private_dot_config/nvim/plug-config/coc.vim	/^nmap <silent> gi <Plug>(coc-implementation)$/;"	m
-gi	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <silent> gi <Plug>(coc-implementation)$/;"	m
 gpu_brand	private_dot_config/neofetch/config.conf	/^gpu_brand="on"$/;"	k
 gpu_type	private_dot_config/neofetch/config.conf	/^gpu_type="all"$/;"	k
 gr	private_dot_config/nvim/plug-config/coc.vim	/^nmap <silent> gr <Plug>(coc-references)$/;"	m
-gr	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <silent> gr <Plug>(coc-references)$/;"	m
 grep	private_dot_config/ranger/commands_full.py	/^class grep(Command):$/;"	c
 gtk2	private_dot_config/neofetch/config.conf	/^gtk2="on"$/;"	k
 gtk3	private_dot_config/neofetch/config.conf	/^gtk3="on"$/;"	k
 gtk_shorthand	private_dot_config/neofetch/config.conf	/^gtk_shorthand="off"$/;"	k
 gy	private_dot_config/nvim/plug-config/coc.vim	/^nmap <silent> gy <Plug>(coc-type-definition)$/;"	m
-gy	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^nmap <silent> gy <Plug>(coc-type-definition)$/;"	m
 handle_extension	private_dot_config/ranger/executable_scope.sh	/^handle_extension() {$/;"	f
 handle_fallback	private_dot_config/ranger/executable_scope.sh	/^handle_fallback() {$/;"	f
 handle_image	private_dot_config/ranger/executable_scope.sh	/^handle_image() {$/;"	f
@@ -444,12 +380,8 @@ handle_mime	private_dot_config/ranger/executable_scope.sh	/^handle_mime() {$/;"	
 help_	private_dot_config/ranger/commands_full.py	/^class help_(Command):$/;"	c
 ic	private_dot_config/nvim/plug-config/coc.vim	/^omap ic <Plug>(coc-classobj-i)$/;"	m
 ic	private_dot_config/nvim/plug-config/coc.vim	/^xmap ic <Plug>(coc-classobj-i)$/;"	m
-ic	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^omap ic <Plug>(coc-classobj-i)$/;"	m
-ic	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^xmap ic <Plug>(coc-classobj-i)$/;"	m
 if	private_dot_config/nvim/plug-config/coc.vim	/^omap if <Plug>(coc-funcobj-i)$/;"	m
 if	private_dot_config/nvim/plug-config/coc.vim	/^xmap if <Plug>(coc-funcobj-i)$/;"	m
-if	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^omap if <Plug>(coc-funcobj-i)$/;"	m
-if	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^xmap if <Plug>(coc-funcobj-i)$/;"	m
 image_backend	private_dot_config/neofetch/config.conf	/^image_backend="ascii"$/;"	k
 image_loop	private_dot_config/neofetch/config.conf	/^image_loop="off"$/;"	k
 image_size	private_dot_config/neofetch/config.conf	/^image_size="auto"$/;"	k
@@ -524,7 +456,6 @@ mpc_args	private_dot_config/neofetch/config.conf	/^mpc_args=()$/;"	k
 music_player	private_dot_config/neofetch/config.conf	/^music_player="auto"$/;"	k
 my_edit	private_dot_config/ranger/commands.py	/^class my_edit(Command):$/;"	c
 mygroup	private_dot_config/nvim/plug-config/coc.vim	/^augroup mygroup$/;"	a
-mygroup	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^augroup mygroup$/;"	a
 name	private_dot_config/ranger/commands_full.py	/^    name = 'eval'$/;"	v	class:eval_
 name	private_dot_config/ranger/commands_full.py	/^    name = 'help'$/;"	v	class:help_
 name	private_dot_config/ranger/commands_full.py	/^    name = 'map'$/;"	v	class:map_
@@ -570,9 +501,7 @@ right	private_dot_config/ranger/rc.conf	/^cmap <end>   eval fm.ui.console.move(r
 right	private_dot_config/ranger/rc.conf	/^cmap <home>  eval fm.ui.console.move(right=0, absolute=True)$/;"	k
 right	private_dot_config/ranger/rc.conf	/^cmap <right> eval fm.ui.console.move(right=1)$/;"	k
 s:check_back_space	private_dot_config/nvim/plug-config/coc.vim	/^function! s:check_back_space() abort$/;"	f
-s:check_back_space	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^function! s:check_back_space() abort$/;"	f
 s:show_documentation	private_dot_config/nvim/plug-config/coc.vim	/^function! s:show_documentation()$/;"	f
-s:show_documentation	private_dot_config/nvim/plug-config/plug-config/coc.vim	/^function! s:show_documentation()$/;"	f
 save_copy_buffer	private_dot_config/ranger/commands_full.py	/^class save_copy_buffer(Command):$/;"	c
 scout	private_dot_config/ranger/commands_full.py	/^class scout(Command):$/;"	c
 separator	private_dot_config/neofetch/config.conf	/^separator=":"$/;"	k

@@ -69,6 +69,7 @@ Plug 'tpope/vim-projectionist'
 Plug 'lervag/vimtex'
 " HIGHLIGHT
 Plug 'MaxMEllon/vim-jsx-pretty'			" to highlight jsx
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " JAVA
 " DEBUG
 Plug 'vim-syntastic/syntastic'
 Plug 'matze/vim-tex-fold'
