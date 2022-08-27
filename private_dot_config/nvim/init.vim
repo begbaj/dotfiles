@@ -77,7 +77,7 @@ Plug 'puremourning/vimspector'
 " BEHAVIOUR
 Plug 'airblade/vim-rooter'                      " document root to current project root
 Plug 'ludovicchabant/vim-gutentags'             " Automatically generate ctags
-Plug 'folke/which-key.nvim'
+Plug 'folke/which-key.nvim'                     " Show available commands
 
 " Plug 'francoiscabrol/ranger.vim'			" Ranger integration in vim and neovim
 " Plug 'rbgrouleff/bclose.vim'			" The BClose Vim plugin for deleting a buffer without closing the window 
