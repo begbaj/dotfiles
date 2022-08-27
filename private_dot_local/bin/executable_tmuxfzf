@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-" https://raw.githubusercontent.com/ThePrimeagen/.dotfiles/master/bin/.local/bin/tmux-sessionizer
+# https://raw.githubusercontent.com/ThePrimeagen/.dotfiles/master/bin/.local/bin/tmux-sessionizer
 
 if [[ $# -eq 1 ]]; then
     selected=$1
