@@ -64,7 +64,7 @@ alias webcampv="mpv av://v4l2:/dev/video0 --profile=low-latency --untimed --no-t
 
 # SECTION:  PROGRAM ENVIRONMENT VARIABLES
 #===============================
-
+bind '"^F":"fzf"'
 
 # SECTION: TMUX
 #===============================
