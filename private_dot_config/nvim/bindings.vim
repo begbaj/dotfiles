@@ -89,9 +89,9 @@ nnoremap <silent> <leader>cf :CocList outline<CR>
 
 " SECTION: GitGutter
 "==========================================
-nnoremap <silent> <leader>gt <Plug>(GitGutterToggle)
-nnoremap <silent> <leader>gd <Plug>(GitGutterDisable)
-nnoremap <silent> <leader>ge <Plug>(GitGutterToggle)
+" nnoremap <silent> <leader>gt <Plug>(GitGutterToggle)
+" nnoremap <silent> <leader>gd <Plug>(GitGutterDisable)
+" nnoremap <silent> <leader>ge <Plug>(GitGutterToggle)
 
 " SECTION: By FileType
 "==========================================

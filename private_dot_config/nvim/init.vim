@@ -51,7 +51,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'davidhalter/jedi-vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-scriptease'
-Plug 'airblade/vim-gitgutter'                   " Show git diff markers
+" Plug 'airblade/vim-gitgutter'                   " Show git diff markers
 Plug 'vim-autoformat/vim-autoformat'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-projectionist'
@@ -89,7 +89,7 @@ let g:airline_powerline_fonts = 1
 " Hardtime
 let g:hardtime_default_on = 1
 let g:hardtime_timeout = 500
-let g:hardtime_ignore_buffer_patterns = [ "CustomPatt[ae]rn", "NERD.*" ]
+let g:hardtime_ignore_buffer_patterns = [ "NERD.*" ]
 let g:hardtime_allow_different_key = 1
 
 " gutentags
@@ -120,7 +120,7 @@ set laststatus=2    " tell Vim always put a status line, even if there is only o
 set cmdheight=2     " status bar is 2 rows high
 set ruler           " always show cursor location on status background
 set relativenumber
-set number
+set scl=yes         " Enable sign column
 set clipboard=unnamedplus
 set termguicolors
 syntax on enable    " enable highlighting
