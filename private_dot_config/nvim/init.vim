@@ -45,6 +45,7 @@ Plug 'ryanoasis/vim-devicons'                   " Support ofr Devicons
 Plug 'tomasiser/vim-code-dark'
 Plug 'joshdick/onedark.vim'
 Plug 'tomasr/molokai'
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 
 " CODE COMPLETION and UTILITIES
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -120,6 +121,7 @@ set laststatus=2    " tell Vim always put a status line, even if there is only o
 set cmdheight=2     " status bar is 2 rows high
 set ruler           " always show cursor location on status background
 set relativenumber
+set number
 set scl=yes         " Enable sign column
 set clipboard=unnamedplus
 set termguicolors
@@ -135,7 +137,9 @@ set showbreak=....
 " SECTION: Appearence
 "================================================================================
 " colorscheme molokai
-colorscheme onedark
+let g:tokyonight_style="night"
+colorscheme tokyonight
+
 " colorscheme wal
 set background=dark
 set termguicolors
