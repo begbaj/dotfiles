@@ -4,92 +4,77 @@
 "   All init.vim variables and functions should start with 'my' and are generally global
 "
 "===============================================================================
-
 " SECTION: PRE CONFIGURATION
 " Environmental configuration, based on the os
 "================================================================================
+" Switch configurations between windows and unix
 if has("win32") || has("win64")
-"================================================================================
-" Windows preconfigration
     let g:plugged_home = expand('~/AppData/Local/nvim/plugged')
-
     set langmenu=en_US  " set language to english, ignoring system's language
     let $LANG = 'en_US'
     source $VIMRUNTIME/delmenu.vim 
     source $VIMRUNTIME/menu.vim
     source $VIMRUNTIME/menu.vim
-
     let g:my_os_win = 1     " needed for other os dependent configurations
-"================================================================================
+    set autochdir
 elseif has("unix")
-"================================================================================
-" Linux preconfiguration
     let g:plugged_home = expand('~/.config/nvim/plugged')
-"================================================================================
-else
-    let g:plugged_home = '~/.config/nvim/plugged'
-    let g:os_win = 0
+    set autochdir
 endif
-
-set autochdir
 
 " SECTION: Plugins (using vim-plug)
 "================================================================================
 call plug#begin(g:plugged_home)
-" ALL OSs
-Plug 'takac/vim-hardtime'			" Make Vim harder to use
-Plug 'preservim/nerdtree'
-
 " FUZZY FINDER
-" Plug 'ctrlpvim/ctrlp.vim'			" Fuzzy finder (fzf.vim instead)
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'crispydrone/vim-tasks'
+
 " APPEARENCE
-" Plug 'dylanaraps/wal.vim'			" pywal: colorscheme wal
-Plug 'powerline/powerline'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
+Plug 'romgrk/barbar.nvim'			" tab bars plugin
+Plug 'mhinz/vim-startify'                       " Start page
+Plug 'preservim/nerdtree'                       " NERDTree
+Plug 'powerline/powerline'                      " Powerline 
+Plug 'vim-airline/vim-airline'                  " Vim airline
+Plug 'vim-airline/vim-airline-themes'           " Vim airline themes
+Plug 'honza/vim-snippets'                       " ????????????????????
+Plug 'kyazdani42/nvim-web-devicons'             " Support for Devicons
+Plug 'ryanoasis/vim-devicons'                   " Support ofr Devicons
+
+"" COLOR SCHEMES
 Plug 'tomasiser/vim-code-dark'
 Plug 'joshdick/onedark.vim'
 Plug 'tomasr/molokai'
-Plug 'romgrk/barbar.nvim'			" tab bars plugin
-Plug 'honza/vim-snippets'
-Plug 'kyazdani42/nvim-web-devicons'
-Plug 'ryanoasis/vim-devicons'
-Plug 'mhinz/vim-startify'
+
 " CODE COMPLETION and UTILITIES
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'davidhalter/jedi-vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-scriptease'
-Plug 'airblade/vim-gitgutter'
+Plug 'airblade/vim-gitgutter'                   " Show git diff markers
 Plug 'vim-autoformat/vim-autoformat'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-projectionist'
 Plug 'lervag/vimtex'
+
 " HIGHLIGHT
-Plug 'MaxMEllon/vim-jsx-pretty'			" to highlight jsx
-Plug 'nvim-treesitter/nvim-treesitter' " JAVA
+Plug 'nvim-treesitter/nvim-treesitter'          " Powerfull Highlighting plugin 
+
 " DEBUG
-Plug 'vim-syntastic/syntastic'
-Plug 'matze/vim-tex-fold'
-Plug 'puremourning/vimspector'
+Plug 'vim-syntastic/syntastic'                  " ????????????????
+Plug 'matze/vim-tex-fold'                       " Foldings for TeX
+Plug 'puremourning/vimspector'                  " Powerfull debugging tool I don't know how to use
 " BEHAVIOUR
 Plug 'airblade/vim-rooter'                      " document root to current project root
 Plug 'ludovicchabant/vim-gutentags'             " Automatically generate ctags
 Plug 'folke/which-key.nvim'                     " Show available commands
+Plug 'takac/vim-hardtime'			" Make Vim harder to use
+Plug 'lewis6991/gitsigns.nvim'
 
-" Plug 'francoiscabrol/ranger.vim'			" Ranger integration in vim and neovim
-" Plug 'rbgrouleff/bclose.vim'			" The BClose Vim plugin for deleting a buffer without closing the window 
-" Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }  " Markdown preview
-" Plug 'noahfrederick/vim-composer'
-
-
-" Windows only
 if exists("my_os_win")
     Plug 'begbaj/vim-icue', {'branch': 'development'}
 endif
+
 call plug#end()
 
 
@@ -102,7 +87,10 @@ filetype plugin indent on
 let g:airline_powerline_fonts = 1
 
 " Hardtime
-let g:hardtime_default_on = 0
+let g:hardtime_default_on = 1
+let g:hardtime_timeout = 500
+let g:hardtime_ignore_buffer_patterns = [ "CustomPatt[ae]rn", "NERD.*" ]
+let g:hardtime_allow_different_key = 1
 
 " gutentags
 augroup NOTAGAS
@@ -132,6 +120,7 @@ set laststatus=2    " tell Vim always put a status line, even if there is only o
 set cmdheight=2     " status bar is 2 rows high
 set ruler           " always show cursor location on status background
 set relativenumber
+set number
 set clipboard=unnamedplus
 set termguicolors
 syntax on enable    " enable highlighting
@@ -159,6 +148,7 @@ source $HOME/.config/nvim/plug-config/barbar.vim
 " source $HOME/.config/nvim/plug-config/vimtex.vim
 luafile $HOME/.config/nvim/lua/treesitter.lua
 luafile $HOME/.config/nvim/lua/whichkey.lua
+luafile $HOME/.config/nvim/lua/gitsignsconf.lua
 
 let g:NERDTreeWinPos = "right"
 
