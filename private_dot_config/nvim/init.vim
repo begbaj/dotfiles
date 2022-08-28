@@ -33,6 +33,7 @@ Plug 'crispydrone/vim-tasks'
 " APPEARENCE
 Plug 'romgrk/barbar.nvim'			" tab bars plugin
 Plug 'mhinz/vim-startify'                       " Start page
+
 " Plug 'preservim/nerdtree'                       " NERDTree
 Plug 'kyazdani42/nvim-tree.lua'
 Plug 'powerline/powerline'                      " Powerline 
@@ -127,7 +128,8 @@ set number
 set scl=yes         " Enable sign column
 set clipboard=unnamedplus
 set termguicolors
-syntax on enable    " enable highlighting
+" enable highlighting
+syntax on enable    
 
 " Indents word-wrapped lines as much as the 'parent' line
 set breakindent
