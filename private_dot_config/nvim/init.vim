@@ -72,6 +72,7 @@ Plug 'ludovicchabant/vim-gutentags'             " Automatically generate ctags
 Plug 'folke/which-key.nvim'                     " Show available commands
 Plug 'takac/vim-hardtime'			" Make Vim harder to use
 Plug 'lewis6991/gitsigns.nvim'
+Plug 'tpope/vim-fugitive'
 
 if exists("my_os_win")
     Plug 'begbaj/vim-icue', {'branch': 'development'}
@@ -152,23 +153,17 @@ set termguicolors
 
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/barbar.vim
+" source $HOME/.config/nvim/plug-config/NERDTree.vim
 " source $HOME/.config/nvim/plug-config/vimtex.vim
 luafile $HOME/.config/nvim/lua/treesitter.lua
 luafile $HOME/.config/nvim/lua/whichkey.lua
 luafile $HOME/.config/nvim/lua/gitsignsconf.lua
 luafile $HOME/.config/nvim/lua/nvim_tree.lua
 
-let g:NERDTreeWinPos = "right"
 
 
 " SECTION: setup
 "================================================================================
-augroup VimSetupNerdtree
-    " start nerdtree when nvim starts
-    autocmd VimEnter * NERDTree | wincmd p
-    " Exit Vim if NERDTree is the only window remaining in the only tab.
-    autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
-augroup END
 augroup chezmoi
     autocmd BufWritePost ~/.local/share/chezmoi/* ! chezmoi apply --source-path "%"
 augroup END
