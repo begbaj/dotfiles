@@ -33,7 +33,8 @@ Plug 'crispydrone/vim-tasks'
 " APPEARENCE
 Plug 'romgrk/barbar.nvim'			" tab bars plugin
 Plug 'mhinz/vim-startify'                       " Start page
-Plug 'preservim/nerdtree'                       " NERDTree
+" Plug 'preservim/nerdtree'                       " NERDTree
+Plug 'kyazdani42/nvim-tree.lua'
 Plug 'powerline/powerline'                      " Powerline 
 Plug 'vim-airline/vim-airline'                  " Vim airline
 Plug 'vim-airline/vim-airline-themes'           " Vim airline themes
@@ -155,6 +156,7 @@ source $HOME/.config/nvim/plug-config/barbar.vim
 luafile $HOME/.config/nvim/lua/treesitter.lua
 luafile $HOME/.config/nvim/lua/whichkey.lua
 luafile $HOME/.config/nvim/lua/gitsignsconf.lua
+luafile $HOME/.config/nvim/lua/nvim_tree.lua
 
 let g:NERDTreeWinPos = "right"
 
