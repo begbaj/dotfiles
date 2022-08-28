@@ -61,7 +61,8 @@ alias chedit="chezmoi edit"
 alias chez="chezmoi"
 alias mv="mv -v"
 alias webcampv="mpv av://v4l2:/dev/video0 --profile=low-latency --untimed --no-terminal & disown"
-alias ll="exa -la"
+alias ll="exa -l"
+alias l="exa -la"
 
 # SECTION:  PROGRAM ENVIRONMENT VARIABLES
 #===============================
