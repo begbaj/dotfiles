@@ -139,6 +139,7 @@ set showbreak=....
 " colorscheme molokai
 let g:tokyonight_style="night"
 let g:tokyonight_transparent=1
+
 colorscheme tokyonight
 
 " colorscheme wal
