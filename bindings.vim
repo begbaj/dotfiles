@@ -20,7 +20,7 @@ nnoremap <Left> zH
 nnoremap <Up> <C-u>
 nnoremap <Down> <C-d>
 
-nnoremap <silent> <A-v> :sp<CR>:terminal<CR>
+nnoremap <silent> <A-n> :terminal<CR>
 
 " SECTION: fzf.vim
 "==========================================
