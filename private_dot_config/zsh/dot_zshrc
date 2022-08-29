@@ -78,4 +78,5 @@ source /usr/share/fzf/completion.zsh
 # SECTION: TMUX
 #===============================
 bindkey -s "^F" "tmuxfzf^M"
+bindkey -s "^D" "ranger^M"
 
