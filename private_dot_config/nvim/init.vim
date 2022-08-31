@@ -91,7 +91,7 @@ filetype plugin indent on
 let g:airline_powerline_fonts = 1
 
 " Hardtime
-let g:hardtime_default_on = 1
+let g:hardtime_default_on = 0
 let g:hardtime_timeout = 500
 let g:hardtime_ignore_buffer_patterns = [ "NERD.*" ]
 let g:hardtime_allow_different_key = 1
