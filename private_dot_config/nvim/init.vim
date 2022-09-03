@@ -65,9 +65,10 @@ Plug 'nvim-treesitter/nvim-treesitter'          " Powerfull Highlighting plugin
 
 " DEBUG
 Plug 'vim-syntastic/syntastic'                  " ????????????????
-Plug 'matze/vim-tex-fold'                       " Foldings for TeX
 Plug 'puremourning/vimspector'                  " Powerfull debugging tool I don't know how to use
+
 " BEHAVIOUR
+Plug 'matze/vim-tex-fold'                       " Foldings for TeX
 Plug 'airblade/vim-rooter'                      " document root to current project root
 Plug 'ludovicchabant/vim-gutentags'             " Automatically generate ctags
 Plug 'folke/which-key.nvim'                     " Show available commands
