@@ -58,13 +58,21 @@ source $ZSH/oh-my-zsh.sh
 #===============================
 
 alias open="xdg-open"
+
 alias chedit="chezmoi edit"
 alias chez="chezmoi"
+
 alias mv="mv -v"
 alias webcampv="mpv av://v4l2:/dev/video0 --profile=low-latency --untimed --no-terminal & disown"
+
 alias ll="exa -lgs type"
 alias l="exa -lag"
+
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
+
+alias docker-up='sudo docker-compose up -d'
+
+alias cupra='sudo docker-compose exec php'
 
 # SECTION:  PROGRAM ENVIRONMENT VARIABLES
 #===============================
