@@ -142,8 +142,9 @@ set showbreak=....
 " SECTION: Appearence
 "================================================================================
 " colorscheme molokai
-let g:tokyonight_style="night"
-let g:tokyonight_transparent=1
+" let g:tokyonight_style="night"
+" let g:tokyonight_transparent=1
+luafile $HOME/.config/nvim/lua/tokyonight.lua
 
 colorscheme tokyonight
 
