@@ -145,7 +145,6 @@ set showbreak=....
 " let g:tokyonight_style="night"
 " let g:tokyonight_transparent=1
 luafile $HOME/.config/nvim/lua/tokyonight.lua
-
 colorscheme tokyonight
 
 " colorscheme wal
