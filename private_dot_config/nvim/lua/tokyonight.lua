@@ -31,5 +31,4 @@ require("tokyonight").setup({
   ---@param highlights Highlights
   ---@param colors ColorScheme
   on_highlights = function(highlights, colors) end,
-}
-)
+})
