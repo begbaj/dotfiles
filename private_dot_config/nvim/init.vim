@@ -70,7 +70,7 @@ Plug 'puremourning/vimspector'                  " Powerfull debugging tool I don
 " BEHAVIOUR
 Plug 'matze/vim-tex-fold'                       " Foldings for TeX
 Plug 'airblade/vim-rooter'                      " document root to current project root
-Plug 'ludovicchabant/vim-gutentags'             " Automatically generate ctags
+" Plug 'ludovicchabant/vim-gutentags'             " Automatically generate ctags
 Plug 'folke/which-key.nvim'                     " Show available commands
 Plug 'takac/vim-hardtime'			" Make Vim harder to use
 Plug 'lewis6991/gitsigns.nvim'
