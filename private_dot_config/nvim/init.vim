@@ -56,8 +56,8 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-scriptease'
 " Plug 'airblade/vim-gitgutter'                   " Show git diff markers
 Plug 'vim-autoformat/vim-autoformat'
-Plug 'tpope/vim-commentary'
-Plug 'tpope/vim-projectionist'
+Plug 'tpope/vim-commentary'                     " Commenting made easy
+" Plug 'tpope/vim-projectionist'
 Plug 'lervag/vimtex'
 
 " HIGHLIGHT
@@ -104,6 +104,7 @@ augroup END
 
 " Treesitter folding
 set foldmethod=expr
+set nofoldenable
 set foldexpr=nvim_treesitter#foldexpr()
 
 " SECTION: Environment options
