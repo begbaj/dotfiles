@@ -32,7 +32,7 @@ Plug 'crispydrone/vim-tasks'
 
 " APPEARENCE
 Plug 'romgrk/barbar.nvim'			" tab bars plugin
-Plug 'mhinz/vim-startify'                       " Start page
+" Plug 'mhinz/vim-startify'                       " Start page
 
 " Plug 'preservim/nerdtree'                       " NERDTree
 Plug 'kyazdani42/nvim-tree.lua'
