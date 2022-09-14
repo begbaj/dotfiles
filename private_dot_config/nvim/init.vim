@@ -164,6 +164,7 @@ luafile $HOME/.config/nvim/lua/treesitter.lua
 luafile $HOME/.config/nvim/lua/whichkey.lua
 luafile $HOME/.config/nvim/lua/gitsignsconf.lua
 luafile $HOME/.config/nvim/lua/nvim_tree.lua
+luafile $HOME/.config/nvim/lua/indent-blankline.lua
 
 
 
