@@ -32,9 +32,10 @@ Plug 'crispydrone/vim-tasks'
 
 " APPEARENCE
 Plug 'romgrk/barbar.nvim'			" tab bars plugin
-" Plug 'mhinz/vim-startify'                       " Start page
+Plug 'lukas-reineke/indent-blankline.nvim'      " indentetion guides
+" Plug 'mhinz/vim-startify'                     " Start page
 
-" Plug 'preservim/nerdtree'                       " NERDTree
+" Plug 'preservim/nerdtree'                     " NERDTree
 Plug 'kyazdani42/nvim-tree.lua'
 Plug 'powerline/powerline'                      " Powerline 
 Plug 'vim-airline/vim-airline'                  " Vim airline
