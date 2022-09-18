@@ -69,10 +69,11 @@ alias ll="exa -lgs type"
 alias l="exa -lag"
 
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
-
 alias docker-up='sudo docker-compose up -d'
 
 alias cupra='sudo docker-compose exec php'
+
+alias irc='tmux -L irssi -c "proxychains4 -q irssi" '
 
 # SECTION:  PROGRAM ENVIRONMENT VARIABLES
 #===============================
