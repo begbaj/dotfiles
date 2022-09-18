@@ -75,7 +75,7 @@ alias docker-up='sudo docker-compose up -d'
 
 alias cupra='sudo docker-compose exec php'
 
-alias irc='tmux -L irssi -c "proxychains4 -q irssi" '
+alias irc='tmux -L "irssi" proxychains4 -q irssi'
 
 # SECTION:  PROGRAM ENVIRONMENT VARIABLES
 #===============================
