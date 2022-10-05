@@ -170,6 +170,8 @@ augroup chezmoi
     autocmd BufWritePost ~/.local/share/chezmoi/* ! chezmoi apply --source-path "%"
 augroup END
 
+autocmd FileType markdown let b:coc_suggest_disable = 1
+
 " SECTION: My Macros
 "================================================================================
 " Sistem dependent
