@@ -92,3 +92,4 @@ source /usr/share/fzf/completion.zsh
 #===============================
 bindkey -s "^F" "\x1B dditmuxfzf^M"
 bindkey -s "^D" "\x1B ddiranger^M"
+bindkey -s "^L" "\x1B DMENUDIR=$(ls | dmenu -w 0x3600006 -l 50) && cd $DMENUDIR^M"
