@@ -37,10 +37,10 @@ Plug 'lukas-reineke/indent-blankline.nvim'      " indentetion guides
 
 " Plug 'preservim/nerdtree'                     " NERDTree
 Plug 'kyazdani42/nvim-tree.lua'
-" Plug 'powerline/powerline'                      " Powerline 
+Plug 'powerline/powerline'                      " Powerline 
 Plug 'nvim-lualine/lualine.nvim'
-Plug 'vim-airline/vim-airline'                  " Vim airline
-Plug 'vim-airline/vim-airline-themes'           " Vim airline themes
+" Plug 'vim-airline/vim-airline'                  " Vim airline
+" Plug 'vim-airline/vim-airline-themes'           " Vim airline themes
 Plug 'honza/vim-snippets'                       " ????????????????????
 Plug 'kyazdani42/nvim-web-devicons'             " Support for Devicons
 Plug 'ryanoasis/vim-devicons'                   " Support ofr Devicons
@@ -166,6 +166,10 @@ luafile $HOME/.config/nvim/lua/whichkey.lua
 luafile $HOME/.config/nvim/lua/gitsignsconf.lua
 luafile $HOME/.config/nvim/lua/nvim_tree.lua
 luafile $HOME/.config/nvim/lua/indent-blankline.lua
+
+lua << END
+require('lualine').setup()
+END
 
 
 
