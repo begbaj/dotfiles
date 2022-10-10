@@ -109,12 +109,14 @@ set foldexpr=nvim_treesitter#foldexpr()
 " SECTION: Environment options
 "================================================================================
 set mouse=a          " disable mouse
-set hidden          " allow hiding buffers
-set updatetime=300  " As i know, it's used my timer funtions, which will call functions every 300ms
-set ignorecase      " ignore case when searching
-set expandtab       " ?
+set hidden           " allow hiding buffers
+set updatetime=300   " As i know, it's used my timer funtions, which will call functions every 300ms
+set ignorecase       " ignore case when searching
+" set expandtab       " ?
+
 set autoindent
 set breakindent     " make wrapping text indented
+
 set tabstop=8
 set softtabstop=4
 set shiftwidth=4
@@ -137,7 +139,17 @@ set breakindent
 " Ensures word-wrap does not split words
 set formatoptions=l
 set lbr
-set showbreak=....
+set showbreak=>>
+
+
+" SECTION: Plugin specific configurations
+"================================================================================
+
+source $HOME/.config/nvim/plug-config/coc.vim
+source $HOME/.config/nvim/plug-config/barbar.vim
+" source $HOME/.config/nvim/plug-config/NERDTree.vim
+" source $HOME/.config/nvim/plug-config/vimtex.vim
+luafile $HOME/.config/nvim/lua/setup.lua
 
 " SECTION: Appearence
 "================================================================================
@@ -150,15 +162,6 @@ colorscheme tokyonight
 " colorscheme wal
 set background=dark
 set termguicolors
-
-" SECTION: Plugin specific configurations
-"================================================================================
-
-source $HOME/.config/nvim/plug-config/coc.vim
-source $HOME/.config/nvim/plug-config/barbar.vim
-" source $HOME/.config/nvim/plug-config/NERDTree.vim
-" source $HOME/.config/nvim/plug-config/vimtex.vim
-luafile $HOME/.config/nvim/lua/setup.lua
 
 
 " SECTION: setup

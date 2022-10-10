@@ -1,14 +1,30 @@
+" SECTION: DOCUMENTATION
+"===============================================================================
+" Naming:
+"   All init.vim variables and functions should start with 'my' and are generally global
+"
+"===============================================================================
 " SECTION: PRE CONFIGURATION
 " Environmental configuration, based on the os
 "================================================================================
-
-let g:plugged_home = expand('~/.config/nvim/plugged')
-set autochdir
+" Switch configurations between windows and unix
+if has("win32") || has("win64")
+    let g:plugged_home = expand('~/AppData/Local/nvim/plugged')
+    set langmenu=en_US  " set language to english, ignoring system's language
+    let $LANG = 'en_US'
+    source $VIMRUNTIME/delmenu.vim 
+    source $VIMRUNTIME/menu.vim
+    source $VIMRUNTIME/menu.vim
+    let g:my_os_win = 1     " needed for other os dependent configurations
+    set autochdir
+elseif has("unix")
+    let g:plugged_home = expand('~/.config/nvim/plugged')
+    set autochdir
+endif
 
 " SECTION: Plugins (using vim-plug)
 "================================================================================
 call plug#begin(g:plugged_home)
-
 " FUZZY FINDER
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -61,8 +77,8 @@ Plug 'folke/which-key.nvim'                       " Show available commands
 Plug 'takac/vim-hardtime'                         " Make Vim harder to use
 Plug 'lewis6991/gitsigns.nvim'
 Plug 'tpope/vim-fugitive'
-" Plug 'ludovicchabant/vim-gutentags'             " Automatically generate ctags
 
+" Plug 'ludovicchabant/vim-gutentags'             " Automatically generate ctags
 call plug#end()
 
 
@@ -93,15 +109,17 @@ set foldexpr=nvim_treesitter#foldexpr()
 " SECTION: Environment options
 "================================================================================
 set mouse=a          " disable mouse
-set hidden          " allow hiding buffers
-set updatetime=300  " As i know, it's used my timer funtions, which will call functions every 300ms
-set ignorecase      " ignore case when searching
-set expandtab       " ?
+set hidden           " allow hiding buffers
+set updatetime=300   " As i know, it's used my timer funtions, which will call functions every 300ms
+set ignorecase       " ignore case when searching
+" set expandtab       " ?
+
 set autoindent
 set breakindent     " make wrapping text indented
-set tabstop=8
-set softtabstop=4
-set shiftwidth=4
+
+" set tabstop=8
+" set softtabstop=4
+" set shiftwidth=4
 set splitright
 set termencoding=utf-8
 set encoding=utf-8
@@ -123,6 +141,16 @@ set formatoptions=l
 set lbr
 set showbreak=....
 
+
+" SECTION: Plugin specific configurations
+"================================================================================
+
+source $HOME/.config/nvim/plug-config/coc.vim
+source $HOME/.config/nvim/plug-config/barbar.vim
+" source $HOME/.config/nvim/plug-config/NERDTree.vim
+" source $HOME/.config/nvim/plug-config/vimtex.vim
+luafile $HOME/.config/nvim/lua/setup.lua
+
 " SECTION: Appearence
 "================================================================================
 " colorscheme molokai
@@ -134,15 +162,6 @@ colorscheme tokyonight
 " colorscheme wal
 set background=dark
 set termguicolors
-
-" SECTION: Plugin specific configurations
-"================================================================================
-
-source $HOME/.config/nvim/plug-config/coc.vim
-source $HOME/.config/nvim/plug-config/barbar.vim
-" source $HOME/.config/nvim/plug-config/NERDTree.vim
-" source $HOME/.config/nvim/plug-config/vimtex.vim
-luafile $HOME/.config/nvim/lua/setup.lua
 
 
 " SECTION: setup
