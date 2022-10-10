@@ -1,30 +1,14 @@
-" SECTION: DOCUMENTATION
-"===============================================================================
-" Naming:
-"   All init.vim variables and functions should start with 'my' and are generally global
-"
-"===============================================================================
 " SECTION: PRE CONFIGURATION
 " Environmental configuration, based on the os
 "================================================================================
-" Switch configurations between windows and unix
-if has("win32") || has("win64")
-    let g:plugged_home = expand('~/AppData/Local/nvim/plugged')
-    set langmenu=en_US  " set language to english, ignoring system's language
-    let $LANG = 'en_US'
-    source $VIMRUNTIME/delmenu.vim 
-    source $VIMRUNTIME/menu.vim
-    source $VIMRUNTIME/menu.vim
-    let g:my_os_win = 1     " needed for other os dependent configurations
-    set autochdir
-elseif has("unix")
-    let g:plugged_home = expand('~/.config/nvim/plugged')
-    set autochdir
-endif
+
+let g:plugged_home = expand('~/.config/nvim/plugged')
+set autochdir
 
 " SECTION: Plugins (using vim-plug)
 "================================================================================
 call plug#begin(g:plugged_home)
+
 " FUZZY FINDER
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -77,8 +61,8 @@ Plug 'folke/which-key.nvim'                       " Show available commands
 Plug 'takac/vim-hardtime'                         " Make Vim harder to use
 Plug 'lewis6991/gitsigns.nvim'
 Plug 'tpope/vim-fugitive'
-
 " Plug 'ludovicchabant/vim-gutentags'             " Automatically generate ctags
+
 call plug#end()
 
 
