@@ -37,7 +37,8 @@ Plug 'lukas-reineke/indent-blankline.nvim'      " indentetion guides
 
 " Plug 'preservim/nerdtree'                     " NERDTree
 Plug 'kyazdani42/nvim-tree.lua'
-Plug 'powerline/powerline'                      " Powerline 
+" Plug 'powerline/powerline'                      " Powerline 
+Plug 'nvim-lualine/lualine.nvim'
 Plug 'vim-airline/vim-airline'                  " Vim airline
 Plug 'vim-airline/vim-airline-themes'           " Vim airline themes
 Plug 'honza/vim-snippets'                       " ????????????????????
