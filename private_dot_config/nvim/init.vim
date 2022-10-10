@@ -167,11 +167,6 @@ luafile $HOME/.config/nvim/lua/gitsignsconf.lua
 luafile $HOME/.config/nvim/lua/nvim_tree.lua
 luafile $HOME/.config/nvim/lua/indent-blankline.lua
 
-lua << END
-require('lualine').setup()
-END
-
-
 
 " SECTION: setup
 "================================================================================
