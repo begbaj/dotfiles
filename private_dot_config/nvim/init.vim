@@ -26,8 +26,9 @@ endif
 "================================================================================
 call plug#begin(g:plugged_home)
 " FUZZY FINDER
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
+" Plug 'junegunn/fzf.vim'
 Plug 'crispydrone/vim-tasks'
 
 " APPEARENCE
@@ -57,28 +58,29 @@ Plug 'davidhalter/jedi-vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-scriptease'
 Plug 'vim-autoformat/vim-autoformat'
-Plug 'tpope/vim-commentary'                       " Commenting made easy
+Plug 'tpope/vim-commentary'			" Commenting made easy
 Plug 'lervag/vimtex'
 
-" Plug 'airblade/vim-gitgutter'                   " Show git diff markers
+" Plug 'airblade/vim-gitgutter'			" Show git diff markers
 " Plug 'tpope/vim-projectionist'
 
 " HIGHLIGHT
-Plug 'nvim-treesitter/nvim-treesitter'            " Powerfull Highlighting plugin 
+Plug 'nvim-treesitter/nvim-treesitter'		" Powerfull Highlighting plugin 
 
 " DEBUG
-Plug 'vim-syntastic/syntastic'                    " ????????????????
-Plug 'puremourning/vimspector'                    " Powerfull debugging tool I don't know how to use
+Plug 'vim-syntastic/syntastic'			" ????????????????
+Plug 'puremourning/vimspector'			" Powerfull debugging tool I don't know how to use
 
 " BEHAVIOUR
-Plug 'matze/vim-tex-fold'                         " Foldings for TeX
-Plug 'airblade/vim-rooter'                        " document root to current project root
-Plug 'folke/which-key.nvim'                       " Show available commands
-Plug 'takac/vim-hardtime'                         " Make Vim harder to use
+Plug 'nvim-lua/plenary.nvim'			" All the lua functions I don't want to write twice
+Plug 'matze/vim-tex-fold'			" Foldings for TeX
+Plug 'airblade/vim-rooter'			" document root to current project root
+Plug 'folke/which-key.nvim'			" Show available commands
+Plug 'takac/vim-hardtime'			" Make Vim harder to use
 Plug 'lewis6991/gitsigns.nvim'
 Plug 'tpope/vim-fugitive'
 
-" Plug 'ludovicchabant/vim-gutentags'             " Automatically generate ctags
+" Plug 'ludovicchabant/vim-gutentags'		" Automatically generate ctags
 call plug#end()
 
 
