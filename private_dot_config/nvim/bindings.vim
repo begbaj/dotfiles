@@ -31,7 +31,10 @@ nnoremap <silent> <A-v> :sp<CR>:terminal<CR>
 " SECTION: telescope
 "==========================================
 nnoremap <silent> <C-f> <cmd>Telescope find_files<CR>
-nnoremap <silent> <C-g> :Rg<CR>
+nnoremap <silent> <C-g> <cmd>Telescope live_grep<CR>
+nnoremap <leader>tb <cmd>Telescope buffers<cr>
+nnoremap <leader>th <cmd>Telescope help_tags<cr>
+
 
 
 
