@@ -26,18 +26,21 @@ endif
 "================================================================================
 call plug#begin(g:plugged_home)
 " FUZZY FINDER
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
 Plug 'crispydrone/vim-tasks'
 
+" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+" Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
+" Plug 'junegunn/fzf.vim'
+
 " APPEARENCE
-Plug 'romgrk/barbar.nvim'			" tab bars plugin
-Plug 'lukas-reineke/indent-blankline.nvim'      " indentetion guides
-Plug 'kyazdani42/nvim-tree.lua'
-Plug 'powerline/powerline'                      " Powerline 
-Plug 'nvim-lualine/lualine.nvim'
 Plug 'honza/vim-snippets'                       " ????????????????????
+Plug 'kyazdani42/nvim-tree.lua'
 Plug 'kyazdani42/nvim-web-devicons'             " Support for Devicons
+Plug 'lukas-reineke/indent-blankline.nvim'      " indentetion guides
+Plug 'nvim-lualine/lualine.nvim'
+Plug 'powerline/powerline'                      " Powerline 
+Plug 'romgrk/barbar.nvim'			" tab bars plugin
 
 " Plug 'vim-airline/vim-airline'                  " Vim airline
 " Plug 'vim-airline/vim-airline-themes'           " Vim airline themes
@@ -46,39 +49,41 @@ Plug 'kyazdani42/nvim-web-devicons'             " Support for Devicons
 " Plug 'ryanoasis/vim-devicons'                   " Support for Devicons
 
 "" COLOR SCHEMES
-Plug 'tomasiser/vim-code-dark'
-Plug 'joshdick/onedark.vim'
-Plug 'tomasr/molokai'
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'joshdick/onedark.vim'
+Plug 'tomasiser/vim-code-dark'
+Plug 'tomasr/molokai'
 
 " CODE COMPLETION and UTILITIES
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'davidhalter/jedi-vim'
-Plug 'tpope/vim-surround'
-Plug 'tpope/vim-scriptease'
-Plug 'vim-autoformat/vim-autoformat'
-Plug 'tpope/vim-commentary'                       " Commenting made easy
 Plug 'lervag/vimtex'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'tpope/vim-commentary'			" Commenting made easy
+Plug 'tpope/vim-scriptease'
+Plug 'tpope/vim-surround'
+Plug 'vim-autoformat/vim-autoformat'
 
-" Plug 'airblade/vim-gitgutter'                   " Show git diff markers
+" Plug 'airblade/vim-gitgutter'			" Show git diff markers
 " Plug 'tpope/vim-projectionist'
 
 " HIGHLIGHT
-Plug 'nvim-treesitter/nvim-treesitter'            " Powerfull Highlighting plugin 
+Plug 'nvim-treesitter/nvim-treesitter'		" Powerfull Highlighting plugin 
 
 " DEBUG
-Plug 'vim-syntastic/syntastic'                    " ????????????????
-Plug 'puremourning/vimspector'                    " Powerfull debugging tool I don't know how to use
+Plug 'puremourning/vimspector'			" Powerfull debugging tool I don't know how to use
+Plug 'vim-syntastic/syntastic'			" ????????????????
 
 " BEHAVIOUR
-Plug 'matze/vim-tex-fold'                         " Foldings for TeX
-Plug 'airblade/vim-rooter'                        " document root to current project root
-Plug 'folke/which-key.nvim'                       " Show available commands
-Plug 'takac/vim-hardtime'                         " Make Vim harder to use
-Plug 'lewis6991/gitsigns.nvim'
+Plug 'airblade/vim-rooter'			" document root to current project root
+Plug 'folke/which-key.nvim'			" Show available commands
+Plug 'lewis6991/gitsigns.nvim'			" Show signs for git changes
+Plug 'matze/vim-tex-fold'			" Foldings for TeX
+Plug 'nvim-lua/plenary.nvim'			" All the lua functions I don't want to write twice
+Plug 'takac/vim-hardtime'			" Make Vim harder to use
 Plug 'tpope/vim-fugitive'
 
-" Plug 'ludovicchabant/vim-gutentags'             " Automatically generate ctags
+" Plug 'ludovicchabant/vim-gutentags'		" Automatically generate ctags
+
 call plug#end()
 
 

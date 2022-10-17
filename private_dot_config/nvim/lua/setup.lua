@@ -111,3 +111,7 @@ require'nvim-treesitter.configs'.setup {
 
 --- WHICH-KEY:
 require("which-key").setup {}
+
+--- TELESCOPE:
+require('telescope').setup {}
+--- require('telescope').load_extension('fzf')
