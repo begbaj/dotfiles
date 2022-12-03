@@ -36,13 +36,13 @@ pub_ip:
 # local ip address  
 local_ip:
   icon: ''
-  enabled: false
-  interface: 'wlo1' #network interface required for now..
+  enabled: true
+  interface: 'enp0s31f6' #network interface required for now..
   delay: 120.0
   
 # ethernet/wifi bandwith (no delay for this since it will calculate the bandwith every second)
 netspeed:
-  enabled: false
+  enabled: true
   interface: 'enp0s31f6'
   recieve_icon: ''
   transmit_icon: ''
