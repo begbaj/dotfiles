@@ -193,7 +193,6 @@ function! TermToggle(height)
         catch
             call termopen($SHELL, {"detach": 0})
             let g:term_buf = bufnr("")
-	    set bufhidden
             set nonumber
             set norelativenumber
             set signcolumn=no
