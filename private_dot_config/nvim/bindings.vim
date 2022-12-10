@@ -1,6 +1,7 @@
 " SECTION: Globally
 "==========================================
 let mapleader='\'
+
 " reload init.vim
 nnoremap <F8> :so $MYVIMRC<CR>
 
@@ -20,6 +21,7 @@ nnoremap <Left> zH
 nnoremap <Up> <C-u>
 nnoremap <Down> <C-d>
 
+" terminal
 nnoremap <silent> <A-v> :sp<CR>:terminal<CR>
 
 " SECTION: fzf.vim
