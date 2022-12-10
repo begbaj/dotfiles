@@ -29,6 +29,7 @@ tnoremap <A-v> <C-\><C-n>:call TermToggle(12)<CR>
 " Terminal go back to normal mode
 tnoremap <Esc> <C-\><C-n>
 tnoremap :q! <C-\><C-n>:q!<CR>
+
 " SECTION: fzf.vim
 "==========================================
 " nnoremap <silent> <C-f> :Files<CR>
