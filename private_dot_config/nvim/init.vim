@@ -72,6 +72,7 @@ Plug 'nvim-treesitter/nvim-treesitter'		" Powerfull Highlighting plugin
 " DEBUG
 Plug 'puremourning/vimspector'			" Powerfull debugging tool I don't know how to use
 Plug 'vim-syntastic/syntastic'			" ????????????????
+Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}   " A neovim lua plugin to help easily manage multiple terminal windows 
 
 " BEHAVIOUR
 Plug 'airblade/vim-rooter'			" document root to current project root
