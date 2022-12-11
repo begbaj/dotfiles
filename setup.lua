@@ -117,6 +117,6 @@ require('telescope').setup {}
 --- require('telescope').load_extension('fzf')
 --- TOGGLETERM:
 require("toggleterm").setup{
-      size = 20,
+      size = 10,
       open_mapping = [[<A-\>]]
 }

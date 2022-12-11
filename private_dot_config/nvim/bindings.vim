@@ -22,13 +22,13 @@ nnoremap <Up> <C-u>
 nnoremap <Down> <C-d>
 
 " Toggle terminal on/off (neovim) (reddit: https://www.reddit.com/r/vim/comments/8n5bzs/using_neovim_is_there_a_way_to_display_a_terminal/)
-nnoremap <A-v> :call TermToggle(12)<CR>
-inoremap <A-v> <Esc>:call TermToggle(12)<CR>
-tnoremap <A-v> <C-\><C-n>:call TermToggle(12)<CR>
-
-" Terminal go back to normal mode
-tnoremap <C-k> <C-\><C-n>
-tnoremap :q! <C-\><C-n>:q!<CR>
+" nnoremap <A-v> :call TermToggle(12)<CR>
+" inoremap <A-v> <Esc>:call TermToggle(12)<CR>
+" tnoremap <A-v> <C-\><C-n>:call TermToggle(12)<CR>
+" 
+" " Terminal go back to normal mode
+" tnoremap <C-k> <C-\><C-n>
+" tnoremap :q! <C-\><C-n>:q!<CR>
 
 " SECTION: fzf.vim
 "==========================================
