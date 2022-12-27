@@ -1,26 +1,14 @@
 " SECTION: DOCUMENTATION
 "===============================================================================
 " Naming:
-"   All init.vim variables and functions should start with 'my' and are generally global
+"   All init.vim variables and functions should start with 'my' and are global
 "
 "===============================================================================
 " SECTION: PRE CONFIGURATION
-" Environmental configuration, based on the os
 "================================================================================
 " Switch configurations between windows and unix
-if has("win32") || has("win64")
-    let g:plugged_home = expand('~/AppData/Local/nvim/plugged')
-    set langmenu=en_US  " set language to english, ignoring system's language
-    let $LANG = 'en_US'
-    source $VIMRUNTIME/delmenu.vim 
-    source $VIMRUNTIME/menu.vim
-    source $VIMRUNTIME/menu.vim
-    let g:my_os_win = 1     " needed for other os dependent configurations
-    set autochdir
-elseif has("unix")
-    let g:plugged_home = expand('~/.config/nvim/plugged')
-    set autochdir
-endif
+let g:plugged_home = expand('~/.config/nvim/plugged')
+set autochdir
 
 " SECTION: Plugins (using vim-plug)
 "================================================================================
@@ -34,34 +22,34 @@ Plug 'crispydrone/vim-tasks'
 " Plug 'junegunn/fzf.vim'
 
 " APPEARENCE
-Plug 'honza/vim-snippets'                       " ????????????????????
+Plug 'honza/vim-snippets'                         " ????????????????????
 Plug 'kyazdani42/nvim-tree.lua'
-Plug 'kyazdani42/nvim-web-devicons'             " Support for Devicons
-Plug 'lukas-reineke/indent-blankline.nvim'      " indentetion guides
+Plug 'kyazdani42/nvim-web-devicons'               " Support for Devicons
+Plug 'lukas-reineke/indent-blankline.nvim'        " indentetion guides
 Plug 'nvim-lualine/lualine.nvim'
-Plug 'powerline/powerline'                      " Powerline 
-Plug 'romgrk/barbar.nvim'			" tab bars plugin
+Plug 'powerline/powerline'                        " Powerline 
+Plug 'romgrk/barbar.nvim'                         " tab bars plugin
 
 " Plug 'vim-airline/vim-airline'                  " Vim airline
 " Plug 'vim-airline/vim-airline-themes'           " Vim airline themes
-" Plug 'mhinz/vim-startify'                     " Start page
-" Plug 'preservim/nerdtree'                     " NERDTree
+" Plug 'mhinz/vim-startify'                       " Start page
+" Plug 'preservim/nerdtree'                       " NERDTree
 " Plug 'ryanoasis/vim-devicons'                   " Support for Devicons
 
 "" COLOR SCHEMES
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
-Plug 'joshdick/onedark.vim'
-Plug 'tomasiser/vim-code-dark'
-Plug 'tomasr/molokai'
+" Plug 'joshdick/onedark.vim'
+" Plug 'tomasiser/vim-code-dark'
+" Plug 'tomasr/molokai'
 
 " CODE COMPLETION and UTILITIES
-Plug 'davidhalter/jedi-vim'
-Plug 'lervag/vimtex'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-commentary'			" Commenting made easy
 Plug 'tpope/vim-scriptease'
 Plug 'tpope/vim-surround'
-Plug 'vim-autoformat/vim-autoformat'
+" Plug 'vim-autoformat/vim-autoformat'
+" Plug 'davidhalter/jedi-vim'
+" Plug 'lervag/vimtex'
 
 " Plug 'airblade/vim-gitgutter'			" Show git diff markers
 " Plug 'tpope/vim-projectionist'
@@ -150,7 +138,6 @@ set showbreak=>>
 
 " SECTION: Plugin specific configurations
 "================================================================================
-
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/barbar.vim
 " source $HOME/.config/nvim/plug-config/NERDTree.vim
@@ -180,36 +167,7 @@ autocmd FileType markdown let b:coc_suggest_disable = 1
 
 " SECTION: Functions
 "================================================================================
-" Terminal Function (reddit: https://www.reddit.com/r/vim/comments/8n5bzs/using_neovim_is_there_a_way_to_display_a_terminal/)
-" let g:term_buf = 0
-" let g:term_win = 0
-" function! TermToggle(height)
-"     if win_gotoid(g:term_win)
-"         hide
-"     else
-"         botright new
-"         exec "resize " . a:height
-"         try
-"             exec "buffer " . g:term_buf
-"         catch
-"             call termopen($SHELL, {"detach": 0})
-"             let g:term_buf = bufnr("")
-"             set nonumber
-"             set norelativenumber
-"             set signcolumn=no
-"         endtry
-"         startinsert!
-"         let g:term_win = win_getid()
-"     endif
-" endfunction
-
-" SECTION: My Macros
-"================================================================================
-" Sistem dependent
-"================================================================================
-"
-" Global
+" SECTION: My Bindings
 "================================================================================
 source $HOME/.config/nvim/bindings.vim
-
 " END OF FILE
