@@ -22,7 +22,7 @@ Plug 'crispydrone/vim-tasks'
 " Plug 'junegunn/fzf.vim'
 
 " APPEARENCE
-Plug 'honza/vim-snippets'                         " ????????????????????
+Plug 'honza/vim-snippets'                         " provides some usefull snippets
 Plug 'kyazdani42/nvim-tree.lua'
 Plug 'kyazdani42/nvim-web-devicons'               " Support for Devicons
 Plug 'lukas-reineke/indent-blankline.nvim'        " indentetion guides
@@ -59,7 +59,6 @@ Plug 'nvim-treesitter/nvim-treesitter'		" Powerfull Highlighting plugin
 
 " DEBUG
 Plug 'puremourning/vimspector'			" Powerfull debugging tool I don't know how to use
-Plug 'vim-syntastic/syntastic'			" ????????????????
 Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}   " A neovim lua plugin to help easily manage multiple terminal windows 
 
 " BEHAVIOUR
