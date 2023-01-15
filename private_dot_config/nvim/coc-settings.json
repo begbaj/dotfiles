@@ -7,7 +7,7 @@
     "java.completion.enabled": true,
     "java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok/lombok.jar",
 
-    "jedi.enable": false,
+    "jedi.enable": true,
     "jedi.startupMessage": false,
     "jedi.markupKindPreferred": "plaintext",
     "jedi.trace.server": "off",
