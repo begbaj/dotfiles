@@ -146,7 +146,7 @@ luafile $HOME/.config/nvim/lua/setup.lua
 " SECTION: Appearence
 "================================================================================
 " colorscheme molokai
-" let g:tokyonight_style="night"
+let g:tokyonight_style="night"
 " let g:tokyonight_transparent=1
 " luafile $HOME/.config/nvim/lua/tokyonight-setup.lua
 colorscheme tokyonight
