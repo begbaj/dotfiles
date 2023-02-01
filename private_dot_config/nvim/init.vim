@@ -38,6 +38,7 @@ Plug 'romgrk/barbar.nvim'                         " tab bars plugin
 
 "" COLOR SCHEMES
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'projekt0n/github-nvim-theme', { 'branch': '0.0.x' }
 " Plug 'joshdick/onedark.vim'
 " Plug 'tomasiser/vim-code-dark'
 " Plug 'tomasr/molokai'
@@ -149,7 +150,8 @@ luafile $HOME/.config/nvim/lua/setup.lua
 let g:tokyonight_style="night"
 " let g:tokyonight_transparent=1
 " luafile $HOME/.config/nvim/lua/tokyonight-setup.lua
-colorscheme tokyonight
+" colorscheme tokyonight
+colorscheme github_dark_default
 
 " colorscheme wal
 set background=dark
