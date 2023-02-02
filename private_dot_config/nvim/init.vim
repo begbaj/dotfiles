@@ -150,8 +150,8 @@ luafile $HOME/.config/nvim/lua/setup.lua
 let g:tokyonight_style="night"
 " let g:tokyonight_transparent=1
 " luafile $HOME/.config/nvim/lua/tokyonight-setup.lua
-" colorscheme tokyonight
-colorscheme github_dark_default
+colorscheme tokyonight
+" colorscheme github_dark_default
 
 " colorscheme wal
 set background=dark
