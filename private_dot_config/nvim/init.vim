@@ -11,9 +11,6 @@ set autochdir
 "================================================================================
 call plug#begin(g:plugged_home)
 " snippet for sorting: :{range}sort /\".*/ r
-"
-
-
 
 Plug 'kyazdani42/nvim-web-devicons'                         " Appearence: Support for Devicons
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }          " Appearence: color theme
