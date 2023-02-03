@@ -173,4 +173,19 @@ require("nvim-surround").setup({
     -- Configuration here, or leave empty to use defaults
 })
 
+require('mini.animate').setup({
+    cursor = {
+        enable = false,
+    },
+    scroll = {
+        enable = true,
+    },
+    open = {
+        enable = false,
+    },
+    close = {
+        enable = false,
+    },
+    
 
+})
