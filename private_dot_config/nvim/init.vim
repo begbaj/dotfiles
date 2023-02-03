@@ -13,17 +13,15 @@ set autochdir
 " SECTION: Plugins (using vim-plug)
 "================================================================================
 call plug#begin(g:plugged_home)
-" FUZZY FINDER
-Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' } " Utility: fuzzy finder
 
-" APPEARENCE
-Plug 'honza/vim-snippets'                         " provides some usefull snippets
-Plug 'kyazdani42/nvim-tree.lua'
-Plug 'kyazdani42/nvim-web-devicons'               " Support for Devicons
-Plug 'lukas-reineke/indent-blankline.nvim'        " indentetion guides
-Plug 'nvim-lualine/lualine.nvim'
-Plug 'powerline/powerline'                        " Powerline 
-Plug 'romgrk/barbar.nvim'                         " tab bars plugin
+Plug 'honza/vim-snippets'                         " Utility: provides some usefull snippets
+Plug 'kyazdani42/nvim-tree.lua'                   " Core: file explorer
+Plug 'kyazdani42/nvim-web-devicons'               " Appearence: Support for Devicons
+Plug 'lukas-reineke/indent-blankline.nvim'        " Appearence: indentetion guides
+Plug 'nvim-lualine/lualine.nvim'                  " Core: statusline
+" Plug 'powerline/powerline'                      " Powerline 
+Plug 'romgrk/barbar.nvim'                         " Core: tab bars plugin
 
 "" COLOR SCHEMES
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
