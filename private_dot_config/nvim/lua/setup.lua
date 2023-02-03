@@ -169,10 +169,10 @@ require("toggleterm").setup{
       size = 10,
       open_mapping = [[<A-\>]]
 }
-require("nvim-surround").setup({
-    -- Configuration here, or leave empty to use defaults
-})
+--- SURROUND:
+require("nvim-surround").setup()
 
+--- MININVIM:
 require('mini.animate').setup({
     cursor = {
         enable = false,
@@ -180,6 +180,24 @@ require('mini.animate').setup({
     scroll = {
         enable = true,
     },
+    open = {
+        enable = false,
+    },
+    close = {
+        enable = false,
+    },
 })
 
 require('mini.starter').setup()
+require('mini.move').setup()
+require('mini.pairs').setup()
+require('mini.basics').setup({
+    options = {
+        basic = true,
+        extra_ui = true,
+    },
+    mappings = {
+        basic = false,
+    },
+})
+

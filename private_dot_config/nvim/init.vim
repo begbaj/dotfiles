@@ -12,6 +12,9 @@ set autochdir
 call plug#begin(g:plugged_home)
 " snippet for sorting: :{range}sort /\".*/ r
 "
+
+
+
 Plug 'kyazdani42/nvim-web-devicons'                         " Appearence: Support for Devicons
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }          " Appearence: color theme
 Plug 'lukas-reineke/indent-blankline.nvim'                  " Appearence: indentetion guides
@@ -28,14 +31,14 @@ Plug 'nvim-lualine/lualine.nvim'                            " Core: statusline
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " Core: syntax
 Plug 'romgrk/barbar.nvim'                                   " Core: tab bars plugin
 
+Plug 'echasnovski/mini.nvim'                                " Fun: A set of mini plugins, for eyecandy and micro utilities
+Plug 'takac/vim-hardtime'                                   " Fun: Make Vim harder to use
+
 Plug 'tpope/vim-commentary'                                 " Utility: Commenting made easy
 Plug 'kylechui/nvim-surround'                               " Utility: Replaced the fantastic tpope plugin with the lua one
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }    " Utility: fuzzy finder
 Plug 'honza/vim-snippets'                                   " Utility: provides some usefull snippets
 Plug 'nvim-treesitter/nvim-treesitter-textobjects'          " Utility: textopbject manipulation
-
-Plug 'takac/vim-hardtime'                                   " Fun: Make Vim harder to use
-Plug 'echasnovski/mini.nvim'                                " Fun: A set of mini plugins, for eyecandy and micro utilities
 
 call plug#end()
 
@@ -54,8 +57,11 @@ set nofoldenable
 set foldexpr=nvim_treesitter#foldexpr()
 
 " SECTION: Environment options
+" I'm aware that mini.basics does already set some (or maybe all) of the
+" following settings, I just don't know exactly which of these, so to stay
+" consistent with what I had so far, I'm not going to remove these soon.
 "================================================================================
-set mouse=a          " disable mouse
+set mouse=a          " enable mouse
 set hidden           " allow hiding buffers
 set updatetime=300   " As i know, it's used my timer funtions, which will call functions every 300ms
 set ignorecase       " ignore case when searching
