@@ -175,7 +175,7 @@ require("nvim-surround").setup()
 --- MININVIM:
 require('mini.animate').setup({
     cursor = {
-        enable = false,
+        enable = true,
     },
     scroll = {
         enable = true,
