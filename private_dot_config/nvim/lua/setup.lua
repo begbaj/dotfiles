@@ -190,7 +190,7 @@ require('mini.animate').setup({
 
 require('mini.starter').setup()
 require('mini.move').setup()
-require('mini.pairs').setup()
+-- require('mini.pairs').setup({})
 require('mini.basics').setup({
     options = {
         basic = true,
