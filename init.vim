@@ -13,64 +13,42 @@ set autochdir
 " SECTION: Plugins (using vim-plug)
 "================================================================================
 call plug#begin(g:plugged_home)
+" snippet for sorting: :{range}sort /\".*/ r
+"
+Plug 'kyazdani42/nvim-web-devicons'                         " Appearence: Support for Devicons
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }          " Appearence: color theme
+Plug 'lukas-reineke/indent-blankline.nvim'                  " Appearence: indentetion guides
 
-Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' } " utility: fuzzy finder
-Plug 'kyazdani42/nvim-tree.lua'                          " utility: file explorer
+Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}               " Core: A neovim lua plugin to help easily manage multiple terminal windows 
+Plug 'nvim-lua/plenary.nvim'                                " Core: Many plugins are based on this
+Plug 'puremourning/vimspector'                              " Core: Powerfull debugging tool I don't know how to use
+Plug 'folke/which-key.nvim'                                 " Core: Show available commands
+Plug 'lewis6991/gitsigns.nvim'                              " Core: Show signs for git changes
+Plug 'neoclide/coc.nvim', {'branch': 'release'}             " Core: completion
+Plug 'airblade/vim-rooter'                                  " Core: document root to current project root
+Plug 'kyazdani42/nvim-tree.lua'                             " Core: file explorer
+Plug 'nvim-lualine/lualine.nvim'                            " Core: statusline
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " Core: syntax
+Plug 'romgrk/barbar.nvim'                                   " Core: tab bars plugin
 
-Plug 'honza/vim-snippets'                         " utility: provides some usefull snippets
-Plug 'kyazdani42/nvim-web-devicons'               " appearence: Support for Devicons
-Plug 'lukas-reineke/indent-blankline.nvim'        " appearence: indentetion guides
-Plug 'nvim-lualine/lualine.nvim'                  " core: status line
-Plug 'powerline/powerline'                        " appearence: Powerline 
-Plug 'romgrk/barbar.nvim'                         " tab bars plugin
+Plug 'tpope/vim-commentary'                                 " Utility: Commenting made easy
+Plug 'kylechui/nvim-surround'                               " Utility: Replaced the fantastic tpope plugin with the lua one
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }    " Utility: fuzzy finder
+Plug 'honza/vim-snippets'                                   " Utility: provides some usefull snippets
+Plug 'nvim-treesitter/nvim-treesitter-textobjects'          " Utility: textopbject manipulation
 
-Plug 'folke/tokyonight.nvim', { 'branch': 'main' } " appearence: theme
-
-" CODE COMPLETION and UTILITIES
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'tpope/vim-commentary'			" Commenting made easy
-Plug 'tpope/vim-scriptease'
-Plug 'kylechui/nvim-surround'			" Replaced the fantastic tpope plugin with the lua one
-Plug 'nvim-treesitter/nvim-treesitter-textobjects'
-
-" HIGHLIGHT
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " Powerfull Highlighting plugin 
-
-" DEBUG
-Plug 'puremourning/vimspector'			" Powerfull debugging tool I don't know how to use
-Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}   " A neovim lua plugin to help easily manage multiple terminal windows 
-
-" BEHAVIOUR
-Plug 'airblade/vim-rooter'			" document root to current project root
-Plug 'folke/which-key.nvim'			" Show available commands
-Plug 'lewis6991/gitsigns.nvim'			" Show signs for git changes
-Plug 'matze/vim-tex-fold'			" Foldings for TeX
-Plug 'nvim-lua/plenary.nvim'			" All the lua functions I don't want to write twice
-Plug 'takac/vim-hardtime'			" Make Vim harder to use
-
-
+Plug 'takac/vim-hardtime'                                   " Fun: Make Vim harder to use
 
 call plug#end()
-
 
 " SUBSECTION: Plugin configuration
 "================================================================================
 " Global
 filetype plugin indent on
 
-" Airline
-let g:airline_powerline_fonts = 1
-
-" Hardtime
-let g:hardtime_default_on = 0
-let g:hardtime_timeout = 500
-let g:hardtime_ignore_buffer_patterns = [ "NERD.*" ]
-let g:hardtime_allow_different_key = 1
-
-" gutentags
-augroup NOTAGAS
-    autocmd FileType .gitignore let g:gutentags_enabled = 0
-augroup END
+source $HOME/.config/nvim/plug-config/coc.vim
+source $HOME/.config/nvim/plug-config/barbar.vim
+luafile $HOME/.config/nvim/lua/setup.lua
 
 " Treesitter folding
 set foldmethod=expr
@@ -83,14 +61,14 @@ set mouse=a          " disable mouse
 set hidden           " allow hiding buffers
 set updatetime=300   " As i know, it's used my timer funtions, which will call functions every 300ms
 set ignorecase       " ignore case when searching
-" set expandtab       " ?
+set autoindent       " autoindent
+set breakindent      " make wrapping text indented
 
-set autoindent
-set breakindent     " make wrapping text indented
-
-set tabstop=8
+set tabstop=4        " how many spaces for a tab
 set softtabstop=4
 set shiftwidth=4
+set expandtab        " tabs are just whitespaces
+
 set splitright
 set termencoding=utf-8
 set encoding=utf-8
@@ -116,12 +94,6 @@ set showbreak=>>
 "================================================================================
 source $HOME/.config/nvim/bindings.vim
 
-" SECTION: Plugin specific configurations
-"================================================================================
-source $HOME/.config/nvim/plug-config/coc.vim
-source $HOME/.config/nvim/plug-config/barbar.vim
-luafile $HOME/.config/nvim/lua/setup.lua
-
 " SECTION: Appearence
 "================================================================================
 " colorscheme molokai
@@ -130,7 +102,6 @@ let g:tokyonight_transparent=1
 colorscheme tokyonight
 set background=dark
 set termguicolors
-
 
 " SECTION: setup
 "================================================================================
