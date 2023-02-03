@@ -85,21 +85,21 @@ require("nvim-tree").setup({
 })
 
 --- TOKYONIGHT:
---- require("tokyonight").setup({
----   style = "night", 
----   transparent = false, 
----   styles = {
----     comments = "italic",
----     keywords = "italic",
----     functions = "NONE",
----     variables = "NONE",
----     sidebars = "dark", 
----     floats = "dark", 
----   },
----   sidebars = { "qf", "help" }, 
----   hide_inactive_statusline = false, 
----   dim_inactive = false, 
---- })
+require("tokyonight").setup({
+  style = "night", 
+  transparent = false, 
+  styles = {
+    comments = "italic",
+    keywords = "italic",
+    functions = "NONE",
+    variables = "NONE",
+    sidebars = "dark", 
+    floats = "dark", 
+  },
+  sidebars = { "qf", "help" }, 
+  hide_inactive_statusline = false, 
+  dim_inactive = false, 
+})
 
 --- NVIM-TREESITTER:
 require'nvim-treesitter.configs'.setup {
@@ -120,4 +120,4 @@ require("toggleterm").setup{
       size = 10,
       open_mapping = [[<A-\>]]
 }
-require('github-theme').setup()
+--- require('github-theme').setup()
