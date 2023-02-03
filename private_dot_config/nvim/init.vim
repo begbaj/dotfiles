@@ -15,6 +15,7 @@ call plug#begin(g:plugged_home)
 Plug 'kyazdani42/nvim-web-devicons'                         " Appearence: Support for Devicons
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }          " Appearence: color theme
 Plug 'lukas-reineke/indent-blankline.nvim'                  " Appearence: indentetion guides
+Plug 'echasnovski/mini.animate'
 
 Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}               " Core: A neovim lua plugin to help easily manage multiple terminal windows 
 Plug 'nvim-lua/plenary.nvim'                                " Core: Many plugins are based on this
