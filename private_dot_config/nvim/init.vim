@@ -38,23 +38,13 @@ Plug 'romgrk/barbar.nvim'                         " tab bars plugin
 
 "" COLOR SCHEMES
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
-" Plug 'projekt0n/github-nvim-theme', { 'branch': '0.0.x' }
-" Plug 'joshdick/onedark.vim'
-" Plug 'tomasiser/vim-code-dark'
-" Plug 'tomasr/molokai'
 
 " CODE COMPLETION and UTILITIES
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-commentary'			" Commenting made easy
 Plug 'tpope/vim-scriptease'
-Plug 'kylechui/nvim-surround'
-" Plug 'tpope/vim-surround'
-" Plug 'vim-autoformat/vim-autoformat'
-" Plug 'davidhalter/jedi-vim'
-" Plug 'lervag/vimtex'
-
-" Plug 'airblade/vim-gitgutter'			" Show git diff markers
-" Plug 'tpope/vim-projectionist'
+Plug 'kylechui/nvim-surround'			" Replaced the fantastic tpope plugin with the lua one
+Plug 'nvim-treesitter/nvim-treesitter-textobjects'
 
 " HIGHLIGHT
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " Powerfull Highlighting plugin 
@@ -71,8 +61,6 @@ Plug 'matze/vim-tex-fold'			" Foldings for TeX
 Plug 'nvim-lua/plenary.nvim'			" All the lua functions I don't want to write twice
 Plug 'takac/vim-hardtime'			" Make Vim harder to use
 Plug 'tpope/vim-fugitive'
-
-" Plug 'ludovicchabant/vim-gutentags'		" Automatically generate ctags
 
 call plug#end()
 
@@ -141,8 +129,6 @@ set showbreak=>>
 "================================================================================
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/barbar.vim
-" source $HOME/.config/nvim/plug-config/NERDTree.vim
-" source $HOME/.config/nvim/plug-config/vimtex.vim
 luafile $HOME/.config/nvim/lua/setup.lua
 
 " SECTION: Appearence
@@ -150,11 +136,7 @@ luafile $HOME/.config/nvim/lua/setup.lua
 " colorscheme molokai
 let g:tokyonight_style="night"
 let g:tokyonight_transparent=1
-" luafile $HOME/.config/nvim/lua/tokyonight-setup.lua
 colorscheme tokyonight
-" colorscheme github_dark_default
-
-" colorscheme wal
 set background=dark
 set termguicolors
 
