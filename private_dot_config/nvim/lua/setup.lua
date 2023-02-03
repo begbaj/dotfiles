@@ -87,7 +87,7 @@ require("nvim-tree").setup({
 --- TOKYONIGHT:
 require("tokyonight").setup({
   style = "night", 
-  transparent = false, 
+  transparent = true, 
   styles = {
     comments = "italic",
     keywords = "italic",
@@ -120,4 +120,6 @@ require("toggleterm").setup{
       size = 10,
       open_mapping = [[<A-\>]]
 }
---- require('github-theme').setup()
+require("nvim-surround").setup({
+    -- Configuration here, or leave empty to use defaults
+})

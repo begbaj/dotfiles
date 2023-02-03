@@ -47,7 +47,8 @@ Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'tpope/vim-commentary'			" Commenting made easy
 Plug 'tpope/vim-scriptease'
-Plug 'tpope/vim-surround'
+Plug 'kylechui/nvim-surround'
+" Plug 'tpope/vim-surround'
 " Plug 'vim-autoformat/vim-autoformat'
 " Plug 'davidhalter/jedi-vim'
 " Plug 'lervag/vimtex'
@@ -56,7 +57,7 @@ Plug 'tpope/vim-surround'
 " Plug 'tpope/vim-projectionist'
 
 " HIGHLIGHT
-Plug 'nvim-treesitter/nvim-treesitter'		" Powerfull Highlighting plugin 
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " Powerfull Highlighting plugin 
 
 " DEBUG
 Plug 'puremourning/vimspector'			" Powerfull debugging tool I don't know how to use
