@@ -36,7 +36,8 @@ Plug 'kylechui/nvim-surround'                               " Utility: Replaced 
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }    " Utility: fuzzy finder
 Plug 'honza/vim-snippets'                                   " Utility: provides some usefull snippets
 Plug 'nvim-treesitter/nvim-treesitter-textobjects'          " Utility: textopbject manipulation
-Plug 'kiyoon/tmuxsend.vim'                                  " Utility:  Vim plugin that lets you copy and paste to a different tmux pane. 
+Plug 'kiyoon/tmuxsend.vim'                                  " Utility: Vim plugin that lets you copy and paste to a different tmux pane. 
+Plug 'kiyoon/nvim-tree-remote.nvim'                         " Utility: A set of Nvim-Tree actions to open files on another remote neovim. 
 
 call plug#end()
 
