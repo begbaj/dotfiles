@@ -3,16 +3,16 @@ env:
   EDITOR: nvim
 
 window:
-  dimensions:
-    columns: 30
-    lines: 0
+  # dimensions:
+  #   columns: 30
+  #   lines: 90
   decorations: full
   opacity: 0.95
   startup_mode: Windowed
   dynamic_title: true
 
 scrolling:
-  history: 10000
+  history: 100000
 
 font:
   normal:
@@ -24,13 +24,13 @@ font:
   italic:
     style: Italic
 
-  size: 11.0
+  size: 7.0
 
 colors:
   # Default colors
   primary:
-    background: '0x2D2A2E'
-    foreground: '0xfff1f3'
+    background: '0x111111'
+    foreground: '0xfafafa'
 
   # Normal colors
   normal:
@@ -43,7 +43,6 @@ colors:
     cyan:    '0x85dacc'
     white:   '0xfff1f3'
 
-  # Bright colors
   bright:
     black:   '0x72696a'
     red:     '0xfd6883'
@@ -73,7 +72,7 @@ shell:
     - --login
 
 key_bindings:
-  - {key: V,  mods: Super, mode: ~Search, action: ToggleViMode }
+  - {key: Escape,  mods: Alt, mode: ~Search, action: ToggleViMode }
 #debug:
   # Display the time it takes to redraw each frame.
   #render_timer: false

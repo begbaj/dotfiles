@@ -13,6 +13,7 @@ export PATH=$npath:$PATH
 export ARCHFLAGS="-arch x86_64"
 export EDITOR="nvim"
 export VISUAL="nvim"
+export TERM=st-256color
 unset SUDO_ASKPASS
 unset SSH_ASKPASS
 unset SSH_ASKPASS_REQUIRE
@@ -32,6 +33,9 @@ fi
 
 # SECTION: XDG BASE DIRECTORIES
 #===============================
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CONFIG_HOME="$HOME/.config"
+
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export ZSH="$XDG_DATA_HOME/oh-my-zsh" # Path to your oh-my-zsh installation.
 export HISTFILE="$XDG_DATA_HOME/.zsh_history" # Path to your oh-my-zsh installation.
