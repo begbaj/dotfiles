@@ -3,5 +3,5 @@ edit.command = "nvim"
     command = "nvim"
     args = ["-d", "{{ .Destination }}", "{{ .Source }}", "{{ .Target }}"]
 [git]
-    autoCommit = true
-    autoPush = true
+    autoCommit = false
+    autoPush = false
