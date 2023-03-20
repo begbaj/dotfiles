@@ -1,8 +1,10 @@
-# SECTION: Environment variables
 #===============================
+# Environment variables
+#===============================
+
+#### PATH
 npath=/usr/local/bin:$npath
 npath=/usr/local/go/bin:$npath
-
 npath=$HOME/bin:$npath
 npath=$HOME/.local/bin:$npath
 npath=$HOME/.local/share/gem/ruby/3.0.0/bin:$npath
@@ -11,18 +13,17 @@ npath=/usr/lib/jvm/java-18-openjdk/bin/:$npath
 npath="$(go env GOBIN):$(go env GOPATH)/bin":$npath
 export PATH=$npath:$PATH
 
+#### COMPILATION FLAGS
 export ARCHFLAGS="-arch x86_64"
-export EDITOR="nvim"
-export VISUAL="nvim"
+
+#### DEFAULTS
 export TERM=st-256color
 unset SUDO_ASKPASS
 unset SSH_ASKPASS
 unset SSH_ASKPASS_REQUIRE
 
 export MANPATH="/usr/local/man:$MANPATH"
-
 export GTK_THEME="Breeze"
-
 export HISTSIZE=500000
 
 # Preferred editor for local and remote sessions
