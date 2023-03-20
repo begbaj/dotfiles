@@ -2,7 +2,7 @@
 # Environment variables
 #===============================
 
-#### PATH
+    # PATH
 npath=/usr/local/bin:$npath
 npath=/usr/local/go/bin:$npath
 npath=$HOME/bin:$npath
@@ -12,20 +12,14 @@ npath=$HOME/.config/composer/vendor/bin:$npath
 npath=/usr/lib/jvm/java-18-openjdk/bin/:$npath
 npath="$(go env GOBIN):$(go env GOPATH)/bin":$npath
 export PATH=$npath:$PATH
-
-#### COMPILATION FLAGS
+    # COMPILATION FLAGS
 export ARCHFLAGS="-arch x86_64"
-
-#### DEFAULTS
+    # TERM
 export TERM=st-256color
+    # ASKPASS
 unset SUDO_ASKPASS
 unset SSH_ASKPASS
 unset SSH_ASKPASS_REQUIRE
-
-export GTK_THEME="Breeze"
-export HISTSIZE=500000
-
-
 
 #===============================
 # Oh-my-zsh configuration
@@ -44,12 +38,14 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# SECTION: ALIASES
+#===============================
+# Aliases
 #===============================
 
 alias open="xdg-open"
 alias tmux="tmux -u"
 
+    # Chezmoi
 alias chedit="chezmoi edit"
 alias chez="chezmoi"
 
@@ -62,23 +58,24 @@ alias l="exa -lag"
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 alias docker-up='sudo docker-compose up -d'
 
-alias cupra='sudo docker-compose exec php'
-
-alias irc='tmux proxychains4 -q irssi'
-
-# SECTION:  PROGRAM ENVIRONMENT VARIABLES
+alias tmux="tmux attach"
+#===============================
+# Program environment variables
 #===============================
 source /usr/share/fzf/key-bindings.zsh
 source /usr/share/fzf/completion.zsh
 
-# SECTION: TMUX
 #===============================
-#if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
-#  exec tmux
-#fi
+# Tmux
+#===============================
+# if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
+#   exec tmux
+# fi
 
-# SECTION: TMUX
 #===============================
+# Bindings
+#===============================
+#
 #bindkey -s "^F" "\x1B dditmuxfzf^M"
 bindkey -s "^D" "\x1B ddiranger^M"
 bindkey -s "^F" "\x1B dditermmenu^M"
