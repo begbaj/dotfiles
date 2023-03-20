@@ -22,29 +22,13 @@ unset SUDO_ASKPASS
 unset SSH_ASKPASS
 unset SSH_ASKPASS_REQUIRE
 
-export MANPATH="/usr/local/man:$MANPATH"
 export GTK_THEME="Breeze"
 export HISTSIZE=500000
 
-# Preferred editor for local and remote sessions
-if [[ -n $SSH_CONNECTION ]]; then
-   export EDITOR='vim'
-else
-  export EDITOR='nvim'
-fi
 
-# SECTION: XDG BASE DIRECTORIES
+
 #===============================
-export XDG_DATA_HOME="$HOME/.local/share"
-export XDG_CONFIG_HOME="$HOME/.config"
-
-export CARGO_HOME="$XDG_DATA_HOME"/cargo
-export ZSH="$XDG_DATA_HOME/oh-my-zsh" # Path to your oh-my-zsh installation.
-export HISTFILE="$XDG_DATA_HOME/.zsh_history" # Path to your oh-my-zsh installation.
-export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME/npm/npmrc"
-
-
-# SECTION: OH-MY-ZSH CONFIGURATION
+# Oh-my-zsh configuration
 #===============================
 ZSH_THEME="eastwood-begbaj"
 HYPHEN_INSENSITIVE="true"
