@@ -58,7 +58,6 @@ alias l="exa -lag"
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 alias docker-up='sudo docker-compose up -d'
 
-alias tmux="tmux attach"
 #===============================
 # Program environment variables
 #===============================
