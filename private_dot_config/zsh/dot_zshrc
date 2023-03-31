@@ -15,7 +15,7 @@ export PATH=$npath:$PATH
     # COMPILATION FLAGS
 export ARCHFLAGS="-arch x86_64"
     # TERM
-export TERM=st-256color
+    # do not set term here, make it per terminal, not global
     # ASKPASS
 unset SUDO_ASKPASS
 unset SSH_ASKPASS
