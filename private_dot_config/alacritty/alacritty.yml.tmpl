@@ -24,7 +24,12 @@ font:
   italic:
     style: Italic
 
+  {{- if eq .chezmoi.hostname "alan" }}
   size: 7.0
+  {{- end }}
+  {{- if eq .chezmoi.hostname "IDELFONSO" }}
+  size: 9.0
+  {{- end }}
 
 colors:
   # Default colors
