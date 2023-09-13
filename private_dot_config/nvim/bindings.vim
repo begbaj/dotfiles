@@ -124,13 +124,14 @@ augroup END
 " SECTION: Vimspector
 "==========================================
 nnoremap <Leader>vl :call vimspector#Launch()<CR>
-nnoremap <Leader>vr :call vimspector#Reset()<CR>
+nnoremap <Leader>vR :call vimspector#Reset()<CR>
 nnoremap <Leader>vc :call vimspector#Continue()<CR>
 
 nnoremap <Leader>vb :call vimspector#ToggleBreakpoint()<CR>
 nnoremap <Leader>vB :call vimspector#ClearBreakpoints()<CR>
 
-nmap <Leader>vR <Plug>VimspectorRestart
+nmap <Leader>vr <Plug>VimspectorRestart
 nmap <Leader>vO <Plug>VimspectorStepOut
 nmap <Leader>vn <Plug>VimspectorStepInto
+nmap <Leader>vi <Plug>VimspectorStepInto
 nmap <Leader>vo <Plug>VimspectorStepOver
