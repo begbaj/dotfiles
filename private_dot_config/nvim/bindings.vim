@@ -120,3 +120,18 @@ augroup LATEX
     autocmd FileType tex nnoremap <C-p> :!okular %:p:r.pdf & disown<CR>
     autocmd FileType tex nnoremap <F5> :!pdflatex %:p && latexmk -c<CR>
 augroup END
+
+" SECTION: Vimspector
+"==========================================
+nnoremap <Leader>vl :call vimspector#Launch()<CR>
+nnoremap <Leader>vR :call vimspector#Reset()<CR>
+nnoremap <Leader>vc :call vimspector#Continue()<CR>
+
+nnoremap <Leader>vb :call vimspector#ToggleBreakpoint()<CR>
+nnoremap <Leader>vB :call vimspector#ClearBreakpoints()<CR>
+
+nmap <Leader>vr <Plug>VimspectorRestart
+nmap <Leader>vO <Plug>VimspectorStepOut
+nmap <Leader>vi <Plug>VimspectorStepInto
+nmap <Leader>vo <Plug>VimspectorStepOver
+nmap <Leader>vn <Plug>VimspectorStepOver
