@@ -132,6 +132,12 @@ nnoremap <Leader>vB :call vimspector#ClearBreakpoints()<CR>
 
 nmap <Leader>vr <Plug>VimspectorRestart
 nmap <Leader>vO <Plug>VimspectorStepOut
+<<<<<<< HEAD
+nmap <Leader>vi <Plug>VimspectorStepInto
+nmap <Leader>vo <Plug>VimspectorStepOver
+nmap <Leader>vn <Plug>VimspectorStepOver
+=======
 nmap <Leader>vn <Plug>VimspectorStepInto
 nmap <Leader>vi <Plug>VimspectorStepInto
 nmap <Leader>vo <Plug>VimspectorStepOver
+>>>>>>> a50d685e59e582b0cadc275e8065b65728d85256
