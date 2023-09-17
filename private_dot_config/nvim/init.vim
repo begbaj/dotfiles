@@ -31,7 +31,7 @@ Plug 'romgrk/barbar.nvim'                                   " Core: tab bars plu
 Plug 'echasnovski/mini.nvim'                                " Fun: A set of mini plugins, for eyecandy and micro utilities
 Plug 'takac/vim-hardtime'                                   " Fun: Make Vim harder to use
 
-" Plug 'tpope/vim-commentary'                                 " Utility: Commenting made easy
+Plug 'tpope/vim-commentary'                                 " Utility: Commenting made easy
 Plug 'kylechui/nvim-surround'                               " Utility: Replaced the fantastic tpope plugin with the lua one
 Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }    " Utility: fuzzy finder
 Plug 'honza/vim-snippets'                                   " Utility: provides some usefull snippets
