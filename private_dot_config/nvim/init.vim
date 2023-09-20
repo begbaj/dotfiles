@@ -21,7 +21,7 @@ Plug 'nvim-lua/plenary.nvim'                                " Core: Many plugins
 " Plug 'puremourning/vimspector'                              " Core: Powerfull debugging tool I don't know how to use
 Plug 'folke/which-key.nvim'                                 " Core: Show available commands
 Plug 'lewis6991/gitsigns.nvim'                              " Core: Show signs for git changes
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}             " Core: completion
+Plug 'neoclide/coc.nvim', {'branch': 'release'}             " Core: completion
 Plug 'airblade/vim-rooter'                                  " Core: document root to current project root
 Plug 'kyazdani42/nvim-tree.lua'                             " Core: file explorer
 Plug 'nvim-lualine/lualine.nvim'                            " Core: statusline
