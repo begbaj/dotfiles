@@ -18,7 +18,7 @@ Plug 'lukas-reineke/indent-blankline.nvim'                  " Appearence: indent
 
 Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}               " Core: A neovim lua plugin to help easily manage multiple terminal windows 
 Plug 'nvim-lua/plenary.nvim'                                " Core: Many plugins are based on this
-Plug 'puremourning/vimspector'                              " Core: Powerfull debugging tool I don't know how to use
+" Plug 'puremourning/vimspector'                              " Core: Powerfull debugging tool I don't know how to use
 Plug 'folke/which-key.nvim'                                 " Core: Show available commands
 Plug 'lewis6991/gitsigns.nvim'                              " Core: Show signs for git changes
 Plug 'neoclide/coc.nvim', {'branch': 'release'}             " Core: completion
