@@ -28,6 +28,7 @@ Plug 'nvim-lualine/lualine.nvim'                            " Core: statusline
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " Core: syntax
 Plug 'romgrk/barbar.nvim'                                   " Core: tab bars plugin
 Plug 'mfussenegger/nvim-dap'                                " Core: DAP integration (Debug Adapter Protocol)
+Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
