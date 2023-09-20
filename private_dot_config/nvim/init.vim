@@ -39,6 +39,7 @@ Plug 'honza/vim-snippets'                                   " Utility: provides 
 Plug 'nvim-treesitter/nvim-treesitter-textobjects'          " Utility: textopbject manipulation
 Plug 'kiyoon/tmuxsend.vim'                                  " Utility: Vim plugin that lets you copy and paste to a different tmux pane. 
 Plug 'kiyoon/nvim-tree-remote.nvim'                         " Utility: A set of Nvim-Tree actions to open files on another remote neovim. 
+Plug 'neovim/nvim-lspconfig'                                " Utility: A collection of LSP configurations
 
 call plug#end()
 
