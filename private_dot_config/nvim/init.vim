@@ -21,13 +21,17 @@ Plug 'nvim-lua/plenary.nvim'                                " Core: Many plugins
 " Plug 'puremourning/vimspector'                              " Core: Powerfull debugging tool I don't know how to use
 Plug 'folke/which-key.nvim'                                 " Core: Show available commands
 Plug 'lewis6991/gitsigns.nvim'                              " Core: Show signs for git changes
-Plug 'neoclide/coc.nvim', {'branch': 'release'}             " Core: completion
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}             " Core: completion
 Plug 'airblade/vim-rooter'                                  " Core: document root to current project root
 Plug 'kyazdani42/nvim-tree.lua'                             " Core: file explorer
 Plug 'nvim-lualine/lualine.nvim'                            " Core: statusline
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " Core: syntax
 Plug 'romgrk/barbar.nvim'                                   " Core: tab bars plugin
 Plug 'mfussenegger/nvim-dap'                                " Core: DAP integration (Debug Adapter Protocol)
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/cmp-path'
+Plug 'hrsh7th/cmp-cmdline'
+Plug 'hrsh7th/nvim-cmp'
 
 Plug 'echasnovski/mini.nvim'                                " Fun: A set of mini plugins, for eyecandy and micro utilities
 Plug 'takac/vim-hardtime'                                   " Fun: Make Vim harder to use
