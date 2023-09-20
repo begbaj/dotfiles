@@ -27,6 +27,7 @@ Plug 'kyazdani42/nvim-tree.lua'                             " Core: file explore
 Plug 'nvim-lualine/lualine.nvim'                            " Core: statusline
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " Core: syntax
 Plug 'romgrk/barbar.nvim'                                   " Core: tab bars plugin
+Plug 'mfussenegger/nvim-dap'                                " Core: DAP integration (Debug Adapter Protocol)
 
 Plug 'echasnovski/mini.nvim'                                " Fun: A set of mini plugins, for eyecandy and micro utilities
 Plug 'takac/vim-hardtime'                                   " Fun: Make Vim harder to use
