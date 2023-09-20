@@ -119,5 +119,5 @@ augroup chezmoi
 augroup END
 
 autocmd FileType markdown let b:coc_suggest_disable = 1
-
+autocmd FileType gdscript set expandtab!
 " END OF FILE
