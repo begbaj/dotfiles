@@ -20,8 +20,6 @@ export ARCHFLAGS="-arch x86_64"
 unset SUDO_ASKPASS
 unset SSH_ASKPASS
 unset SSH_ASKPASS_REQUIRE
-    # PAGER
-export PAGER=vimpager
 
 #===============================
 # Oh-my-zsh configuration
@@ -60,8 +58,8 @@ alias l="exa -lag"
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 alias docker-up='sudo docker-compose up -d'
 
-alias less='vimpager'
-alias more='vimpager'
+alias less='sh /usr/share/vim/vim90/macros/less.sh bindings.vim'
+alias more='sh /usr/share/vim/vim90/macros/less.sh bindings.vim'
 
 #===============================
 # Program environment variables

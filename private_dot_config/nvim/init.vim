@@ -1,6 +1,7 @@
 " this configuration file was entirely written by Began Bajrami
 " please, do not rely on what's written here, since I often make
-" changes
+" changes and mistakes.
+" UPDATE: this will be soon replaced entirely with init in lua
 "
 " SECTION: PRE CONFIGURATION
 "================================================================================
