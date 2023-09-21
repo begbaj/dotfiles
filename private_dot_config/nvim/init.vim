@@ -28,6 +28,7 @@ Plug 'nvim-lualine/lualine.nvim'                            " Core: Statusline
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " Core: Linter [highlighting made usefull]
 Plug 'romgrk/barbar.nvim'                                   " Core: tab bars plugin
 Plug 'mfussenegger/nvim-dap'                                " Core: DAP integration (Debug Adapter Protocol) [DEBUGGER]
+Plug 'rcarriga/nvim-dap-ui'                                 " Core: DAP UI
 Plug 'hrsh7th/cmp-nvim-lsp'                                 " Core: LSP and Autocompletion for nvim
 Plug 'hrsh7th/cmp-buffer'                                   " Core: LSP and Autocompletion for nvim
 Plug 'hrsh7th/cmp-path'                                     " Core: LSP and Autocompletion for nvim
