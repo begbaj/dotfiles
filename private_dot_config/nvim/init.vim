@@ -1,6 +1,7 @@
 " this configuration file was entirely written by Began Bajrami
 " please, do not rely on what's written here, since I often make
-" changes
+" changes and mistakes.
+" UPDATE: this will be soon replaced entirely with init in lua
 "
 " SECTION: PRE CONFIGURATION
 "================================================================================
@@ -18,21 +19,21 @@ Plug 'lukas-reineke/indent-blankline.nvim'                  " Appearence: indent
 
 Plug 'akinsho/toggleterm.nvim', {'tag' : '*'}               " Core: A neovim lua plugin to help easily manage multiple terminal windows 
 Plug 'nvim-lua/plenary.nvim'                                " Core: Many plugins are based on this
-" Plug 'puremourning/vimspector'                              " Core: Powerfull debugging tool I don't know how to use
 Plug 'folke/which-key.nvim'                                 " Core: Show available commands
 Plug 'lewis6991/gitsigns.nvim'                              " Core: Show signs for git changes
-Plug 'neoclide/coc.nvim', {'branch': 'release'}             " Core: completion
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}             " Core: completion
 Plug 'airblade/vim-rooter'                                  " Core: document root to current project root
-Plug 'kyazdani42/nvim-tree.lua'                             " Core: file explorer
-Plug 'nvim-lualine/lualine.nvim'                            " Core: statusline
-Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " Core: syntax
+Plug 'kyazdani42/nvim-tree.lua'                             " Core: File tree explorer
+Plug 'nvim-lualine/lualine.nvim'                            " Core: Statusline
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " Core: Linter [highlighting made usefull]
 Plug 'romgrk/barbar.nvim'                                   " Core: tab bars plugin
-Plug 'mfussenegger/nvim-dap'                                " Core: DAP integration (Debug Adapter Protocol)
-Plug 'hrsh7th/cmp-nvim-lsp'
-Plug 'hrsh7th/cmp-buffer'
-Plug 'hrsh7th/cmp-path'
-Plug 'hrsh7th/cmp-cmdline'
-Plug 'hrsh7th/nvim-cmp'
+Plug 'mfussenegger/nvim-dap'                                " Core: DAP integration (Debug Adapter Protocol) [DEBUGGER]
+Plug 'rcarriga/nvim-dap-ui'                                 " Core: DAP UI
+Plug 'hrsh7th/cmp-nvim-lsp'                                 " Core: LSP and Autocompletion for nvim
+Plug 'hrsh7th/cmp-buffer'                                   " Core: LSP and Autocompletion for nvim
+Plug 'hrsh7th/cmp-path'                                     " Core: LSP and Autocompletion for nvim
+Plug 'hrsh7th/cmp-cmdline'                                  " Core: LSP and Autocompletion for nvim
+Plug 'hrsh7th/nvim-cmp'                                     " Core: LSP and Autocompletion for nvim
 
 Plug 'echasnovski/mini.nvim'                                " Fun: A set of mini plugins, for eyecandy and micro utilities
 Plug 'takac/vim-hardtime'                                   " Fun: Make Vim harder to use
@@ -53,8 +54,7 @@ call plug#end()
 " Global
 filetype plugin indent on
 
-source $HOME/.config/nvim/plug-config/coc.vim
-source $HOME/.config/nvim/plug-config/barbar.vim
+" source $HOME/.config/nvim/plug-config/coc.vim
 luafile $HOME/.config/nvim/lua/setup.lua
 
 " Treesitter folding

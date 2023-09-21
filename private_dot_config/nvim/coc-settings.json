@@ -1,12 +1,10 @@
 {
     "codeLens.enable": true,
     "suggest.noselect": false,
-
     "java.referencesCodeLens.enabled": true,
     "java.implementationsCodeLens.enabled": true,
     "java.completion.enabled": true,
     "java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok/lombok.jar",
-
     "jedi.enable": true,
     "jedi.startupMessage": false,
     "jedi.markupKindPreferred": "plaintext",
@@ -38,5 +36,4 @@
     "__pycache__",
     "venv"
     ]
-
 }

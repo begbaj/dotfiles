@@ -1,75 +1,33 @@
-# configs
-- alacritty
-- bash
-- chezmoi
-- htop
-- i3
-- neofetch
-- nvim
-- picom
-- ranger
-- rsblocks
-- terminator
-- tmux
-- vim
-- zsh
+# Begbaj's dot files
+If you're here, you're curious what my workflow is.
+I hope my dot files can welcome you well.
 
-# alacritty
-## bindings
-## todo 
+# Configurations:
+-  alacritty
+-  awesome
+-  chezmoi
+-  environment.d
+-  git
+-  i3
+-  neofetch
+-  nvim
+-  private_htop
+-  ranger
+-  rsblocks
+-  terminator
+-  tmux
+-  zsh
+-  picom.conf
 
-# bash
-## bindings
-## todo 
+# Dotfile dependencies:
+-  bin
+-  share/oh-my-zsh/themes/eastwood-begbaj.zsh-theme
 
-# chezmoi
-## bindings
-## todo 
+# Warnings:
+Do not rely on pkglist-alan.txt, as I often forget to update it.
 
-# htop
-## bindings
-## todo 
+# Machine names:
+Alan is my laptop, meanwhile my beloved desktop is called Idelfonso.
 
-# i3
-## bindings
-## todo 
-
-# neofetch
-## bindings
-## todo 
-
-# nvim
-## bindings
-## todo 
-
-# picom
-## bindings
-## todo 
-
-# ranger
-## bindings
-## todo 
-
-# rsblocks
-## bindings
-## todo 
-
-# terminator
-## bindings
-## todo 
-
-# tmux
-## bindings
-## todo 
-
-# vim
-## bindings
-## todo 
-
-# zsh
-## bindings
-## todo 
-
-
-# configuration manager
-I use chezmoi to manage my dotfiles.
+# Configuration manager:
+I use chezmoi to manage my dotfiles. It makes life easier.
