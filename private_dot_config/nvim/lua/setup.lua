@@ -242,6 +242,21 @@ dap.configurations.gdscript = {
     launch_scene = true,
   }
 }
+--- PHP
+dap.adapters.php = {
+  type = 'executable',
+  command = 'node',
+  args = { '~/srcs/other/vscode-php-debug/out/phpDebug.js' }
+}
+
+dap.configurations.php = {
+  {
+    type = 'php',
+    request = 'launch',
+    name = 'Listen for Xdebug',
+    port = 9003
+  }
+}
 
 local dapui = require("dapui").setup()
 vim.keymap.set('n', '<leader>vu', function() require('dapui').toggle() end )
@@ -304,7 +319,13 @@ cmp.setup({
     { name = 'buffer' },
   })
 })
+
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 require('lspconfig')['gdscript'].setup {
+  capabilities = capabilities
+}
+
+local capabilities = require('cmp_nvim_lsp').default_capabilities()
+require('lspconfig')['phpactor'].setup {
   capabilities = capabilities
 }
