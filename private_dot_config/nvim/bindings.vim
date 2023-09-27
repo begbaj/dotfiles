@@ -95,14 +95,14 @@ nnoremap <silent>    <A-w> :BufferClose<CR>
 " nnoremap <silent> <C-s>    :BufferPick<CR>
 
 " Sort automatically by...
-nnoremap <silent> <Space>bb :BufferOrderByBufferNumber<CR>
-nnoremap <silent> <Space>bd :BufferOrderByDirectory<CR>
-nnoremap <silent> <Space>bl :BufferOrderByLanguage<CR>
-nnoremap <silent> <Space>bw :BufferOrderByWindowNumber<CR>
+" nnoremap <silent> <Space>bb :BufferOrderByBufferNumber<CR>
+" nnoremap <silent> <Space>bd :BufferOrderByDirectory<CR>
+" nnoremap <silent> <Space>bl :BufferOrderByLanguage<CR>
+" nnoremap <silent> <Space>bw :BufferOrderByWindowNumber<CR>
 
 " SECTION: CoC
 "==========================================
-nnoremap <silent> <leader>cf :CocList outline<CR>
+" nnoremap <silent> <leader>cf :CocList outline<CR>
 
 " SECTION: GitGutter
 "==========================================
