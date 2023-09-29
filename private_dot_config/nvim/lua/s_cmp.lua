@@ -1,5 +1,5 @@
--- [[ Configure LSP ]]
 --  This function gets run when an LSP connects to a particular buffer.
+-- [[ Configure LSP ]]
 local on_attach = function(_, bufnr)
   -- NOTE: Remember that lua is a real programming language, and as such it is possible
   -- to define small helper and utility functions so you don't have to repeat yourself
@@ -61,9 +61,6 @@ local servers = {
             telemetry = { enable = false },
         },
     },
-    gdscript = {
-        filetypes = { "gd", "gdscript", "gdscript3" },
-    },
 }
 
 -- Setup neovim lua configuration
@@ -72,6 +69,11 @@ require('neodev').setup()
 -- nvim-cmp supports additional completion capabilities, so broadcast that to servers
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
+
+require'lspconfig'.gdscript.setup({
+    filetypes = { "gd", "gdscript", "gdscript3" },
+	capabilities = capabilities,
+})
 
 -- Ensure the servers above are installed
 local mason_lspconfig = require 'mason-lspconfig'
