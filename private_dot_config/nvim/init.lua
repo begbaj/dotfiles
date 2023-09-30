@@ -132,34 +132,34 @@ vim.wo: for window-scoped options (can be double indexed)
 
 vim.cmd.colorscheme 'tokyonight'
 vim.o.mouse = 'a'               -- Enable mouse mode
-vim.o.hidden = true             -- Allow hiding buffers
-vim.o.ignorecase = true         -- Case-insensitive searching unless \C
+vim.o.hidden = true             -- allow hiding buffers
+vim.o.ignorecase = true         -- case-insensitive searching unless \c
 vim.o.autoindent = true         -- auto indent
-vim.o.breakindent = true        -- Enable break indent
+vim.o.breakindent = true        -- enable break indent
 vim.o.showbreak="  .."
 
-vim.o.expandtap = true          -- Make tabs whitespaces
-vim.o.tabstop=4                 -- Number of spaces instead of tab
+vim.o.expandtap = true          -- make tabs whitespaces
+vim.o.tabstop=4                 -- size of a tab (in characters)
 vim.o.softabstop=4              -- ?? from init.vim
-vim.o.shiftwidth=4              -- ?? from init.vim
+vim.o.shiftwidth=4              -- visually show where the "tabwidth" should be
 
-vim.o.splitright= true          -- Window split on the right side
-vim.o.laststatus=2              -- tell Vim always put a status line, even if there is only one window
+vim.o.splitright= true          -- window split on the right side
+vim.o.laststatus=2              -- tell vim always put a status line, even if there is only one window
 vim.o.cmdheight=2               -- status bar is 2 rows high
 vim.o.ruler=true                -- always show cursor location in status bar
 
-vim.o.hlsearch = false          -- Set highlight on search
-vim.o.clipboard = 'unnamedplus' -- Sync clipboard between OS and Neovim.
-vim.o.undofile = true           -- Save undo history
+vim.o.hlsearch = false          -- set highlight on search
+vim.o.clipboard = 'unnamedplus' -- sync clipboard between os and neovim.
+vim.o.undofile = true           -- save undo history
 vim.o.smartcase = true
-vim.o.updatetime = 250          -- Decrease update time
+vim.o.updatetime = 250          -- decrease update time
 vim.o.timeoutlen = 300
-vim.o.completeopt = 'menuone,noselect' -- Set completeopt to have a better completion experience
+vim.o.completeopt = 'menuone,noselect' -- set completeopt to have a better completion experience
 vim.o.termguicolors = true
 
-vim.wo.number = true            -- Make line numbers default
+vim.wo.number = true            -- make line numbers default
 vim.wo.relativenumber=true      -- relative numbers
-vim.wo.signcolumn = 'yes'       -- Keep signcolumn on by default
+vim.wo.signcolumn = 'yes'       -- keep signcolumn on by default
 
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
