@@ -102,9 +102,9 @@ spotify:
 
 nordvpn:
   delay: 30.0
-  enabled: true
+  enabled: false
   showip: false 
-  icon: '撚'
+  icon: ''
 
   
 # weather format options is available on
