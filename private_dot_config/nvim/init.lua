@@ -73,6 +73,7 @@ local plugins ={
     'honza/vim-snippets',                                   --- Utility: provides some usefull snippets
     'kiyoon/tmuxsend.vim',                                  --- Utility: Vim plugin that lets you copy and paste to a different tmux pane.
     'kiyoon/nvim-tree-remote.nvim',                         --- Utility: A set of Nvim-Tree actions to open files on another remote neovim.
+    'mfussenegger/nvim-dap-python',
     {                                                       --- Utility: A collection of LSP configurations
         'neovim/nvim-lspconfig',                                
         dependencies={
