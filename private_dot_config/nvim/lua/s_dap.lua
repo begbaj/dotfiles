@@ -19,6 +19,7 @@ dap.configurations.gdscript = {
   }
 }
 
+require('dap-python').setup('~/.virtualenvs/dev/bin/python')
 --[[
 dap.adapters.python = function(cb, config)
   if config.request == 'attach' then
