@@ -19,6 +19,7 @@ dap.configurations.gdscript = {
   }
 }
 
+--[[
 dap.adapters.python = function(cb, config)
   if config.request == 'attach' then
     ---@diagnostic disable-next-line: undefined-field
@@ -70,7 +71,7 @@ dap.configurations.python = {
     end;
   },
 }
-
+--]]
 --- DAP UI
 dapui.setup()
 
