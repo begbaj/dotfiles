@@ -34,11 +34,10 @@ Plugins
 local plugins ={
     'nvim-tree/nvim-web-devicons',                         --- Appearence: Support for Devicons
     'folke/tokyonight.nvim',                               --- Appearence: color theme
---[[   {"lukas-reineke/indent-blankline.nvim",                 --- Appearence: indentetion guides
+   {"lukas-reineke/indent-blankline.nvim",                 --- Appearence: indentetion guides
       main = "ibl",
       opts = {}
     },
---]]
     'akinsho/toggleterm.nvim',                              --- Core: A neovim lua plugin to help easily manage multiple terminal windows 
     'nvim-lua/plenary.nvim',                                --- Core: Many plugins are based on this
     'folke/which-key.nvim',                                 --- Core: Show available commands
@@ -100,8 +99,8 @@ require's_treesitter'
 require's_minivim'
 
 require("ibl").setup { -- Indent blank line
-    show_end_of_line = true,
-    space_char_blankline = " ",
+---    show_end_of_line = true,
+--- space_char_blankline = " ",
 }
 
 require("toggleterm").setup{

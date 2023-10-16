@@ -72,7 +72,7 @@ capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
 
 require'lspconfig'.gdscript.setup{
     filetypes = { "gd", "gdscript", "gdscript3" },
-	capabilities = capabilities,
+	capabilities = capabilities
 }
 
 -- Ensure the servers above are installed
