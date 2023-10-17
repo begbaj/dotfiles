@@ -21,6 +21,9 @@ unset SUDO_ASKPASS
 unset SSH_ASKPASS
 unset SSH_ASKPASS_REQUIRE
 
+git -C ~/srcs/zsh-plugins/zsh-autocomplete pull
+source ~/srcs/zsh-plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+
 #===============================
 # Oh-my-zsh configuration
 #===============================
@@ -34,10 +37,8 @@ plugins=(
     git
     vi-mode
     zsh-autosuggestions
-    zsh-autocomplete
     python
 )
-
 source $ZSH/oh-my-zsh.sh
 
 #===============================
