@@ -99,8 +99,8 @@ require's_treesitter'
 require's_minivim'
 
 require("ibl").setup { -- Indent blank line
-    show_end_of_line = true,
-    space_char_blankline = " ",
+---    show_end_of_line = true,
+--- space_char_blankline = " ",
 }
 
 require("toggleterm").setup{

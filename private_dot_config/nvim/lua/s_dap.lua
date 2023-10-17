@@ -36,7 +36,7 @@ dap.adapters.python = function(cb, config)
   else
     cb({
       type = 'executable',
-      command = homeDir .. '/.local/virtualenvs/debugpy/bin/python',
+      command = homeDir .. '/.local/virtualenvs/dev/bin/python',
       args = { '-m', 'debugpy.adapter' },
       options = {
         source_filetype = 'python',
