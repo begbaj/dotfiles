@@ -24,7 +24,7 @@ unset SSH_ASKPASS_REQUIRE
 git -C ~/srcs/zsh-plugins/zsh-autocomplete pull
 source ~/srcs/zsh-plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
-zstyle ':autocomplete:*' delay 0.5
+zstyle ':autocomplete:*' delay 5
 
 #===============================
 # Oh-my-zsh configuration
@@ -38,9 +38,9 @@ zstyle ':omz:update' frequency 1        # frequency in day
 plugins=(
     git
     vi-mode
+	zsh-autosuggestions
     python
 )
-# zsh-autosuggestions
 source $ZSH/oh-my-zsh.sh
 
 #===============================
