@@ -67,8 +67,8 @@ alias more='sh /usr/share/vim/vim90/macros/less.sh'
 #===============================
 # Program environment variables
 #===============================
-source /usr/share/fzf/key-bindings.zsh
-source /usr/share/fzf/completion.zsh
+#source /usr/share/fzf/key-bindings.zsh
+#source /usr/share/fzf/completion.zsh
 
 #===============================
 # Tmux
