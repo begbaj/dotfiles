@@ -34,6 +34,7 @@ plugins=(
     git
     vi-mode
     zsh-autosuggestions
+    zsh-autocomplete
     python
 )
 
