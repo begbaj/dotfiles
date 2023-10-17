@@ -81,7 +81,7 @@ alias more='sh /usr/share/vim/vim90/macros/less.sh'
 #===============================
 # Bindings
 #===============================
-#
-#bindkey -s "^F" "\x1B dditmuxfzf^M"
-bindkey -s "^D" "\x1B ddiranger^M"
-bindkey -s "^F" "\x1B dditermmenu^M"
+
+
+bindkey '\t' menu-select "$terminfo[kcbt]" menu-select
+bindkey -M menuselect '\t' menu-complete "$terminfo[kcbt]" reverse-menu-complete
