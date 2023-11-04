@@ -39,7 +39,7 @@ zstyle ':omz:update' frequency 1        # frequency in day
 plugins=(
     git
     vi-mode
-	zsh-autosuggestions
+	# zsh-autosuggestions
     python
 )
 source $ZSH/oh-my-zsh.sh
