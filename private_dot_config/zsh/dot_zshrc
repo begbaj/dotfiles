@@ -21,7 +21,7 @@ unset SUDO_ASKPASS
 unset SSH_ASKPASS
 unset SSH_ASKPASS_REQUIRE
 
-git -C ~/srcs/zsh-plugins/zsh-autocomplete pull
+#git -C ~/srcs/zsh-plugins/zsh-autocomplete pull
 source ~/srcs/zsh-plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 zstyle ':autocomplete:*' delay 5
