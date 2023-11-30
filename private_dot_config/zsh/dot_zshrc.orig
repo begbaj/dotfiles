@@ -9,7 +9,11 @@ npath=$HOME/bin:$npath
 npath=$HOME/.local/bin:$npath
 npath=$HOME/.local/share/gem/ruby/3.0.0/bin:$npath
 npath=$HOME/.config/composer/vendor/bin:$npath
+<<<<<<< HEAD
 npath=$HOME/.bun/bin/:$npath
+=======
+npath=$HOME/.bun/bin:$npath
+>>>>>>> e2bb3af683a63e3138a47a9beef26148eea11e26
 npath=/usr/lib/jvm/java-18-openjdk/bin/:$npath
 npath="$(go env GOBIN):$(go env GOPATH)/bin":$npath
 export PATH=$npath:$PATH
@@ -22,7 +26,11 @@ unset SUDO_ASKPASS
 unset SSH_ASKPASS
 unset SSH_ASKPASS_REQUIRE
 
+<<<<<<< HEAD
 # git -C ~/srcs/zsh-plugins/zsh-autocomplete pull
+=======
+#git -C ~/srcs/zsh-plugins/zsh-autocomplete pull
+>>>>>>> e2bb3af683a63e3138a47a9beef26148eea11e26
 source ~/srcs/zsh-plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
 zstyle ':autocomplete:*' delay 5

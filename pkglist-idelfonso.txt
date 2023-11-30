@@ -37,6 +37,7 @@ dnsmasq
 docker
 docker-compose
 dolphin
+drawio-desktop
 drkonqi
 droidcam
 dust
