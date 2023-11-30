@@ -81,6 +81,8 @@ alias more='sh /usr/share/vim/vim90/macros/less.sh'
 #   exec tmux
 # fi
 
+source /usr/share/nvm/init-nvm.sh 
+
 #===============================
 # Bindings
 #===============================
