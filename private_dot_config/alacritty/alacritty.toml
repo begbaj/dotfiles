@@ -44,10 +44,6 @@ style = "Bold"
 [font.italic]
 style = "Italic"
 
-[font.normal]
-family = "FiraCode-regular"
-style = "Regular"
-
 [font]
 size = 7.0
 
