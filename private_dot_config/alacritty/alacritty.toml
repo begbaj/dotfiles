@@ -44,9 +44,12 @@ style = "Bold"
 [font.italic]
 style = "Italic"
 
-# [font.normal.Default]
-# family = "FiraCode-regular"
-# style = "Regular"
+[font.normal]
+family = "FiraCode-regular"
+style = "Regular"
+
+[font]
+size = 7.0
 
 [[keyboard.bindings]]
 action = "ToggleViMode"
