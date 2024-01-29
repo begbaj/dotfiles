@@ -181,9 +181,9 @@ vim.keymap.set('n','<C-L>','<C-W><C-L>')
 vim.keymap.set('n','<C-H>','<C-W><C-H>')
 
 local builtin = require("telescope.builtin")
-vim.keymap.set('n', '<C-f>', builtin.find_files,   { desc = '[S]earch [F]iles' })
-vim.keymap.set('n', '<C-g>', builtin.live_grep,    { desc = '[S]earch by [G]rep' })
-vim.keymap.set('n', '<leader>sb', builtin.buffers, { desc = '[S]earch [B]uffers'})
+vim.keymap.set('n', '<C-f>', builtin.find_files,        { desc = '[S]earch [F]iles' })
+vim.keymap.set('n', '<C-g>', builtin.live_grep,         { desc = '[S]earch by [G]rep' })
+vim.keymap.set('n', '<C-b>', builtin.buffers,           { desc = '[S]earch [B]uffers'})
 vim.keymap.set('n', '<leader>gf', builtin.git_files,    { desc = 'Search [G]it [F]iles' })
 vim.keymap.set('n', '<leader>sh', builtin.help_tags,    { desc = '[S]earch [H]elp' })
 vim.keymap.set('n', '<leader>sw', builtin.grep_string,  { desc = '[S]earch current [W]ord' })
@@ -228,7 +228,10 @@ local function opts(desc)
 end
 vim.keymap.set('n', '<A-b>', api.tree.toggle,  opts('Toggle Tree'))
 
+--
 -- Diagnostic keymaps
+--
+
 vim.keymap.set('n', '[d', vim.diagnostic.goto_prev, { desc = 'Go to previous diagnostic message' })
 vim.keymap.set('n', ']d', vim.diagnostic.goto_next, { desc = 'Go to next diagnostic message' })
 vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float, { desc = 'Open floating diagnostic message' })

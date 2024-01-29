@@ -67,6 +67,10 @@ local servers = {
 require('neodev').setup()
 
 -- nvim-cmp supports additional completion capabilities, so broadcast that to servers
+-- https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
+-- to add support to other language servers, see the link above
+-- and add a 'require'lspconfig'.language.setup{}
+
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
 
@@ -74,6 +78,8 @@ require'lspconfig'.gdscript.setup{
     filetypes = { "gd", "gdscript", "gdscript3" },
 	capabilities = capabilities
 }
+
+require'lspconfig'.intelephense.setup{}
 
 -- Ensure the servers above are installed
 local mason_lspconfig = require 'mason-lspconfig'
