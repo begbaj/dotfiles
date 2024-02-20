@@ -30,6 +30,7 @@ zstyle ':autocomplete:*' delay 5
 #===============================
 # Oh-my-zsh configuration
 #===============================
+ZSH=".local/share/oh-my-zsh"
 ZSH_THEME="eastwood-begbaj"
 HYPHEN_INSENSITIVE="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"    # improve loading times when opening a large git
