@@ -8,13 +8,13 @@ I hope my dot files can welcome you well.
 -  chezmoi
 -  environment.d
 -  git
--  i3
+-  i3 (x)
 -  neofetch
 -  nvim
 -  private_htop
--  ranger
+-  ranger (x)
 -  rsblocks
--  terminator
+-  terminator (x)
 -  tmux
 -  zsh
 -  picom.conf
@@ -26,8 +26,8 @@ I hope my dot files can welcome you well.
 # Warnings:
 Do not rely on pkglist-alan.txt, as I often forget to update it.
 
-# Machine names:
-Alan is my laptop, meanwhile my beloved desktop is called Idelfonso.
+# XDG Base Directories:
+Append content of `.config/begbaj/xdgbd` into `/etc/profile`.
 
 # Configuration manager:
 I use chezmoi to manage my dotfiles. It makes life easier.
