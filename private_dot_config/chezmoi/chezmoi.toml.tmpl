@@ -1,0 +1,18 @@
+{{- /* global */ -}}
+edit.command = "nvim"
+[merge]
+    command = "nvim"
+    args = [{{ printf "\"-d\", \"{{ .Destination }}\", \"{{ .Source }}\", \"{{ .Target }}\"" }}]
+
+[git]
+    autoCommit = true
+    autoPush = false
+
+[data]
+{{- if eq .chezmoi.hostname "idelfonso" }}
+{{- /* desktop */}}
+    alacritty_size = 12
+{{- else if eq .chezmoi.hostname "alan" }}
+{{- /* laptop */}}
+    alacritty_size = 7
+{{- end }}
