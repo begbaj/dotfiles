@@ -6,3 +6,5 @@ edit.command = "nvim"
 [git]
     autoCommit = true
     autoPush = false
+[data]
+	alacritty_size = 12
