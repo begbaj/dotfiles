@@ -54,7 +54,7 @@ local plugins ={
     'romgrk/barbar.nvim',                                   --- Core: tab bars plugin
     'mfussenegger/nvim-dap',                                --- Core: DAP integration (Debug Adapter Protocol) [DEBUGGER]
     'rcarriga/nvim-dap-ui',                                 --- Core: DAP UI
-   --[[ {'hrsh7th/nvim-cmp',                                     --- Core: Autocompletion
+   {'hrsh7th/nvim-cmp',                                     --- Core: Autocompletion
     dependencies = {
         'hrsh7th/cmp-buffer',                               --- Core: nvim-cmp source for buffer words
         'hrsh7th/cmp-path',                                 --- Core: nvim-cmp source for path 
@@ -63,7 +63,7 @@ local plugins ={
         'saadparwaiz1/cmp_luasnip',                         --- Utility: luasnip completion source for nvim-cmp 
         'hrsh7th/cmp-nvim-lsp',                             --- Utility: Adds LSP completion capabilities
         'rafamadriz/friendly-snippets',                     --- Utility: Adds a number of user-friendly snippets
-    },}, ]] --
+    },},
     'echasnovski/mini.nvim',                                --- Fun: A set of mini plugins, for eyecandy and micro utilities
     'takac/vim-hardtime',                                   --- Fun: Make Vim harder to use
 
