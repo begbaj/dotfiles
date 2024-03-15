@@ -23,8 +23,14 @@ I hope my dot files can welcome you well.
 -  bin
 -  share/oh-my-zsh/themes/eastwood-begbaj.zsh-theme
 
-# Warnings:
-Do not rely on pkglist-alan.txt, as I often forget to update it.
+
+# Machine Package List
+To make a package list, run this command:
+` pacman -Qeq >> .pkg-<machine-name>.ls`
+
+
+## Warnings:
+Do not rely on these lists, as I often forget to updates them.
 
 # XDG Base Directories:
 Append content of `.config/begbaj/xdgbd` into `/etc/profile`.
