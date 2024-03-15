@@ -45,7 +45,8 @@ style = "Bold"
 style = "Italic"
 
 [font]
-size = {{- if hasKey .alacritty_size }}{{.alacritty_size}}{{- else}}10{{- end}}
+size = {{- if hasKey . "alacritty_size" }} {{ .alacritty_size }} {{- else}} 10 {{- end}}
+
 [[keyboard.bindings]]
 action = "ToggleViMode"
 key = "Escape"
