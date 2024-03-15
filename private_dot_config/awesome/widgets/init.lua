@@ -66,6 +66,9 @@ function _M.create_taglist(s)
    return awful.widget.taglist{
       screen = s,
       filter = awful.widget.taglist.filter.all,
+	  style = {
+		font = "sans 40",
+	  },
       buttons = {
          awful.button{
             modifiers = {},
