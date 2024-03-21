@@ -54,7 +54,7 @@ local plugins ={
     'romgrk/barbar.nvim',                                   --- Core: tab bars plugin
     'mfussenegger/nvim-dap',                                --- Core: DAP integration (Debug Adapter Protocol) [DEBUGGER]
     'rcarriga/nvim-dap-ui',                                 --- Core: DAP UI
-   {'hrsh7th/nvim-cmp',                                     --- Core: Autocompletion
+    {'hrsh7th/nvim-cmp',                                     --- Core: Autocompletion
     dependencies = {
         'hrsh7th/cmp-buffer',                               --- Core: nvim-cmp source for buffer words
         'hrsh7th/cmp-path',                                 --- Core: nvim-cmp source for path 
@@ -92,7 +92,7 @@ require('lazy').setup(plugins, {})
 Plugin configurations
 --]]
 require's_dap'
--- require's_cmp'
+require's_cmp'
 require's_gitsigns'
 require's_nvimtree'
 require's_tokyonight'
