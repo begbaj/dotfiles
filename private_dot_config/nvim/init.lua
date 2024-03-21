@@ -61,7 +61,10 @@ local plugins ={
     'romgrk/barbar.nvim',                                   --- Core: tab bars plugin
     'nvim-neotest/nvim-nio',
     'mfussenegger/nvim-dap',                                --- Core: DAP integration (Debug Adapter Protocol) [DEBUGGER]
+<<<<<<< HEAD
     'mfussenegger/nvim-dap',                                --- Core: DAP integration (Debug Adapter Protocol) [DEBUGGER]
+=======
+>>>>>>> cf9b5c6 (Update .config/nvim/init.lua)
     "nvim-neotest/nvim-nio",
     'rcarriga/nvim-dap-ui',                                 --- Core: DAP UI
     {'hrsh7th/nvim-cmp',                                     --- Core: Autocompletion
