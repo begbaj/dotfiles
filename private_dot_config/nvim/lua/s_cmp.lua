@@ -81,6 +81,8 @@ require'lspconfig'.gdscript.setup{
 
 require'lspconfig'.intelephense.setup{}
 
+require'lspconfig'.pyright.setup{}
+
 -- Ensure the servers above are installed
 local mason_lspconfig = require 'mason-lspconfig'
 
