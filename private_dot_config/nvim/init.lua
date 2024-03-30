@@ -94,7 +94,7 @@ require('lazy').setup(plugins, {})
 Plugin configurations
 --]]
 require's_dap'
--- require's_cmp'
+require's_cmp'
 require's_gitsigns'
 require's_nvimtree'
 require's_tokyonight'
