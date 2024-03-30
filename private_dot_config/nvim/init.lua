@@ -52,6 +52,8 @@ local plugins ={
     build = ':TSUpdate',
     },
     'romgrk/barbar.nvim',                                   --- Core: tab bars plugin
+    'nvim-neotest/nvim-nio',
+    'mfussenegger/nvim-dap',                                --- Core: DAP integration (Debug Adapter Protocol) [DEBUGGER]
     'mfussenegger/nvim-dap',                                --- Core: DAP integration (Debug Adapter Protocol) [DEBUGGER]
     'rcarriga/nvim-dap-ui',                                 --- Core: DAP UI
    {'hrsh7th/nvim-cmp',                                     --- Core: Autocompletion
