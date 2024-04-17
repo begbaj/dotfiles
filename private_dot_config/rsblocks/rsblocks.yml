@@ -62,7 +62,7 @@ disk:
   
 battery:
   delay: 120.0
-  enabled: false
+  enabled: true
   icon: ''
   
 
