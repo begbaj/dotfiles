@@ -86,7 +86,8 @@ local plugins ={
             }, 
             'folke/neodev.nvim',                            --- Utility: Additional lua configuration, makes nvim stuff amazing!
         }
-    }
+    },
+    'github/copilot.vim'                                    --- Utility: Copilot
 }
 require('lazy').setup(plugins, {})
 
