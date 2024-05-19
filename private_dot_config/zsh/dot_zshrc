@@ -93,3 +93,6 @@ source /usr/share/nvm/init-nvm.sh
 
 bindkey '\t' menu-select "$terminfo[kcbt]" menu-select
 bindkey -M menuselect '\t' menu-complete "$terminfo[kcbt]" reverse-menu-complete
+
+# bun completions
+[ -s "/home/began/.bun/_bun" ] && source "/home/began/.bun/_bun"
