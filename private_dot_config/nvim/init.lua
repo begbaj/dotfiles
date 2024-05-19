@@ -1,11 +1,14 @@
---[[ Preamble
-This configuration was written by Began Bajrami.
-It is inspired by the kickstart.nvim configuration and 
-based on my previous init.vim configuration
---]]
 --[[
-Pre-configuration
+-- This configuration was written by Began Bajrami (a.k.a. begbaj or dyrem).
+-- It is inspired by the kickstart.nvim configuration and 
+-- based on my (begbaj) previous init.vim configuration
 --]]
+
+--[[
+--  Pre-configuration
+--]]
+
+-- setting Leader to "space"
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
@@ -13,7 +16,7 @@ vim.g.maplocalleader = ' '
 vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
 
 --[[
-Packet manager installation (lazy.nvim)
+-- Packet manager installation (lazy.nvim)
 --]]
 local lazypath = vim.fn.stdpath 'data' .. '/lazy/lazy.nvim'
 if not vim.loop.fs_stat(lazypath) then
@@ -29,18 +32,22 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 --[[
-Plugins
+-- Plugins
+-- Appearence: plugins used to customie Appearence of Neovim
+-- Core: plugins that define the basic functioning of my neovim setup
+-- Utility: plugins that define some extra utilities
+-- Fun: extra plugins which I can live without
 --]]
 local plugins ={
-    'nvim-tree/nvim-web-devicons',                         --- Appearence: Support for Devicons
-    'folke/tokyonight.nvim',                               --- Appearence: color theme
-   {"lukas-reineke/indent-blankline.nvim",                 --- Appearence: indentetion guides
+    'nvim-tree/nvim-web-devicons',                          --- Appearence: Support for Devicons
+    'folke/tokyonight.nvim',                                --- Appearence: color theme
+   {"lukas-reineke/indent-blankline.nvim",                  --- Appearence: indentetion guides
       main = "ibl",
       opts = {}
     },
-    'akinsho/toggleterm.nvim',                              --- Core: A neovim lua plugin to help easily manage multiple terminal windows 
+    'akinsho/toggleterm.nvim',                              --- Utility: A neovim lua plugin to help easily manage multiple terminal windows
     'nvim-lua/plenary.nvim',                                --- Core: Many plugins are based on this
-    'folke/which-key.nvim',                                 --- Core: Show available commands
+    'folke/which-key.nvim',                                 --- Utility: Show available commands
     'lewis6991/gitsigns.nvim',                              --- Core: Show signs for git changes
     'airblade/vim-rooter',                                  --- Core: document root to current project root
     'kyazdani42/nvim-tree.lua',                             --- Core: File tree explorer
@@ -92,38 +99,11 @@ local plugins ={
 require('lazy').setup(plugins, {})
 
 --[[
-Plugin configurations
+--  Plugin configurations
+--  configurations are handled in lua/ directory
 --]]
-require's_dap'
-require's_cmp'
-require's_gitsigns'
-require's_nvimtree'
-require's_tokyonight'
-require's_treesitter'
-require's_minivim'
-
-require("ibl").setup { -- Indent blank line
----    show_end_of_line = true,
---- space_char_blankline = " ",
-}
-
-require("toggleterm").setup{
-      size = 10,
-      open_mapping = [[<A-\>]]
-}
-
-require('lualine').setup {
-  options = {
-    theme = 'tokyonight'
-  }
-}
-require("which-key").setup {}
-require('telescope').setup {}
-pcall(require('telescope').load_extension, 'fzf') -- Enable telescope fzf native, if installed
-require("nvim-surround").setup()
-require('neodev').setup()                         -- Setup neovim lua configuration
-
---  If you want to override the default filetypes that your language server will attach to you can
+--
+require'setup'
 
 --[[
 Neovim settings
