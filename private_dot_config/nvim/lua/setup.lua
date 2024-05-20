@@ -1,17 +1,14 @@
---[[ THIS IS NO LONGER NEEDED, unless you're reverting to init.vim ]]
-require'lua.s_dap'
-require'lua.s_lsp'
-require'lua.s_cmp'
-
-require'lua.s_gitsigns'
-require'lua.s_nvimtree'
-require'lua.s_tokyonight'
-require'lua.s_treesitter'
-require'lua.s_minivim'
+require's_dap'
+require's_cmp'
+require's_gitsigns'
+require's_nvimtree'
+require's_tokyonight'
+require's_treesitter'
+require's_minivim'
 
 require("ibl").setup { -- Indent blank line
-    show_end_of_line = true,
-    space_char_blankline = " ",
+---    show_end_of_line = true,
+--- space_char_blankline = " ",
 }
 
 require("toggleterm").setup{
@@ -24,6 +21,11 @@ require('lualine').setup {
     theme = 'tokyonight'
   }
 }
+
+require('Comment').setup()
+
 require("which-key").setup {}
 require('telescope').setup {}
+pcall(require('telescope').load_extension, 'fzf') -- Enable telescope fzf native, if installed
 require("nvim-surround").setup()
+require('neodev').setup()                         -- Setup neovim lua configuration

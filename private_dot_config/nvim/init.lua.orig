@@ -103,8 +103,41 @@ require('lazy').setup(plugins, {})
 --  Plugin configurations
 --  configurations are handled in lua/ directory
 --]]
+<<<<<<< HEAD
+require's_dap'
+require's_cmp'
+require's_gitsigns'
+require's_nvimtree'
+require's_tokyonight'
+require's_treesitter'
+require's_minivim'
+
+require("ibl").setup { -- Indent blank line
+---    show_end_of_line = true,
+--- space_char_blankline = " ",
+}
+
+require("toggleterm").setup{
+      size = 10,
+      open_mapping = [[<A-\>]]
+}
+
+require('lualine').setup {
+  options = {
+    theme = 'tokyonight'
+  }
+}
+require("which-key").setup {}
+require('telescope').setup {}
+pcall(require('telescope').load_extension, 'fzf') -- Enable telescope fzf native, if installed
+require("nvim-surround").setup()
+require('neodev').setup()                         -- Setup neovim lua configuration
+
+--  If you want to override the default filetypes that your language server will attach to you can
+=======
 --
 require'setup'
+>>>>>>> 88f071db85dc2462c89b68bf37a8e93d238b5f95
 
 --[[
 Neovim settings
