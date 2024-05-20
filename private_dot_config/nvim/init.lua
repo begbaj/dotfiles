@@ -112,6 +112,10 @@ vim.o: behaves like :set
 vim.go: behaves like :setglobal
 vim.bo: for buffer-scoped options
 vim.wo: for window-scoped options (can be double indexed) 
+excluded because not recognized by neovim
+-- vim.o.expandtap = true          -- make tabs whitespaces
+-- vim.o.softabstop=4              -- ?? from init.vim
+--
 --]]
 
 vim.cmd.colorscheme 'tokyonight'
@@ -122,9 +126,8 @@ vim.o.autoindent = true         -- auto indent
 vim.o.breakindent = true        -- enable break indent
 vim.o.showbreak="  .."
 
-vim.o.expandtap = true          -- make tabs whitespaces
+--
 vim.o.tabstop=4                 -- size of a tab (in characters)
-vim.o.softabstop=4              -- ?? from init.vim
 vim.o.shiftwidth=4              -- visually show where the "tabwidth" should be
 
 vim.o.splitright= true          -- window split on the right side
