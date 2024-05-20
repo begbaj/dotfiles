@@ -61,10 +61,6 @@ local plugins ={
     'romgrk/barbar.nvim',                                   --- Core: tab bars plugin
     'nvim-neotest/nvim-nio',
     'mfussenegger/nvim-dap',                                --- Core: DAP integration (Debug Adapter Protocol) [DEBUGGER]
-<<<<<<< HEAD
-    'mfussenegger/nvim-dap',                                --- Core: DAP integration (Debug Adapter Protocol) [DEBUGGER]
-=======
->>>>>>> cf9b5c6 (Update .config/nvim/init.lua)
     "nvim-neotest/nvim-nio",
     'rcarriga/nvim-dap-ui',                                 --- Core: DAP UI
     {'hrsh7th/nvim-cmp',                                     --- Core: Autocompletion
@@ -88,13 +84,13 @@ local plugins ={
     'kiyoon/nvim-tree-remote.nvim',                         --- Utility: A set of Nvim-Tree actions to open files on another remote neovim.
     'mfussenegger/nvim-dap-python',
     {                                                       --- Utility: A collection of LSP configurations
-        'neovim/nvim-lspconfig',                                
+        'neovim/nvim-lspconfig',
         dependencies={
             { 'williamboman/mason.nvim', config = true },   --- Utility: Automatically install LSPs to stdpath for neovim
             'williamboman/mason-lspconfig.nvim',            --- Utility: gap filler between mason and lspconfig
             { 'j-hui/fidget.nvim',                          --- Utility: Standalone UI for nvim-lsp progress 
-                tag = 'legacy', opts = {} 
-            }, 
+                tag = 'legacy', opts = {}
+            },
             'folke/neodev.nvim',                            --- Utility: Additional lua configuration, makes nvim stuff amazing!
         }
     },
@@ -116,6 +112,9 @@ vim.o: behaves like :set
 vim.go: behaves like :setglobal
 vim.bo: for buffer-scoped options
 vim.wo: for window-scoped options (can be double indexed) 
+
+vim.o.expandtap = true          -- make tabs whitespaces
+vim.o.softabstop=4              -- ?? from init.vim
 --]]
 
 vim.cmd.colorscheme 'tokyonight'
@@ -126,9 +125,7 @@ vim.o.autoindent = true         -- auto indent
 vim.o.breakindent = true        -- enable break indent
 vim.o.showbreak="  .."
 
-vim.o.expandtap = true          -- make tabs whitespaces
 vim.o.tabstop=4                 -- size of a tab (in characters)
-vim.o.softabstop=4              -- ?? from init.vim
 vim.o.shiftwidth=4              -- visually show where the "tabwidth" should be
 
 vim.o.splitright= true          -- window split on the right side
@@ -205,12 +202,12 @@ map('n', '<A-w>', '<Cmd>BufferClose<CR>', opts)
 -- Custom mappings
 local api = require "nvim-tree.api"
 local function opts(desc)
-  return { 
-    desc = "nvim-tree: " .. desc, 
-    buffer = bufnr, 
-    noremap = true, 
-    silent = true, 
-    nowait = true 
+  return {
+    desc = "nvim-tree: " .. desc,
+    buffer = bufnr,
+    noremap = true,
+    silent = true,
+    nowait = true
   }
 end
 vim.keymap.set('n', '<A-b>', api.tree.toggle,  opts('Toggle Tree'))
