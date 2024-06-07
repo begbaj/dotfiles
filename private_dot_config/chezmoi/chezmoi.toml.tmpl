@@ -8,11 +8,16 @@ edit.command = "nvim"
     autoCommit = true
     autoPush = false
 
-[data]
 {{- if eq .chezmoi.hostname "idelfonso" }}
 {{- /* desktop */}}
+
+[data]
     alacritty_size = 12
+
 {{- else if eq .chezmoi.hostname "alan" }}
 {{- /* laptop */}}
-    alacritty_size = 7
+
+[data]
+    alacritty_size = 6
+
 {{- end }}
