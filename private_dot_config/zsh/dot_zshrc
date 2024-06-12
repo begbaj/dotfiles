@@ -68,8 +68,8 @@ alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 alias docker-up='sudo docker-compose up -d'
 
 alias venv="sh .venv/bin/activate"
-alias less='sh /usr/share/vim/vim90/macros/less.sh'
-alias more='sh /usr/share/vim/vim90/macros/less.sh'
+alias vless='sh /usr/share/vim/vim91/macros/less.sh'
+alias vmore='sh /usr/share/vim/vim91/macros/less.sh'
 
 #===============================
 # Program environment variables
