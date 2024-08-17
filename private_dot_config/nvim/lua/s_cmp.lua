@@ -83,6 +83,8 @@ require'lspconfig'.intelephense.setup{}
 
 require'lspconfig'.pyright.setup{}
 
+require'lspconfig'.csharp_ls.setup{}
+
 -- Ensure the servers above are installed
 local mason_lspconfig = require 'mason-lspconfig'
 
