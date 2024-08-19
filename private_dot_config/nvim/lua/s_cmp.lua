@@ -62,6 +62,7 @@ local servers = {
         },
     },
 	csharp_ls = {},
+	omnisharp = {},
 }
 
 -- Setup neovim lua configuration
@@ -84,9 +85,10 @@ require'lspconfig'.intelephense.setup{}
 
 require'lspconfig'.pyright.setup{}
 
-require'lspconfig'.omnisharp.setup {
-    cmd = { "dotnet", "/home/began/srcs/omnisharp-linux-x64-net6.0/OmniSharp.dll" },
+local pid = vim.fn.getpid()
 
+require'lspconfig'.omnisharp.setup {
+    cmd = { "/home/began/srcs/omnisharp-linux-x64-net6.0/run", "--languageserver", "--hostPID", tostring(pid) },
     settings = {
       FormattingOptions = {
         -- Enables support for reading code style, naming convention and analyzer
