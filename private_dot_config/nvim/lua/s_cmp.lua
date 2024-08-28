@@ -222,13 +222,13 @@ end
 --   end
 -- })
 
-local manual_float_open = false
+Manual_float_open = false
 
 -- Autocmd to show the diagnostic float on CursorHold
 vim.api.nvim_create_autocmd("CursorHold", {
   buffer = bufnr,
   callback = function()
-    if not manual_float_open then
+    if not Manual_float_open then
       local opts = {
         focusable = false,
         close_events = { "BufLeave", "CursorMoved", "InsertEnter", "FocusLost" },
@@ -238,21 +238,15 @@ vim.api.nvim_create_autocmd("CursorHold", {
         scope = 'line',
       }
       vim.diagnostic.open_float(nil, opts)
+      Manual_float_open = true
     end
   end
 })
 
--- Mapping for Shift+k to show the source of the cursor
-vim.api.nvim_set_keymap('n', 'K', '', {
-  noremap = true,
-  callback = function()
-    manual_float_open = true
-  end
-})
 vim.api.nvim_create_autocmd("CursorMoved", {
   buffer = bufnr,
   once = true,
   callback = function()
-	manual_float_open = false
+	Manual_float_open = false
   end
 })
