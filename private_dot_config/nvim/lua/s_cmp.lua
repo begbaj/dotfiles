@@ -214,10 +214,45 @@ end
 
 -- You will likely want to reduce updatetime which affects CursorHold
 -- note: this setting is global and should be set only once
-vim.o.updatetime = 100
-vim.api.nvim_create_autocmd({ "CursorHold", "CursorHoldI" }, {
-  group = vim.api.nvim_create_augroup("float_diagnostic", { clear = true }),
-  callback = function ()
-    vim.diagnostic.open_float(nil, {focus=false})
+-- vim.o.updatetime = 100
+-- vim.api.nvim_create_autocmd({ "CursorHold", "CursorHoldI" }, {
+--   group = vim.api.nvim_create_augroup("float_diagnostic", { clear = true }),
+--   callback = function ()
+--     vim.diagnostic.open_float(nil, {focus=false})
+--   end
+-- })
+
+local manual_float_open = false
+
+-- Autocmd to show the diagnostic float on CursorHold
+vim.api.nvim_create_autocmd("CursorHold", {
+  buffer = bufnr,
+  callback = function()
+    if not manual_float_open then
+      local opts = {
+        focusable = false,
+        close_events = { "BufLeave", "CursorMoved", "InsertEnter", "FocusLost" },
+        border = 'rounded',
+        source = 'always',
+        prefix = ' ',
+        scope = 'line',
+      }
+      vim.diagnostic.open_float(nil, opts)
+    end
+  end
+})
+
+-- Mapping for Shift+k to show the source of the cursor
+vim.api.nvim_set_keymap('n', 'K', '', {
+  noremap = true,
+  callback = function()
+    manual_float_open = true
+  end
+})
+vim.api.nvim_create_autocmd("CursorMoved", {
+  buffer = bufnr,
+  once = true,
+  callback = function()
+	manual_float_open = false
   end
 })
