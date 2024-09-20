@@ -86,6 +86,8 @@ alias less='sh /usr/share/vim/vim$(vim --version | awk "NR==1 {print $5}" | tr -
 alias more='sh /usr/share/vim/vim$(vim --version | awk "NR==1 {print $5}" | tr -d ".")/macros/less.sh'
 >>>>>>> 2a90bb7 (Update .config/zsh/.zshrc)
 
+alias yt-dlp-mp3="yt-dlp -x --audio-format mp3 --audio-quality 0"
+
 #===============================
 # Program environment variables
 #===============================
