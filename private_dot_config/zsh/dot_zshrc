@@ -68,6 +68,7 @@ alias webcampv="mpv av://v4l2:/dev/video0 --profile=low-latency --untimed --no-t
 alias term='$DEFAULT_TERMINAL & disown'
 
 alias ll="exa -lgs type"
+alias lla="exa -lags type"
 alias l="exa -lag"
 
 alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
