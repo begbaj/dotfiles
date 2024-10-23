@@ -68,7 +68,15 @@ alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 alias docker-up='sudo docker-compose up -d'
 
 alias venv="sh .venv/bin/activate"
+<<<<<<< HEAD
 alias less="sh /usr/share/nvim/runtime/macros/less.sh"
+||||||| parent of 6b01b3b (Update .config/zsh/.zshrc)
+alias less='sh /usr/share/vim/vim90/macros/less.sh'
+alias more='sh /usr/share/vim/vim90/macros/less.sh'
+=======
+alias less='sh /usr/share/vim/vim$(vim --version | awk \'NR==1 {print $5}\' | tr -d \'.\')/macros/less.sh'
+alias more='sh /usr/share/vim/vim$(vim --version | awk \'NR==1 {print $5}\' | tr -d \'.\')/macros/less.sh'
+>>>>>>> 6b01b3b (Update .config/zsh/.zshrc)
 
 #===============================
 # Program environment variables
