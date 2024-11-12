@@ -68,8 +68,8 @@ alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
 alias docker-up='sudo docker-compose up -d'
 
 alias venv="sh .venv/bin/activate"
-alias less='sh /usr/share/vim/vim$(vim --version | awk \'NR==1 {print $5}\' | tr -d \'.\')/macros/less.sh'
-alias more='sh /usr/share/vim/vim$(vim --version | awk \'NR==1 {print $5}\' | tr -d \'.\')/macros/less.sh'
+alias less='sh /usr/share/vim/vim$(vim --version | awk \'NR==1 {print $5}\' | tr -d \'\.\')/macros/less.sh'
+alias more='sh /usr/share/vim/vim$(vim --version | awk \'NR==1 {print $5}\' | tr -d \'\.\')/macros/less.sh'
 
 alias yt-dlp-mp3="yt-dlp -x --audio-format mp3 --audio-quality 0"
 
