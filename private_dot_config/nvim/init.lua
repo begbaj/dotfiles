@@ -94,7 +94,16 @@ local plugins ={
             'folke/neodev.nvim',                            --- Utility: Additional lua configuration, makes nvim stuff amazing!
         }
     },
----    'github/copilot.vim'                                    --- Utility: Copilot
+---    'github/copilot.vim'                                 --- Utility: copilot
+  {                                                         --- Utility:  markdown preview plugin for (neo)vim 
+    "iamcco/markdown-preview.nvim",
+    cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+    build = "cd app && yarn install",
+    init = function()
+      vim.g.mkdp_filetypes = { "markdown" }
+    end,
+    ft = { "markdown" },
+  },
 }
 require('lazy').setup(plugins, {})
 
@@ -152,7 +161,6 @@ vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
 vim.opt.termguicolors = true
-
 --[[
 Neovim Mappings
 --]]
