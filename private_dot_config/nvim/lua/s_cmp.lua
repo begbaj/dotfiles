@@ -195,8 +195,11 @@ cmp.setup {
   },
 }
 
+require'lspconfig'.rls.setup{}
+
 
 --- LSP CONFIGURATION:
+---
 ---
 vim.diagnostic.config({
   virtual_text = false,
