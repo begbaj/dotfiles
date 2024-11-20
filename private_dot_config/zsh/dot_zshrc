@@ -24,6 +24,8 @@ unset SUDO_ASKPASS
 unset SSH_ASKPASS
 unset SSH_ASKPASS_REQUIRE
 
+export DEFAULT_TERMINAL="alacritty"
+
 # git -C ~/srcs/zsh-plugins/zsh-autocomplete pull
 source ~/srcs/zsh-plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
 
@@ -62,6 +64,8 @@ alias chez="chezmoi"
 
 alias mv="mv -v"
 alias webcampv="mpv av://v4l2:/dev/video0 --profile=low-latency --untimed --no-terminal & disown"
+
+alias term='$DEFAULT_TERMINAL . & disown'
 
 alias ll="exa -lgs type"
 alias l="exa -lag"
