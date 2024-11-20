@@ -65,7 +65,7 @@ alias chez="chezmoi"
 alias mv="mv -v"
 alias webcampv="mpv av://v4l2:/dev/video0 --profile=low-latency --untimed --no-terminal & disown"
 
-alias term='$DEFAULT_TERMINAL . & disown'
+alias term='$DEFAULT_TERMINAL & disown'
 
 alias ll="exa -lgs type"
 alias l="exa -lag"
