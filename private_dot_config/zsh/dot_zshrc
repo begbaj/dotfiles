@@ -13,6 +13,7 @@ npath=$HOME/.bun/bin/:$npath
 npath=/usr/lib/jvm/java-18-openjdk/bin/:$npath
 npath="$(go env GOBIN):$(go env GOPATH)/bin":$npath
 npath="$XDG_DATA_HOME"/cargo/bin:$npath
+npath=/home/began/.local/share/cargo/bin:$npath
 
 export PATH=$npath:$PATH
     # COMPILATION FLAGS
