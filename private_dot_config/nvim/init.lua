@@ -126,6 +126,7 @@ local plugins ={
             'folke/neodev.nvim',                            --- Utility: Additional lua configuration, makes nvim stuff amazing!
         }
     },
+<<<<<<< HEAD
 ---    'github/copilot.vim'                                 --- Utility: copilot
   {                                                         --- Utility:  markdown preview plugin for (neo)vim 
     "iamcco/markdown-preview.nvim",
@@ -136,6 +137,19 @@ local plugins ={
     end,
     ft = { "markdown" },
   },
+=======
+    'github/copilot.vim',                                   --- Utility: Copilot
+  -- install with yarn or npm
+    {
+      "iamcco/markdown-preview.nvim",
+      cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+      build = "cd app && yarn install",
+      init = function()
+        vim.g.mkdp_filetypes = { "markdown" }
+      end,
+      ft = { "markdown" },
+    },
+>>>>>>> 5ab4db3 (Update .config/nvim/init.lua)
 }
 require('lazy').setup(plugins, {})
 
