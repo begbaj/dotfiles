@@ -13,6 +13,7 @@ npath=$HOME/.bun/bin/:$npath
 npath=/usr/lib/jvm/java-18-openjdk/bin/:$npath
 npath="$(go env GOBIN):$(go env GOPATH)/bin":$npath
 npath="$XDG_DATA_HOME"/cargo/bin:$npath
+npath=/home/began/.local/share/cargo/bin:$npath
 
 export PATH=$npath:$PATH
     # COMPILATION FLAGS
@@ -35,13 +36,13 @@ zstyle ':autocomplete:*' delay 5
 # Oh-my-zsh configuration
 #===============================
 if [[ -z "${ZSH}" ]]; then
-	ZSH=".local/share/oh-my-zsh"
+	ZSH="$HOME/.local/share/oh-my-zsh"
 fi
 ZSH_THEME="eastwood-begbaj"
 HYPHEN_INSENSITIVE="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"    # improve loading times when opening a large git
 # zstyle ':omz:update' mode auto          # update automatically without asking
-zstyle ':omz:update' frequency 1        # frequency in day
+zstyle ':omz:update' frequency 13        # frequency in day
 
 plugins=(
     git
