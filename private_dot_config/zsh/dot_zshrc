@@ -27,15 +27,6 @@ npath="$(go env GOBIN):$(go env GOPATH)/bin":$npath
 export PATH=$npath:$PATH
 
 #===============================
-# Plugins
-#===============================
-
-# Load plugins (order matters)
-source ${ZDOTDIR}/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-source ${ZDOTDIR}/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ${ZDOTDIR}/plugins/zsh-completions/zsh-completions.plugin.zsh
-
-#===============================
 # Load Other configurations
 #===============================
 #
@@ -45,3 +36,13 @@ done
 
 # aliases -> aliases.zsh
 # zsh style and funcitonality -> style.zsh
+
+#===============================
+# Plugins
+#===============================
+
+# Load plugins (order matters)
+source ${ZDOTDIR}/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ${ZDOTDIR}/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ${ZDOTDIR}/plugins/zsh-completions/zsh-completions.plugin.zsh
+

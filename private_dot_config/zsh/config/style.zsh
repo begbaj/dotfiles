@@ -1,6 +1,19 @@
 #===============================
 # ZSH Style and Funcionalities
 #===============================
+typeset -A ZSH_HIGHLIGHT_STYLES
+
+ZSH_HIGHLIGHT_STYLES[alias]='fg=cyan,bold'
+ZSH_HIGHLIGHT_STYLES[command_not_found]='fg=red,bold'
+ZSH_HIGHLIGHT_STYLES[function]='fg=magenta'
+ZSH_HIGHLIGHT_STYLES[globbing]='none'
+ZSH_HIGHLIGHT_STYLES[path]='fg=cyan'
+ZSH_HIGHLIGHT_STYLES[precommand]='fg=yellow'
+
+ZSH_HIGHLIGHT_STYLES[command]='fg=blue,bold'  
+ZSH_HIGHLIGHT_STYLES[builtin]='fg=green'
+ZSH_HIGHLIGHT_STYLES[single-hyphen-option]='fg=blue'
+ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='fg=blue'
 
 # Function to shorten path if it's too long
 # Shorten long paths: each path component -> first 3 chars if whole display > 40

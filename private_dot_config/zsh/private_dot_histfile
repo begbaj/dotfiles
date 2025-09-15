@@ -294,3 +294,151 @@ ll
 clear
 ll
 code
+clear
+ll
+git update
+git pull
+gut pull origin main
+git pull origin main
+git add .
+git push
+git push origin HEAD:main
+clear
+ll
+git push
+git status
+git commit --amend
+git status
+git rebase --continue
+clear
+ll
+cd private_dot_
+ll
+cd private_dot_config
+ll
+cd zsh
+ll
+nvim dot_zshrc
+cd ..
+ll
+cd ..
+ll
+cd ..
+ll
+exit
+clear
+ll
+cd media
+ll
+cd ..
+ll
+docker system prune -a
+clear
+ll
+exit
+git push
+git pull
+git pull
+git push
+clear
+ll
+cat dot_zshenv
+clear
+ll
+clear
+ll
+exit
+clear
+ll
+chezmoi --help
+chezmoi add .config/zsh
+clear
+ll
+chezmoi cd
+chezmoi cd
+clear
+ll
+clear
+ll
+exit
+exit
+echo $CAZZOPALLE
+exit
+exit
+exit
+clear
+ll
+exit
+exit
+clear
+ll
+echo $ZSH_HIGHLIGHT_HIGHLIGHTS
+echo $ZSH_HIGHLIGHT_STYLES
+exit
+exit
+clear
+ll
+clear
+ll
+ll
+pwd
+clear
+ll
+clear
+ll
+exit
+clar
+ll
+clear
+ll
+clear
+ll
+nvim .zshrc
+clear
+ll
+cd .config
+ll
+cd zsh
+ll
+nvim .zshrc
+clear
+ll
+exit
+source ~/.zshrc
+clear
+ll
+clear
+clear
+ll
+lear
+ll
+clear
+ll
+exit
+clear
+ll
+nvim .zshrc
+cd .config/zsh
+ll
+nvim .zshrc
+clear
+ll
+exiit
+exit
+clear
+ll
+ll
+clear
+clear
+ll
+exit
+clear
+ll
+clear
+ll
+exit
+clear
+l
+cd ..
+ll
+exit
