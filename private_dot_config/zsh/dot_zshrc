@@ -1,8 +1,20 @@
 #===============================
-# Environment variables
+# ZSH configuration
 #===============================
 
-    # PATH
+HISTFILE=~/.config/zsh/.histfile
+HISTSIZE=10000
+SAVEHIST=1000000
+unsetopt autocd nomatch
+bindkey -v                  # vi mode
+zstyle :compinstall filename '/home/ashkim/.config/zsh/.zshrc'
+
+#===============================
+# Core Environment variables
+#===============================
+
+export ZDOTDIR="$HOME/.config/zsh"
+fpath+=(${ZDOTDIR}/plugins/zsh-completions/src)
 npath=/usr/local/bin:$npath
 npath=/usr/local/go/bin:$npath
 npath=$HOME/bin:$npath
@@ -12,97 +24,24 @@ npath=$HOME/.config/composer/vendor/bin:$npath
 npath=$HOME/.bun/bin/:$npath
 npath=/usr/lib/jvm/java-18-openjdk/bin/:$npath
 npath="$(go env GOBIN):$(go env GOPATH)/bin":$npath
-npath="$XDG_DATA_HOME"/cargo/bin:$npath
-npath=/home/began/.local/share/cargo/bin:$npath
-
 export PATH=$npath:$PATH
-    # COMPILATION FLAGS
-export ARCHFLAGS="-arch x86_64"
-    # TERM
-    # do not set term here, make it per terminal, not global
-    # ASKPASS
-unset SUDO_ASKPASS
-unset SSH_ASKPASS
-unset SSH_ASKPASS_REQUIRE
-
-export DEFAULT_TERMINAL="alacritty"
-
-# git -C ~/srcs/zsh-plugins/zsh-autocomplete pull
-source ~/srcs/zsh-plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-
-zstyle ':autocomplete:*' delay 5
 
 #===============================
-# Oh-my-zsh configuration
-#===============================
-if [[ -z "${ZSH}" ]]; then
-	ZSH="$HOME/.local/share/oh-my-zsh"
-fi
-ZSH_THEME="eastwood-begbaj"
-HYPHEN_INSENSITIVE="true"
-DISABLE_UNTRACKED_FILES_DIRTY="true"    # improve loading times when opening a large git
-# zstyle ':omz:update' mode auto          # update automatically without asking
-zstyle ':omz:update' frequency 13        # frequency in day
-
-plugins=(
-    git
-    vi-mode
-	# zsh-autosuggestions
-    python
-)
-source $ZSH/oh-my-zsh.sh
-
-#===============================
-# Aliases
+# Plugins
 #===============================
 
-alias open="xdg-open"
-alias tmux="tmux -u"
-
-    # Chezmoi
-alias chedit="chezmoi edit"
-alias chez="chezmoi"
-
-alias mv="mv -v"
-alias webcampv="mpv av://v4l2:/dev/video0 --profile=low-latency --untimed --no-terminal & disown"
-
-alias term='$DEFAULT_TERMINAL & disown'
-
-alias ll="exa -lgs type"
-alias lla="exa -lags type"
-alias l="exa -lag"
-
-alias sail='[ -f sail ] && sh sail || sh vendor/bin/sail'
-alias docker-up='sudo docker-compose up -d'
-
-alias venv="sh .venv/bin/activate"
-# alias less='sh /usr/share/vim/vim$(vim --version | awk \'NR==1 {print $5}\' | tr -d \'.\')/macros/less.sh'
-# alias more='sh /usr/share/vim/vim$(vim --version | awk \'NR==1 {print $5}\' | tr -d \'.\')/macros/less.sh'
-
-alias yt-dlp-mp3="yt-dlp -x --audio-format mp3 --audio-quality 0"
+# Load plugins (order matters)
+source ${ZDOTDIR}/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ${ZDOTDIR}/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source ${ZDOTDIR}/plugins/zsh-completions/zsh-completions.plugin.zsh
 
 #===============================
-# Program environment variables
+# Load Other configurations
 #===============================
-#source /usr/share/fzf/key-bindings.zsh
-#source /usr/share/fzf/completion.zsh
+#
+for file in $ZDOTDIR/config/*.zsh; do
+  source "$file"
+done
 
-#===============================
-# Tmux
-#===============================
-# if command -v tmux &> /dev/null && [ -n "$PS1" ] && [[ ! "$TERM" =~ screen ]] && [[ ! "$TERM" =~ tmux ]] && [ -z "$TMUX" ]; then
-#   exec tmux
-# fi
-
-source /usr/share/nvm/init-nvm.sh 
-
-#===============================
-# Bindings
-#===============================
-
-
-bindkey '\t' menu-select "$terminfo[kcbt]" menu-select
-bindkey -M menuselect '\t' menu-complete "$terminfo[kcbt]" reverse-menu-complete
-
-# bun completions
-[ -s "/home/began/.bun/_bun" ] && source "/home/began/.bun/_bun"
+# aliases -> aliases.zsh
+# zsh style and funcitonality -> style.zsh
