@@ -1,0 +1,79 @@
+: 1741787496:0;git add .
+: 1741787501:0;git commit -m "update"
+: 1741787502:0;git pull
+: 1741787509:0;git config pull.rebase false
+: 1741787511:0;git pull
+: 1741787515:0;clear
+: 1741787516:0;ll
+: 1741787517:0;clear
+: 1741787518:0;ll
+: 1741787523:0;clear
+: 1741787524:0;ll
+: 1741787528:0;mkdir archive/
+: 1741787532:0;mv * archive
+: 1741787533:0;clear
+: 1741787534:0;ll
+: 1741787539:0;git add .
+: 1741787544:0;git commit -m "bakcup su archive"
+: 1741787545:0;clear
+: 1741787546:0;ll
+: 1741787566:0;clear
+: 1741787566:0;ll
+: 1741787566:0;cd ..
+: 1741787567:0;ll
+: 1741787576:0;cp -r progetto_bda progetto_bda.bak
+: 1741787577:0;ll
+: 1741787582:0;cd progetto_bda
+: 1741787687:0;git checkout main
+: 1741787730:0;clear
+: 1741787730:0;ll
+: 1741787740:0;mv task_only_spark.py task_only_spark_1.py
+: 1741787742:0;git add .
+: 1741787748:0;git commit -m "pre merge"
+: 1741787752:0;git push
+: 1741787903:0;git pull
+: 1741787909:0;git add .
+: 1741787916:0;git commit -m "before merge"
+: 1741787918:0;git push
+: 1741787960:0;git checkout caterina
+: 1741787963:0;git push
+: 1741787989:0;clear
+: 1741787989:0;ll
+: 1741787993:0;git checkout main
+: 1741788002:0;git pull
+: 1741788010:0;clear
+: 1741788010:0;ll
+: 1741788017:0;mv */py archive
+: 1741788020:0;mv *.py archive
+: 1741788021:0;clear
+: 1741788021:0;ll
+: 1741788024:0;clear
+: 1741788024:0;ll
+: 1741788028:0;git add .
+: 1741788031:0;git commit -m "merged"
+: 1741788033:0;git push
+: 1741788038:0;clear
+: 1741788038:0;ll
+: 1741788055:0;touch gruppo_2.py
+: 1741788632:0;/bin/python /home/ashkim/workspace/big_data/progetto_bda/gruppo_2.py
+: 1741788952:0;source /home/ashkim/workspace/big_data/progetto_bda/.venv/bin/activate
+: 1741788954:0;clear
+: 1741788954:0;ll
+: 1741788958:0;pip install pyspark
+: 1741789067:0;source /home/ashkim/workspace/big_data/progetto_bda/.venv/bin/activate
+: 1741789072:0;git add .
+: 1741789076:0;git commit -m "per gabbo"
+: 1741789077:0;git push
+: 1741789298:0;clear
+: 1741789299:0;ll
+: 1741789307:0;pip install pyspark
+: 1741792610:0;open .
+: 1741794917:0;git add .
+: 1741794925:0;git commit -m "task 1 e 2 FUNZIONANO"
+: 1741794927:0;git push
+: 1741795194:0;git add .
+: 1741795201:0;git commit -m "inefficiente ma funziona"
+: 1741795205:0;git push
+: 1741796343:0;git add .
+: 1741796353:0;git commit -m "update"
+: 1741796354:0;git push
